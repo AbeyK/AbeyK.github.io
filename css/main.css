@@ -1,0 +1,219 @@
+@import url(http://fonts.googleapis.com/css?family=Bitter:400,700);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700);
+@media screen and (max-width: 991px) {
+  /* line 18, scss/main.scss */
+  body .header {
+    margin-top: 25px;
+  }
+  /* line 22, scss/main.scss */
+  body #logo {
+    display: none;
+  }
+  /* line 26, scss/main.scss */
+  body .name {
+    margin-top: 25px;
+  }
+  /* line 30, scss/main.scss */
+  body .name h1 {
+    font-size: 40pt;
+  }
+}
+@media screen and (max-width: 500px) {
+  /* line 41, scss/main.scss */
+  body #main-container {
+    background-attachment: scroll;
+  }
+  /* line 45, scss/main.scss */
+  body .heading {
+    font-size: 30px;
+  }
+  /* line 49, scss/main.scss */
+  body #logo {
+    display: none;
+  }
+  /* line 53, scss/main.scss */
+  body .content {
+    font-size: 15px;
+  }
+  /* line 57, scss/main.scss */
+  body .footer {
+    font-size: 13px;
+  }
+}
+/* line 63, scss/main.scss */
+#main-container {
+  background: url("../images/giphy.gif") no-repeat center center fixed;
+  background-size: cover;
+  color: #f3a500;
+  z-index: 0;
+}
+
+/* line 70, scss/main.scss */
+body {
+  color: #7b7b7b;
+  font-family: "Bitter", serif;
+  font-size: 20px;
+}
+
+/* line 76, scss/main.scss */
+.typing {
+  width: 700px;
+  height: auto;
+  font-size: 42px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* line 85, scss/main.scss */
+#typingAnimation {
+  background-color: rgba(123, 123, 123, 0.2);
+  color: #c5c5c5;
+}
+
+/* line 90, scss/main.scss */
+.header {
+  padding: 40px 15px;
+  height: auto;
+  margin: auto;
+  display: none;
+}
+
+/* line 97, scss/main.scss */
+#headshot {
+  top: 0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 150px;
+}
+
+/* line 105, scss/main.scss */
+.name {
+  max-height: 380px;
+  position: relative;
+  text-align: center;
+  margin-top: 90px;
+}
+
+/* line 112, scss/main.scss */
+.name h1 {
+  font-size: 50pt;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: bold;
+}
+
+/* line 118, scss/main.scss */
+.tagline {
+  margin-top: 45px;
+  text-align: center;
+}
+
+/* line 123, scss/main.scss */
+.tagline p {
+  font-weight: 500;
+  font-size: 22px;
+  color: #7b7b7b;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+/* line 130, scss/main.scss */
+.content {
+  padding-top: 100px;
+  padding-bottom: 40px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  line-height: 30px;
+}
+
+/* line 140, scss/main.scss */
+#logo {
+  display: none;
+  position: fixed;
+  top: 100px;
+  float: left;
+  z-index: -10;
+}
+
+/* line 148, scss/main.scss */
+.heading {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 600;
+  color: #f3a500;
+  font-size: 45px;
+}
+
+/* line 155, scss/main.scss */
+.footer {
+  color: #c5c5c5;
+  font-size: 15px;
+  padding: 15px;
+  margin-top: 60px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+/* line 164, scss/main.scss */
+#typed-cursor {
+  opacity: 1;
+  font-weight: 100;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  -ms-animation: blink 0.7s infinite;
+  -o-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  /* line 175, scss/main.scss */
+  0% {
+    opacity: 1;
+  }
+
+  /* line 176, scss/main.scss */
+  50% {
+    opacity: 0;
+  }
+
+  /* line 177, scss/main.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes blink {
+  /* line 180, scss/main.scss */
+  0% {
+    opacity: 1;
+  }
+
+  /* line 181, scss/main.scss */
+  50% {
+    opacity: 0;
+  }
+
+  /* line 182, scss/main.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes blink {
+  /* line 185, scss/main.scss */
+  0% {
+    opacity: 1;
+  }
+
+  /* line 186, scss/main.scss */
+  50% {
+    opacity: 0;
+  }
+
+  /* line 187, scss/main.scss */
+  100% {
+    opacity: 1;
+  }
+}

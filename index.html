@@ -1,118 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Abey Koolipurackal | Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <link rel="stylesheet" media="screen" href="style.css">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Abey Koolipurackal</title>
 
-  <style>
-    @media only screen and (max-width: 1081px) {
-      p{
-        font-size: 20px;
-        color: #1D3F59;
-        font-family: 'Cabin', sans-serif;
-        top: 30%;
-        left: 50%;
-        position: absolute;
-        margin: 0;
-        padding: 0;
-        text-align: center;
-        transform: translate(-50%,-50%);
-      }
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="css/main.css" rel="stylesheet" type="text/css">
+        <link href="icons/sprites/sprites.css" rel="stylesheet" type="text/css">
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+    <div id="main-container">
+        <div class="container">
+            <div class="row typing">
+                <div class="col-md-12">
+                <span id="typingAnimation"></span>
+                </div>
+            </div>
+            <div class="header row">
+                <div class="col-md-1"></div>
+<!--                 <div class="col-md-4 headshot">
+                    <img src="images/Headshot.jpg" class="img-responsive" id="headshot" alt="Responsive image">
+                </div> -->
+                <div class="col-md-7 name">
+                    <h1>
+                        <script src="https://code.jquery.com/jquery.js"></script>
+                        <script src="js/bootstrap.min.js"></script>
+                        <script src="js/main.js"></script>
+                        <script src="js/typed.js"></script>
+                        <script>
+                          $(function(){
+                              $("#typingAnimation").typed({
+                                strings: ["coming", "soon", "abey"],
+                                typeSpeed: 40,
+                                backDelay: 1000,
+                                callback: function(){ 
+                                    // $(".typing").hide();
+                                    // $("#typed-cursor").hide();
+                                    // $("#typeAnimation").hide();
+                                    // $(".header").fadeIn(1000);
 
-      ul{
-        margin: 0;
-        padding: 0;
-        position: absolute;
-        top: 45%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-      }
-
-      ul li{
-        list-style: none;
-        float: left;
-        margin: 5px;
-        width: 50px;
-        height: 50px;
-        line-height: 50px;
-        text-align: center;
-        background: #fff;
-        border-radius: 50%;
-        position: relative;
-        overflow: hidden;
-        color: #262626;
-        font-size: 30px;
-        z-index: 1;
-        transition: 0.5s ease-in-out;
-      }
-
-      ul li:before{
-      content: '';
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      left: -100%;
-      background: #ccc;
-      z-index: -1;
-      border-radius: 50%;
-      transform: scale(0);
-      transition: 0.3s ease-in-out;
-    }
-
-      ul li:after{
-        content:'';
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        right: -100%;
-        top: 0;
-        background: rgba(255,255,255,0.3);
-        transition: 0.5s ease-in-out;
-        transition-delay: 0.3s;
-      }
-    }
-  </style>
-</head>
-<body>
-
-<!-- particles.js container -->
-<div id="particles-js">
-  <p id="typing_text"></p>
-  <ul>
-    <li>
-      <a href="https://www.linkedin.com/in/abeyk/"><i class="fa fa-file-text" aria-hidden="true"></i></a>
-    </li>
-    <li>
-      <a href="https://github.com/AbeyK"><i class="fa fa-github" aria-hidden="true"></i></a>
-    </li>
-    <li>
-      <a href="https://www.linkedin.com/in/abeyk/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-    </li>
-  </ul>
-  <div class="footer">Crafted With Love By Abey Koolipurackal</div>
-
-</div>
-
-<!-- scripts -->
-<script src="particles.js"></script>
-<script src="app.js"></script>
-<script src="jquery-3.2.1.min.js"></script>
-<script src="typed.js"></script>
-<script>
-  document.addEventListener('DOMContentLoaded', function(){
-      Typed.new('#typing_text', {
-        strings: ["Hello World!", "I'm Abey, <br/> Welcome To My Website!"],
-        typeSpeed: 20,
-        showCursor: false,
-      });
-  });
-</script>
-
-
-
-</body>
+                                }
+                              });
+                          });
+                        </script>
+                    </h1>
+                </div>
+            </div>
+            <div class="tagline row">
+                
+            </div>
+        </div>
+    </div>
+        
+    </body>
 </html>
