@@ -35,7 +35,7 @@ var canvasDots = function() {
     canvas.height = window.innerHeight;
     canvas.style.display = 'block';
     ctx.fillStyle = colorDot;
-    ctx.lineWidth = .1;
+    ctx.lineWidth = .15;
     ctx.strokeStyle = color;
 
     var mousePosition = {
@@ -118,10 +118,17 @@ var canvasDots = function() {
         dot.animate();
     }
 
-    window.onmousemove = function(parameter) {
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
+        // what you want to run in mobile
+}else{
+
+	    window.onmousemove = function(parameter) {
         mousePosition.x = parameter.pageX;
         mousePosition.y = parameter.pageY;
     }
+
+}
+
 
     mousePosition.x = window.innerWidth / 2;
     mousePosition.y = window.innerHeight / 2;
@@ -132,6 +139,9 @@ var canvasDots = function() {
 window.onload = function() {
     canvasDots();
 };
+
+
+
 
 !function($){
 
