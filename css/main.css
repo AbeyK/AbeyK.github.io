@@ -83,16 +83,16 @@ body {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-/*  background-color: rgba(123, 123, 123, 0.1);
+  background-color: rgba(123, 123, 123, 0.1);
   border-radius: 10px;
-  padding: 5px;*/
+  padding: 5px;
 }
 
 /* line 107, scss/main.scss */
 #typingAnimation {
-  color: #0f3068;
-  color: rgba(15, 48, 104, .8);
-
+  color: #f4f6f9;
+/*  color: rgba(15, 48, 104, .8);
+*/
 }
 
 /* line 111, scss/main.scss */
@@ -110,10 +110,10 @@ body {
   margin-right: auto;
   max-height: 400px;
   border-radius: 50%;
-  border: 2px solid;
+/*  border: 2px solid;
   border-style: solid;
-  border-color: /*rgba(15, 48, 104, .8) */rgba(255, 255, 255, 0.3) /*rgba(255, 255, 255, 0.5)*/;
-
+  border-color: rgba(255, 255, 255, 0.3) ;
+*/
 
 }
 
@@ -130,9 +130,10 @@ body {
   font-size: 55pt;
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: bold;
-/*  color: #0f3068;
+  color: #0f3068;
 
-*/  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.7);
+  color:#f3a500;
 
 
 }
