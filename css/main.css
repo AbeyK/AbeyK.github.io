@@ -83,14 +83,16 @@ body {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  background-color: rgba(123, 123, 123, 0.2);
+/*  background-color: rgba(123, 123, 123, 0.1);
   border-radius: 10px;
-  padding: 5px;
+  padding: 5px;*/
 }
 
 /* line 107, scss/main.scss */
 #typingAnimation {
-  color: #c5c5c5;
+  color: #0f3068;
+  color: rgba(15, 48, 104, .8);
+
 }
 
 /* line 111, scss/main.scss */
@@ -106,7 +108,7 @@ body {
   left: 0;
   margin-left: auto;
   margin-right: auto;
-  max-height: 380px;
+  max-height: 400px;
   border-radius: 50%;
 }
 
@@ -115,14 +117,19 @@ body {
   max-height: 380px;
   position: relative;
   text-align: center;
-  margin-top: 25px;
-}
+/*  margin-top: 90px;
+*/}
 
 /* line 134, scss/main.scss */
 .name h1 {
-  font-size: 50pt;
+  font-size: 55pt;
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: bold;
+/*  color: #0f3068;
+
+*/  color: rgba(255, 255, 255, 0.7);
+
+
 }
 
 /* line 140, scss/main.scss */
