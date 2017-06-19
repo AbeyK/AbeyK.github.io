@@ -106,7 +106,7 @@ body {
   left: 0;
   margin-left: auto;
   margin-right: auto;
-  max-height: 300px;
+  max-height: 380px;
   border-radius: 50%;
 }
 
@@ -115,7 +115,7 @@ body {
   max-height: 380px;
   position: relative;
   text-align: center;
-  margin-top: 90px;
+  margin-top: 25px;
 }
 
 /* line 134, scss/main.scss */
