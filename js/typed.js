@@ -113,10 +113,12 @@ var canvasDots = function() {
 
             dot.create();
         }
-        if (canvas.width>640){
+        $(window).resize(if (canvas.width>640){
         console.log(canvas.width);
         dot.line();
-        }
+        $(window).resize(function(){location.reload();});
+
+        });
         dot.animate();
 
     }
