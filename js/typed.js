@@ -39,8 +39,8 @@ var canvasDots = function() {
     ctx.strokeStyle = color;
 
     var mousePosition = {
-        x: 30 * canvas.width / 100,
-        y: 30 * canvas.height / 100
+        // x: 30 * canvas.width / 100,
+        // y: 30 * canvas.height / 100
     };
 
     var dots = {
@@ -113,19 +113,19 @@ var canvasDots = function() {
 
             dot.create();
         }
-
+        if (canvas.width>640){
+        console.log(canvas.width);
         dot.line();
+        }
         dot.animate();
+
     }
 
-if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
-        // what you want to run in mobile
-}else{
+
 
 	    window.onmousemove = function(parameter) {
         mousePosition.x = parameter.pageX;
         mousePosition.y = parameter.pageY;
-    }
 
 }
 
