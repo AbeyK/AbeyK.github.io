@@ -64,6 +64,7 @@ body {
 /*  background: #f9fbff;
 */  font-family: "Bitter", serif;
   font-size: 20px;
+  
 }
 
 /* line 86, scss/main.scss */
@@ -74,6 +75,8 @@ body {
   width: 100vw;
   display: table-cell;
   vertical-align: middle;
+      z-index: 10;
+    pointer-events: none;
 }
 
 /* line 95, scss/main.scss */
@@ -331,4 +334,22 @@ canvas {
   top: 0;
   right: 0;
   left: 0;
-  bottom: 0; }
+  bottom: 0; 
+  }
+
+#experience {
+  perspective: 800px;
+  width: 100%;
+  min-height: 95vh;
+  overflow: hidden;
+  position: absolute;
+  /*z-index: 0;*/
+}
+#lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /*z-index: 30;*/
+  pointer-events: none;
+  opacity: .9;
+}
