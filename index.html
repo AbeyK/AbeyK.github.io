@@ -40,7 +40,7 @@
                     <!--<img src="images/Logo.svg">-->
                 </div>
                 <div class="content row">
-                    <div class="col-md-12 about">
+                    <div class="col-md-14 about">
                         <h1 class="heading">About Me</h1>
                         <p>I am a <a href="http://www.cs.virginia.edu/acad/bscs/">Computer Science </a> and <a href="http://techentrepreneurship.seas.virginia.edu/#about">Business </a> student in my third year at the University of Virginia School of Engineering and Applied Science. <br><br> I like to build practical applications with cutting edge technologies and thoughtful design. I have a practical experience in developing cross platform games, and applications for web & mobile. My technical expertise includes a hands-on experience with various programming languages (including C/C++, Python, Java) and libraries.<br><br> When I am not tinkering with code or organizing hackathons, I can be found outside cycling, hiking, or just exploring. I also love playing poker and am a cofounder of the Virginia Poker Association.</p>
                     </div>
@@ -49,18 +49,18 @@
                         <p>My code repositories hang out on <a href="http://www.github.com/AbeyK">Github</a>.</p>
                     </div> -->
                     <br>
-                    <div class="col-md-12 resume">
+                    <div class="col-md-14 resume">
                         <h1 class="heading">Resumé</h1>
                         <a href="Abey Koolipurackal.pdf"><img src="images/Resume.jpg" class="img-responsive" id="resume" alt="Responsive image"></a>
                     </div>
-                    <div class="col-md-12 logos">
+                    <div class="col-md-14 logos">
                         <h1 class="heading">Find Me Online</h1>
                         <a href="http://www.github.com/AbeyK"><i class="fa fa-github"></i></a> &nbsp;
                         <a href="http://www.linkedin.com/in/AbeyK/"><i class="fa fa-linkedin"></i></a> &nbsp;
                         <a href="http://www.twitter.com/beykool"><i class="fa fa-twitter"></i></a> &nbsp;
                         <a href="http://www.facebook.com/AbeyKool"><i class="fa fa-facebook"></i></a> &nbsp;
                     </div>
-                    <div class="col-md-12 contact">
+                    <div class="col-md-14 contact">
                         <h1 class="heading">Get In Touch</h1>
                         <p><i class="fa fa-phone-square contact-icon"></i> +1 (434) 987 2389</p>
                         <p><i class="fa fa-envelope-square contact-icon"></i> <a href="mailto:abey@virginia.edu">abey@virginia.edu</a></p>
@@ -84,6 +84,7 @@
         <script src="js/unslider-min.js"></script>
         <script src="js/main.js"></script>
         <script src="js/typed.js"></script>
+        <script src="js/particles.js"></script>
         <script>
             jQuery(document).ready(function($) {
                 $('.gallery').unslider();
@@ -95,7 +96,7 @@
         </script>
         <script>
           $(function(){
-              if($(window).width() > 640) {
+            //   if($(window).width() > 640) {
                   $("#typingAnimation").typed({
                     strings: ["Software Developer", "Engineering Student", "Aspiring Entrepreneur", "Passionate Techie", "Part-time Hacker",  "Avid Cyclist", "Poker Aficionado"],
                     typeSpeed: 50,
@@ -104,11 +105,11 @@
                     loopCount: false,
                     callback: function(){}
                   });
-              } else {
-                    $(".typing").hide();
-                    $("#typed-cursor").hide();
-                    $("#typeAnimation").hide();
-              }
+            //   } else {
+            //         $(".typing").hide();
+            //         $("#typed-cursor").hide();
+            //         $("#typeAnimation").hide();
+            //   }
           });
         </script>
 

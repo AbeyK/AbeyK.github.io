@@ -18,6 +18,9 @@
   body .name h1 {
     font-size: 40pt;
   }
+  body .typing{
+        font-size: 22px;
+  }
   /* line 37, scss/main.scss */
   body .content {
     padding-right: 5px;
@@ -34,6 +37,7 @@
   body .heading {
     font-size: 32px;
   }
+
   /* line 56, scss/main.scss */
   body #logo {
     display: none;
@@ -41,7 +45,7 @@
   /* line 60, scss/main.scss */
   body .content {
     padding-top: 25px;
-    font-size: 17px;
+    font-size: 15px;
   }
   /* line 65, scss/main.scss */
   body .footer {
@@ -340,9 +344,10 @@ canvas {
 #experience {
   perspective: 800px;
   width: 100%;
-  min-height: 95vh;
+  min-height: 100vh;
   overflow: hidden;
   position: absolute;
+  
   /*z-index: 0;*/
 }
 #lines {
@@ -351,5 +356,5 @@ canvas {
   left: 0;
   /*z-index: 30;*/
   pointer-events: none;
-  opacity: .9;
+  opacity: .55;
 }
