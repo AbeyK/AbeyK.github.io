@@ -3,9 +3,12 @@
 @media (min-width: 500px) { 
   :root { 
     font-size: 1.5rem; 
-    } 
+  }
+  .messages {
+  border-left:  1.25vw solid rgba(255,255,255,0.8);
+  } 
   body{
-    padding-left: 10vw !important;
+    padding-left: 15vw !important;
     
   }
   }
@@ -17,7 +20,7 @@
   border-left:  1.25vw solid rgba(255,255,255,0.8);
   }
   body{
-    padding-left: 30vw !important;
+    padding-left: 50vw !important;
   }
 }
 @media (min-width: 1200px) { 
