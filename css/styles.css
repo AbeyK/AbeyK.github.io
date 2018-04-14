@@ -5,7 +5,7 @@
     font-size: 1.5rem; 
     } 
   body{
-    padding-left: 10vw;
+    padding-left: 10vw !important;
     
   }
   }
@@ -13,16 +13,22 @@
   :root { 
   font-size: 1.75rem; 
   } 
+  .messages {
+  border-left: 10px solid rgba(255,255,255,0.8);
+  }
   body{
-    padding-left: 20vw;
+    padding-left: 20vw !important;
   }
 }
 @media (min-width: 1200px) { 
   :root { 
-  font-size: 2rem; 
+  font-size: 1.85rem; 
   } 
+  .messages {
+  border-left: 20px solid rgba(255,255,255,0.8);
+  }
   body{
-    padding-left: 40vw;
+    padding-left: 40vw !important;
   }
 }
 
@@ -41,11 +47,10 @@ body {
   min-height: 100vh;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #4599DB;
-  padding-top: 10vh;
+  padding-top: 15vh;
 
 }
 .messages {
-
   overflow: auto;
   width: 100vw;
   max-height: 100vh;
@@ -67,7 +72,7 @@ body {
   border-bottom-left-radius: 0;
 }
 .bubble.left {
-  background: rgba(206,206,206,0.8);
+  background: rgba(255,255,255,0.8);
 }
 .bubble:after {
   content: "";
