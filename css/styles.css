@@ -14,10 +14,10 @@
   font-size: 1.75rem; 
   } 
   .messages {
-  border-left: 10px solid rgba(255,255,255,0.8);
+  border-left:  1.25vw solid rgba(255,255,255,0.8);
   }
   body{
-    padding-left: 20vw !important;
+    padding-left: 30vw !important;
   }
 }
 @media (min-width: 1200px) { 
@@ -25,10 +25,10 @@
   font-size: 1.85rem; 
   } 
   .messages {
-  border-left: 20px solid rgba(255,255,255,0.8);
+  border-left: 1.25vw solid rgba(255,255,255,0.8);
   }
   body{
-    padding-left: 40vw !important;
+    padding-left: 50vw !important;
   }
 }
 
@@ -47,7 +47,7 @@ body {
   min-height: 100vh;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #4599DB;
-  padding-top: 15vh;
+  padding-top: 10vh;
 
 }
 .messages {
@@ -60,7 +60,7 @@ body {
 
   overflow: hidden;
   display: inline-block;
-  margin: 0 0 .125rem 0;
+  margin: 0 0 .2rem 0;
   padding: .5rem .85rem;
   line-height: 1.25rem;
   border-radius: 1.25rem;
