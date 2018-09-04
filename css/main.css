@@ -31,7 +31,7 @@ body {
 }
 
 .info {
-	margin-top: 15px;
+	margin-top: 5px;
 	margin-bottom: 15px;
 	font-size: 1.5em;
 }
@@ -40,9 +40,11 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 400px;
-    height: 500px;
-    padding: 15px;
+    /*height: 500px;*/
+	padding: 15px;
+    padding-bottom: 50px;
     background-color: #fff;
+	overflow: auto;
 
 }
 
@@ -67,8 +69,8 @@ body {
 .btn {
 	display: inline-block;
     color: #585657;
-    margin-left: 18px;
-    margin-right: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
 
 }
 
@@ -108,11 +110,11 @@ body {
 }
 
 .profile {
-	width: 60%;
-	height: 60%;
+	width: 80%;
+	/*height: 60%;*/
     border-radius: 50%;
     display: block;
-    margin: 50px auto 0;
+    margin: 40px auto 0;
 }
 
 a { 
@@ -126,27 +128,29 @@ a {
 	.card {
 		width: 300px;
     	height: 400px;
+		overflow: auto;
+
 	}
 
 	.name {
-		font-size: 1.5em;
+		font-size: 1.8em;
 		margin-top: 20px;
 		margin-bottom: 5px;
 	}
 
 	.info {
-		margin-top: 15px;
+		margin-top: 5px;
 		margin-bottom: 15px;
-		font-size: 1em;
+		font-size: 1.35em;
 	}
 
 	.fa-2x {
-		font-size: 1.5em !important;
+		font-size: 2.0em !important;
 	}
 
 	.btn {
-		margin-left: 10px;
-		margin-right: 10px;
+		margin-left: 15px;
+		margin-right: 15px;
 	}
 }
 
@@ -154,27 +158,28 @@ a {
 	.card {
 		width: 300px;
     	height: 400px;
+		overflow: auto;
 	}
 
 	.name {
-		font-size: 1.5em;
+		font-size: 1.8em;
 		margin-top: 20px;
 		margin-bottom: 5px;
 	}
 
 	.info {
-		margin-top: 15px;
+		margin-top: 5px;
 		margin-bottom: 15px;
-		font-size: 1em;
+		font-size: 1.3em;
 	}
 
 	.fa-2x {
-		font-size: 1.5em !important;
+		font-size: 2.5em !important;
 	}
 
 	.btn {
-		margin-left: 10px;
-		margin-right: 10px;
+		margin-left: 15px;
+		margin-right: 15px;
 	}
 }
 
@@ -182,6 +187,8 @@ a {
 	.card {
 		width: 250px;
     	height: 300px;
+		overflow: auto;
+
 	}
 
 	.name {
@@ -191,18 +198,18 @@ a {
 	}
 
 	.info {
-		margin-top: 15px;
+		margin-top: 5px;
 		margin-bottom: 15px;
-		font-size: 1em;
+		font-size: 1.2em;
 	}
 
 	.fa-2x {
-		font-size: 1.5em !important;
+		font-size: 2.5em !important;
 	}
 
 	.btn {
-		margin-left: 10px;
-		margin-right: 10px;
+		margin-left: 15px;
+		margin-right: 15px;
 	}
 }
 
