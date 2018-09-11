@@ -26,8 +26,7 @@ function force_lowercase_urls() {
 	// }
 
 	// console.log(valid_urls_string);
-
-
+	
 	valid_urls = new Set(["http://www.abeyk.com","http://www.abeyk.com/","https://www.abeyk.com","https://www.abeyk.com/","http://www.abeyk.com/brevity","http://www.abeyk.com/brevity/","https://www.abeyk.com/brevity","https://www.abeyk.com/brevity/","http://www.abeyk.com/airbae","http://www.abeyk.com/airbae/","https://www.abeyk.com/airbae","https://www.abeyk.com/airbae/","http://www.abeyk.com/sentiment","http://www.abeyk.com/sentiment/","https://www.abeyk.com/sentiment","https://www.abeyk.com/sentiment/","http://www.abeyk.com/r","http://www.abeyk.com/r/","https://www.abeyk.com/r","https://www.abeyk.com/r/"])
 	if (valid_urls.has(url)){
 		window.location.replace(url);
