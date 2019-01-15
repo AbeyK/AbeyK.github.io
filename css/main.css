@@ -168,12 +168,12 @@ a {
 
 @media (max-width:500px) {
 	.card {
-		width: 90%;
+		width: 80%;
 		overflow: auto;
 	}
 
 	.profile{
-		width: 100%;
+		width: 95%;
 	}
 
 	.name {
