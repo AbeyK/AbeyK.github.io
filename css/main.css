@@ -49,6 +49,8 @@ body {
 	overflow: hidden;
 	position: relative;
     border-radius: 1%;
+	overflow-x: hidden;
+    overflow-y: auto;
 }
 
 
@@ -65,7 +67,7 @@ body {
 }
 
 .card:hover{
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgba(255,255,255,1);
 
 }
 
@@ -181,7 +183,6 @@ a {
 @media (max-width:500px) {
 	.card {
 		width: 80%;
-		overflow: auto;
 	}
 
 	.profile{
@@ -213,7 +214,6 @@ a {
 @media (max-height:500px) {
 	.card {
 		width: 300px;
-		overflow: auto;
 	}
 
 	/*.name {
@@ -241,8 +241,6 @@ a {
 @media (max-height:400px) {
 	.card {
 		width: 250px;
-		overflow: auto;
-
 	}
 
 	/*.name {
