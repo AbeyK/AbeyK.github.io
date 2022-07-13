@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300');
+html {
+	cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='54' height='65' viewport='0 0 100 100' style='fill:black;font-size:32px;'><text y='50%'>🐝</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
 
 body { 
 	font-family: 'Source Sans Pro', sans-serif;
@@ -25,7 +28,7 @@ body {
 }
 
 .name {
-	font-size: 2em;
+	font-size: 2.5em;
 	/*font-weight: bold;*/
 	margin-top: 35px;
 	margin-bottom: 5px;
@@ -33,9 +36,9 @@ body {
 }
 
 .info {
-	margin-top: 5px;
-	margin-bottom: 15px;
-	font-size: 1.5em;
+	margin-top: 2px;
+	margin-bottom: 35px;
+	font-size: 1.4em;
 }
 
 .card {
@@ -45,41 +48,49 @@ body {
     /*height: 500px;*/
 	padding: 15px;
     padding-bottom: 50px;
-    background-color: rgba(255,255,255,0.7);
+    background-color: rgba(255,255,255,0.9);
 	overflow: hidden;
 	position: relative;
-    border-radius: 1%;
+    border-radius: 3%;
 	overflow-x: hidden;
     overflow-y: auto;
+    background-color: rgba(255,255,255,1);
+  	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
 }
 
 
 .profile {
-	width: 90%;
+	width: 73%;
 	/*height: 60%;*/
     border-radius: 50%;
     display: block;
     margin: 40px auto 0;
 	transition: 1.5s;
-	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1), 0 12px 25px 0 rgba(0, 0, 0, 0.1);
 
-
-}
-
-.card:hover{
-    background-color: rgba(255,255,255,1);
+	box-shadow: 0px 0px 95px rgba(0, 0, 0, .3), 0 5px 20px 0 rgba(0, 0, 0, 0.3);
 
 }
 
-.card:hover .profile {
-	box-shadow: 0px 0px 45px rgba(0, 0, 0, 0.2), 0 12px 25px 0 rgba(0, 0, 0, 0.2);
-}
 
-.card:hover .name {
+/*.card:hover .profile {
+	box-shadow: 0px 0px 45px rgba(0, 0, 0, 0.5), 0 12px 25px 0 rgba(0, 0, 0, 0.5);
+}*/
+
+
+/*.card:hover p.name-content span{
+  display: none;
+}
+.card:hover p.name-content:after{
+  content: "Hey, I'm Abey 🐝";
+
+}*/
+/*.card:hover .name {
   text-shadow: -.25px -.25px 0 black, 
                 .25px .25px black;
-}
 
+}
+*/
 .container {
     padding-left: 20px;
     padding-right: 20px;
@@ -111,6 +122,9 @@ body {
 
 }
 
+.instagram:hover {
+	color: #C13584;
+}
 .fa-linkedin:hover {
 	color: #0074b1;
 }
@@ -264,5 +278,14 @@ a {
 		margin-right: 10px;
 	}*/
 }
+
+hr {
+    border: 0;
+    height: .7px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+
 
 
