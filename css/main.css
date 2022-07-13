@@ -112,6 +112,9 @@ body {
 	margin-right: 6%;
 
 }
+b {
+	font-weight: bolder;
+}
 
 .link:hover {
 	font-weight: bolder;
@@ -124,25 +127,57 @@ body {
 
 .instagram:hover {
 	color: #C13584;
+	font-weight: bolder;
 }
-.fa-linkedin:hover {
+
+.fa-linkedin {
+	opacity: 70%;
 	color: #0074b1;
 }
 
-.fa-github-alt:hover {
+.fa-linkedin:hover {
+	opacity: 100%;
+	color: #0074b1;
+	transform: scale(1.05);
+}
+
+.fa-github-alt {
+	opacity: 50%;
 	color: black;
 }
 
+.fa-github-alt:hover {
+	opacity: 100%;
+	color: black;
+	transform: scale(1.05);
+}
+
+.fa-file-text-o {
+	opacity: 70%;
+	transform: scale(.9);
+	color: #4281f5;
+}
+
 .fa-file-text-o:hover {
-	color: #4286f4;
+	opacity: 100%;
+	color: #4281f5;
+	transform: scale(.95);
 }
 
 .fa-medium:hover {
 	color: #01ab6c;
+	transform: scale(1.05);
+}
+
+.fa-envelope-o {
+	opacity: 70%;
+	color: #c3452c;
 }
 
 .fa-envelope-o:hover {
+	opacity: 100%;
 	color: #c3452c;
+	transform: scale(1.05);
 }
 
 
@@ -165,18 +200,18 @@ a {
 
 .tooltip .tooltiptext {
     visibility: hidden;
-    width: 160px;
+    width: 140px;
 	background-color:rgb(0, 0, 0);
     background-color:rgba(0, 0, 0, 0.4);
     color: #fff;
     text-align: center;
-    border-radius: 1%;
+    border-radius: 5%;
     padding: 3px;
     position: absolute;
     z-index: 1;
     top: 130%;
     left: 50%;
-    margin-left: -83px;
+    margin-left: -73px;
 }
 
 .tooltip .tooltiptext::after {
