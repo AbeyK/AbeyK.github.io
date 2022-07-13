@@ -27,24 +27,25 @@ body {
     }
 }
 
-.name {
-	font-size: 2.5em;
-	/*font-weight: bold;*/
-	margin-top: 35px;
-	margin-bottom: 5px;
-/*    transition: 1.5s;
-*/}
 
-.info {
-	margin-top: 2px;
-	margin-bottom: 35px;
-	font-size: 1.4em;
-}
+
+	.name {
+		font-size: 1.8em;
+		margin-top: 25px;
+		margin-bottom: 5px;
+	}
+
+	.info {
+		margin-top: 5px;
+		margin-bottom: 15px;
+		font-size: 1.35em;
+	}
+
 
 .card {
     /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);*/
 /*    transition: 1.5s;
-*/    width: 400px;
+*/    width: 330px;
     /*height: 500px;*/
 	padding: 15px;
     padding-bottom: 50px;
@@ -61,7 +62,7 @@ body {
 
 
 .profile {
-	width: 73%;
+	width: 90%;
 	/*height: 60%;*/
     border-radius: 50%;
     display: block;
