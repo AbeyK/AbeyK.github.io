@@ -15,7 +15,7 @@ body {
  }
 
 .fadeInLoad {
-    animation: fadeInLoad 2s;
+    animation: fadeInLoad 1.5s;
 }
 
 @keyframes fadeInLoad {
@@ -32,8 +32,8 @@ body {
 	/*font-weight: bold;*/
 	margin-top: 35px;
 	margin-bottom: 5px;
-    transition: 1.5s;
-}
+/*    transition: 1.5s;
+*/}
 
 .info {
 	margin-top: 2px;
@@ -43,8 +43,8 @@ body {
 
 .card {
     /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);*/
-    transition: 1.5s;
-    width: 400px;
+/*    transition: 1.5s;
+*/    width: 400px;
     /*height: 500px;*/
 	padding: 15px;
     padding-bottom: 50px;
@@ -66,8 +66,8 @@ body {
     border-radius: 50%;
     display: block;
     margin: 40px auto 0;
-	transition: 1.5s;
-
+/*	transition: 1.5s;
+*/
 	box-shadow: 0px 0px 95px rgba(0, 0, 0, .3), 0 5px 20px 0 rgba(0, 0, 0, 0.3);
 
 }
