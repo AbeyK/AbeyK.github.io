@@ -31,13 +31,13 @@ body {
 
 	.name {
 		font-size: 1.8em;
-		margin-top: 25px;
+		margin-top: 30px;
 		margin-bottom: 5px;
 	}
 
 	.info {
 		margin-top: 5px;
-		margin-bottom: 15px;
+		margin-bottom: 30px;
 		font-size: 1.35em;
 	}
 
@@ -184,7 +184,7 @@ b {
 
 .fa {
 	text-align: center;
-	margin-top: 16px;
+	margin-top: 10px;
 	font-size: 2.0em !important;}
 
 
@@ -317,7 +317,7 @@ a {
 
 hr {
     border: 0;
-    height: .7px;
+    height: .1px;
     background: #333;
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
