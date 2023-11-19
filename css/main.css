@@ -12,7 +12,7 @@ body {
  	background-position: top;
  	margin:0;
   	backdrop-filter: blur(2px);
-   	overflow-y: hidden;
+   	overflow: hidden;
  }
 
 .fadeInLoad {
@@ -233,10 +233,13 @@ a {
 }
 
 @media (max-width:500px) {
+	body{
+	    -webkit-text-size-adjust: 100%;
+	    overflow: hidden;
+	 }
 	.card {
 		width: 85%;
 	}
-
 	.profile{
 		width: 95%;
 	}
