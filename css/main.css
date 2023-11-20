@@ -28,8 +28,6 @@ body {
     }
 }
 
-
-
 	.name {
 		font-size: 2em;
 		margin-top: 35px;
@@ -119,20 +117,31 @@ b {
 	font-weight: bolder;
 }
 
-.link:hover {
-	font-weight: bolder;
-}
 
 .btn:hover {
 	color: black;
 
 }
 
-.instagram:hover {
+
+.instagram {
 	color: #C13584;
-	font-weight: bolder;
+	background-image: linear-gradient(
+	    to left,
+	    #C13584 0%,
+	    #833AB4 50%,
+	    #405DE6 100%
+  );
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
+a{
+  display:inline-block;
+  transform: scale(1.05);
+  margin-left: 2px;
+
+}
 .fa-linkedin {
 	opacity: 70%;
 	color: #0074b1;
