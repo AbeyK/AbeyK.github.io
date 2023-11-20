@@ -31,14 +31,14 @@ body {
 	.name {
 		font-size: 2em;
 		margin-top: 35px;
-		margin-bottom: 2px;
+		margin-bottom: 4px;
 		font-weight: bold;
 	}
 
 	.info {
 		margin-top: 2px;
-		margin-bottom: 30px;
-		font-size: 1.2em;
+		margin-bottom: 28px;
+		font-size: 1.125em;
 	}
 
 
@@ -61,7 +61,7 @@ body {
 
 
 .profile {
-	width: 90%;
+	width: 79%;
 	/*height: 60%;*/
     border-radius: 50%;
     display: block;
@@ -93,8 +93,8 @@ body {
 }
 */
 .container {
-    padding-left: 20px;
-    padding-right: 20px;
+/*    padding-left: 20px;
+    padding-right: 20px;*/
     text-align: center;
 }
 
@@ -140,6 +140,7 @@ a{
   display:inline-block;
   transform: scale(1.05);
   margin-left: 2px;
+  font-weight: bold;
 
 }
 .fa-linkedin {
@@ -250,7 +251,7 @@ a {
 		width: 80%;
 	}
 	.profile{
-		width: 90%;
+		width: 79%;
 	}
 
 	.name {
@@ -264,7 +265,7 @@ a {
 	.info {
 		margin-top: 2px;
 		margin-bottom: 40px;
-		font-size: 5.5vw;
+		font-size: 5.4vw;
 		-webkit-text-size-adjust: 100%
 	}
 	.fa {
@@ -273,13 +274,13 @@ a {
 		font-size: 8.0vw !important;}
 
 	.btn {
-		margin-left: 18px;
-		margin-right: 18px;
+/*		margin-left: 18px;
+		margin-right: 18px;*/
 	}
 }
 
 
-/*@media (max-height:400px) {
+@media (max-height:400px) {
 	.card {
 		width: 250px;
 	}
@@ -300,17 +301,16 @@ a {
 		font-size: 2.0em !important;
 	}
 
-	.btn {
-		margin-left: 10px;
-		margin-right: 10px;
-	}
-}*/
+}
 
 hr {
     border: 0;
     height: 1px;
     background: #5d4f3d36;
     background-image: linear-gradient(to right, #ccc, #5d4f3d36, #ccc);
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
 
 }
 
