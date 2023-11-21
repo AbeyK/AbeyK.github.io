@@ -16,7 +16,7 @@ body {
  }
 
 .fadeInLoad {
-    animation: fadeInLoad 1s;
+    animation: fadeInLoad 1.5s;
 }
 
 @keyframes fadeInLoad {
