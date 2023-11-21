@@ -329,8 +329,8 @@ hr {
 
 .flip {
   position: absolute;
-  top: 15px;
-  right: 15px;
+  top: 4%;
+  right: 4%;
   z-index: 2;
 }
 
@@ -339,7 +339,7 @@ hr {
 	background-color: rgb(240 238 235 / 0%);
 	border-radius: 50%;
 	border-width: 0;
-	font-size: 1.2em;
+	font-size: 1.3em;
 }
 .back-title{
 	font-size: 1.5em;
