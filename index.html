@@ -3,7 +3,7 @@
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-        <meta name="viewport" content="width=device-width; initial-scale=1.0;" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0;" /> 
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -15,37 +15,46 @@
         <link href="css/main.css" rel="stylesheet">
     </head>
     <body>
-        <div class="card centered fadeInLoad" >
-            <div class="container">
-                <img src="images/profile.jpg" class="profile"></img>
-                <p class="name"> Hello, I'm Abey 👋 </p>
-                <p class="info">
-                    Software Engineer @
-                    <span class="link"> 
-                        <a class = "instagram" href="https://www.instagram.com/abey.me/">
-                        Instagram
-                        </a>
-                    </span>
-                </p>
-                <hr >
-                <a href="mailto:hello@abeyk.com" class="btn tooltip"> 
-                    <i class="fa fa-envelope-o"></i> 
-                    <span class="tooltiptext">Hi@AbeyK.com</span>
-                </a>
-                <a href="http://linkedin.com/in/abeyk" class="btn tooltip"> 
-                    <i class="fa fa-linkedin"></i> 
-                    <span class="tooltiptext">Linkedin</span>
-                </a>
-                <a href="http://github.com/abeyk" class="btn tooltip"> 
-                    <i class="fa fa-github-alt"></i> 
-                    <span class="tooltiptext">Github</span>
-                </a>
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn tooltip" target="_blank"> 
-                    <i class="fa fa-file-text-o"></i> 
-                    <span class="tooltiptext">Resume</span>
-                </a>
+        <div class="card-container ">
+            <div class="card centered fadeInLoad" >
+                <div class="front">
+                    <button class="flip" id="frontflip">↩️</button>
+                    <img src="images/profile.jpg" class="profile"></img>
+                    <p class="name"> Hello, I'm Abey 👋 </p>
+                    <p class="info">
+                        Software Engineer @
+                        <span class="link"> 
+                            <a class = "instagram" href="https://www.instagram.com/abey.me/">
+                            Instagram
+                            </a>
+                        </span>
+                    </p>
+                    <hr >
+                    <a href="mailto:hello@abeyk.com" class="btn tooltip"> 
+                        <i class="fa fa-envelope-o"></i> 
+                        <span class="tooltiptext">Hi@AbeyK.com</span>
+                    </a>
+                    <a href="http://linkedin.com/in/abeyk" class="btn tooltip"> 
+                        <i class="fa fa-linkedin"></i> 
+                        <span class="tooltiptext">Linkedin</span>
+                    </a>
+                    <a href="http://github.com/abeyk" class="btn tooltip"> 
+                        <i class="fa fa-github-alt"></i> 
+                        <span class="tooltiptext">Github</span>
+                    </a>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn tooltip" target="_blank"> 
+                        <i class="fa fa-file-text-o"></i> 
+                        <span class="tooltiptext">Resume</span>
+                    </a>
+                </div>
+                <div class="back back-container">
+                    <p class="back-title"> Welcome to The Backside! </p>
+                    <button class="flip-back" id="backflip">↩️</button>
+                </div>
             </div>
         </div>
     </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/script.js"></script>
 </html>
