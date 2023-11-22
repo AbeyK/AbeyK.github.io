@@ -353,6 +353,7 @@ hr {
 .flip:hover {
 	color: #83a2b6;
   	transform: scale(1.2);
+	cursor: pointer;
 }
 
 .back-title{
