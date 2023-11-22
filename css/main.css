@@ -331,8 +331,8 @@ hr {
 
 .flip {
   position: absolute;
-  top: 0.5em;
-  right: 0.7em;
+  top: 0em;
+  right: 5px;
   z-index: 2;
 }
 
@@ -343,11 +343,12 @@ hr {
 	border-width: 0;
 	font-size: 2.2em;
 	font-weight: lighter;
-	color: #858481;
+	color: #abaaa7;
 }
 
 .flip:hover {
-	color: #0074b1;
+	color: #83a2b6;
+  	transform: scale(1.2);
 }
 
 .back-title{
