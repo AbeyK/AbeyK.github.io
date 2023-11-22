@@ -215,7 +215,7 @@ a {
 	font-weight: bold;
     visibility: hidden;
     width: 100px;
-    background-color:rgba(0, 0, 0, 0.3);
+    background-color:#858481;
     color: #fff;
     text-align: center;
     -webkit-border-radius: 3px;
@@ -331,8 +331,8 @@ hr {
 
 .flip {
   position: absolute;
-  top: 4%;
-  right: 4%;
+  top: 0.5em;
+  right: 0.7em;
   z-index: 2;
 }
 
@@ -341,8 +341,15 @@ hr {
 	background-color: rgb(240 238 235 / 0%);
 	border-radius: 50%;
 	border-width: 0;
-	font-size: 1.3em;
+	font-size: 2.2em;
+	font-weight: lighter;
+	color: #858481;
 }
+
+.flip:hover {
+	color: #0074b1;
+}
+
 .back-title{
 	font-size: 1.5em;
 }
