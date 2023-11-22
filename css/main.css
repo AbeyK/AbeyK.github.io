@@ -318,8 +318,12 @@ hr {
 
 
 .front,
+.flip,
 .back{
     backface-visibility: hidden;
+    -webkit-perspective: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translate3d(0,0,0);
 }
 
 .back {
@@ -331,8 +335,8 @@ hr {
 
 .flip {
   position: absolute;
-  top: 0em;
-  right: 5px;
+  top: -10%;
+  right: 0%;
   z-index: 2;
 }
 
