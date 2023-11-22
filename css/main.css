@@ -206,25 +206,27 @@ a {
 } 
 
 .tooltip {
-	font-size: 15px;
     position: relative;
     display: inline-block;
 }
 
 .tooltip .tooltiptext {
-	font-size: 12px;
+	font-size: 13px;
+	font-weight: bold;
     visibility: hidden;
     width: 100px;
     background-color:rgba(0, 0, 0, 0.3);
     color: #fff;
     text-align: center;
-    border-radius: 5%;
-    padding: 6px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding: 3px;
     position: absolute;
     z-index: 1;
     top: 130%;
     left: 50%;
-    margin-left: -57px;
+    margin-left: -55px;
 }
 
 .tooltip .tooltiptext::after {
