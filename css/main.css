@@ -357,7 +357,7 @@ hr {
 			margin-top: 10px;
 			font-size: 8.0vw !important;}
 	
-		.flip {
+		.flip, .flip-back {
 			left:80%;
 		}
 	}
