@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', function () {
     anime({
       targets: profileCard,
       opacity: ['100%', '100%'],
-
       translateX: ['-50%', '-50%'],
       translateY: ['-50%', '-50%'],
       scale: [{ value: 0.95, easing: 'easeInOutSine', delay: 0 }, { value: 1.05, easing: 'easeInOutSine', delay: 0 }, { value: 1, easing: 'easeInOutSine', delay: 0 }],
