@@ -334,10 +334,11 @@ hr {
 }
 
 .flip {
-  position: absolute;
-  top: -10%;
-  right: 0%;
-  z-index: 2;
+	position: absolute;
+	bottom: 100%;
+	left: 90%;
+	cursor: pointer;
+
 }
 
 .flip,
@@ -358,6 +359,7 @@ hr {
 
 .back-title{
 	font-size: 1.5em;
+	font-weight: bolder;
 }
 
 
