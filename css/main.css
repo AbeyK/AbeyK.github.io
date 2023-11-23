@@ -282,12 +282,13 @@ hr {
   left: 50%;
   transform: translate(-50%, -50%) rotateY(180deg);
   position: fixed;
-  color: black;
+  color: rgb(255, 255, 255);
   width: 100%;
   height: 100%;
-  background: #435a69ed;
+  background: #69435ce0;
   opacity: 95%;
   border-radius: 15px;
+  border: 0px solid #5d4f3d36;
   z-index: -10;
 
 }
