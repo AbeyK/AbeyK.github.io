@@ -320,18 +320,26 @@ hr {
 	cursor: pointer;
 }
 
+.back-title-smaller,
 .back-title{
-	font-size: 1.65em;
+	font-size: 2em;
 	font-weight: bolder;
-	margin-top: 35%;
-	padding: 5%;
+	margin: 0;
+	padding: 0%;
 	/* padding-top: 45%; */
 	color: #e4b851;
+
 	/* background-color: #0074b1; */
 	font-family: 'Pacifico';
 
 }
 
+.back-title-smaller{
+	font-size: 1.4em;
+	margin-top: 25%;
+	padding: 0;
+
+}
 .back-bee {
 	font-size: 5em;
 }
@@ -442,6 +450,7 @@ hr {
 	content: '';
 	position: absolute;
 	top: -10px;
+	right: 25px;
 	height: 20px;
 	width: 15px;
 	border: 2px solid var(--bee-black);
@@ -455,7 +464,7 @@ hr {
 	content: '';
 	position: absolute;
 	top: -10px;
-	right: 0;
+	right: 3px;
 	height: 20px;
 	width: 15px;
 	border: 2px solid var(--bee-black);
