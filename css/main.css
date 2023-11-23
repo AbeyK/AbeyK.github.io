@@ -244,65 +244,6 @@ a {
     visibility: visible;
 }
 
-@media (max-width:500px) {
-/*	body{
-	    overflow: hidden;
-	 }*/
-	.card {
-		width: 80%;
-	}
-	.profile{
-		width: 79%;
-	}
-
-	.name {
-		font-size: 9.5vw;
-		margin-top: 40px;
-		margin-bottom: 2px;
-		font-weight: normal;
-		-webkit-text-size-adjust: 100%
-	}
-
-	.info {
-		margin-top: 2px;
-		margin-bottom: 40px;
-		font-size: 5.2vw;
-		-webkit-text-size-adjust: 100%
-	}
-	.fa {
-		text-align: center;
-		margin-top: 10px;
-		font-size: 8.0vw !important;}
-
-	.btn {
-/*		margin-left: 18px;
-		margin-right: 18px;*/
-	}
-}
-
-
-@media (max-height:400px) {
-	.card {
-		width: 250px;
-	}
-
-	name {
-		font-size: 1.75em;
-		margin-top: 25px;
-		margin-bottom: 5px;
-	}
-
-	.info {
-		margin-top: 5px;
-		margin-bottom: 15px;
-		font-size: 1.125em;
-	}
-
-	.fa-2x {
-		font-size: 2.0em !important;
-	}
-
-}
 
 hr {
     border: 0;
@@ -365,3 +306,39 @@ hr {
 
 
 
+
+@media (max-width:500px) {
+	/*	body{
+			overflow: hidden;
+		 }*/
+		.card {
+			width: 80%;
+		}
+		.profile{
+			width: 79%;
+		}
+	
+		.name {
+			font-size: 9.5vw;
+			margin-top: 40px;
+			margin-bottom: 2px;
+			font-weight: normal;
+			-webkit-text-size-adjust: 100%
+		}
+	
+		.info {
+			margin-top: 2px;
+			margin-bottom: 40px;
+			font-size: 5vw;
+			-webkit-text-size-adjust: 100%
+		}
+		.fa {
+			text-align: center;
+			margin-top: 10px;
+			font-size: 8.0vw !important;}
+	
+		.flip {
+			left:80%;
+		}
+	}
+	
