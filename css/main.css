@@ -43,7 +43,7 @@ body {
 
 
 .card {
-	transition: 0.5;
+	transition: .8;
     width: 320px;
 	padding: 10px;
     padding-bottom: 45px;
@@ -57,6 +57,8 @@ body {
  	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
  	border: 4px solid #5d4f3d36;
     transform-style: preserve-3d;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
 	perspective: 1000;
 	/* box-shadow: 0 0 50px rgba(0,0,0,0.5); */
 
@@ -267,6 +269,8 @@ hr {
     -webkit-perspective: 0;
     -webkit-backface-visibility: hidden;
     -webkit-transform: translate3d(0,0,0);
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
 }
 
 .back {
@@ -274,6 +278,12 @@ hr {
   left: 50%;
   transform: translate(-50%, -50%) rotateY(180deg);
   position: fixed;
+  color:rgb(174, 174, 199)200, 255, 0);
+  width: 100%;
+  height: 100%;
+  background-color: #290b3b;
+  border-radius: 20px;
+
 }
 
 .flip {
