@@ -14,10 +14,10 @@ document.addEventListener('DOMContentLoaded', function () {
       opacity: ['100%', '100%'],
       translateX: ['-50%', '-50%'],
       translateY: ['-50%', '-50%'],
-      scale: [{ value: 0.85, easing: 'easeInOutSine', delay: 100 }, { value: 1.05, easing: 'easeInOutSine', delay: 300 }, { value: 1, easing: 'easeInOutSine' }],
-      rotateY: { value: '+=180', easing: 'easeInOutSine', delay: 150 },
+      scale: [{ value: 0.85, easing: 'easeInOutSine', delay: 50 }, { value: 1.05, easing: 'easeInOutSine', delay: 100 }, { value: 1, easing: 'easeInOutSine' }],
+      rotateY: { value: '+=180', easing: 'easeInOutSine', delay: 55 },
       easing: 'easeInOutSine',
-      duration: 600,
+      duration: 300,
       complete: function (anim) {
         playing = false;
       }
