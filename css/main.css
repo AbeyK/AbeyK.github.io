@@ -286,7 +286,7 @@ hr {
   color: rgb(255, 255, 255);
   width: 100%;
   height: 100%;
-  background: #69435ce0 url(../images/honeycomb.svg);
+  background: #69435ce0;
   border-radius: 15px;
   border: 0px solid #5d4f3d36;
   z-index: -10;
@@ -321,13 +321,13 @@ hr {
 }
 
 .back-title{
-	font-size: 1.6em;
+	font-size: 1.65em;
 	font-weight: bolder;
-	margin-top: 40%;
+	margin-top: 35%;
 	padding: 5%;
 	/* padding-top: 45%; */
-	color: #83a2b6;
-	background-color: #0074b1;
+	color: #e4b851;
+	/* background-color: #0074b1; */
 	font-family: 'Pacifico';
 
 }
@@ -337,7 +337,173 @@ hr {
 }
 
 
+:root {
+	--background-color: #F2CF4F;
+	--cell-outline-color: rgba(241, 131, 36, 0.5);
+	--bee-yellow: #F6CD25;
+	--bee-black: #000;
+	--bee-white: #fff;
+  }
+  
+  
+  .box-canvas{
+	position: absolute;
+	display: block;
+	margin-top: 8%;
+	margin-bottom: 8%;
+	top: 55%;
+	right: 50%;
+	transform: translate(-50%, -50%) scale(.6);
 
+	background: var(--background-color);
+  }
+  
+  .honeycomb-wrapper {
+	position:absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+  }
+  
+  .honeycomb {
+	display: flex;
+  }
+  
+  .row0 {
+	margin-left: 250px;
+  }
+  
+  .row1 {
+	margin-top: -25px;
+  }
+  
+  .row2 {
+	margin-left: 50px;
+	margin-top: -25px;
+  }
+  
+  .row3 {
+	margin-top: -25px;
+  }
+  
+  .cell {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	background: var(--cell-outline-color);
+	clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  }
+  
+  .cell::before {
+	content: '';
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	width: 80px;
+	height: 80px;
+	background: var(--background-color);
+	clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  }
+  
+  .bee-wrapper {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%) rotate(-30deg);
+	width: 200px;
+	height: 200px;
+  }
+  
+  .bee {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	height: 100px;
+	width: 50px;
+	background: linear-gradient(
+	  var(--bee-black), 
+	  var(--bee-black) 20%, 
+	  var(--bee-yellow) 20%, 
+	  var(--bee-yellow) 25%, 
+	  var(--bee-black) 25%, 
+	  var(--bee-black) 60%, 
+	  var(--bee-yellow) 60%, 
+	  var(--bee-yellow) 75%, 
+	  var(--bee-black) 75%, 
+	  var(--bee-black) 90%, 
+	  var(--bee-white) 90%, 
+	  var(--bee-white) );
+	border-radius: 50% 50% 40% 40%;
+  }
+  
+  /* Left antenna */
+  .bee::before {
+	content: '';
+	position: absolute;
+	top: -10px;
+	height: 20px;
+	width: 15px;
+	border: 2px solid var(--bee-black);
+	border-radius: 50% 50% 0% 0%;
+	border-left-color: transparent;
+	border-bottom-color: transparent;
+  }
+  
+  /* Right antenna */
+  .bee::after {
+	content: '';
+	position: absolute;
+	top: -10px;
+	right: 0;
+	height: 20px;
+	width: 15px;
+	border: 2px solid var(--bee-black);
+	border-radius: 50% 50% 0% 0%;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+  }
+  
+  .wing {
+	position: absolute;
+	top: 70px;
+	width: 70px;
+	height: 25px;
+	background: rgba(255,255,255,0.9);
+  }
+  
+  .wing::after {
+	content: '';
+	position: absolute;
+	bottom: -10px;
+	width: 50px;
+	height: 15px;
+	background: rgba(255,255,255,0.8);
+  }
+  
+  .wing-left {
+	border-radius: 50% 20% 20% 50%;
+	left: 20px;
+	transform: rotate(20deg);
+  }
+  
+  .wing-left::after {
+	border-radius: 50% 20% 20% 50%;
+	transform: rotate(-30deg);
+	left: 22px;
+  }
+  
+  .wing-right {
+	right: 20px;
+	transform: rotate(-20deg);
+	border-radius: 20% 50% 50% 20%;
+  }
+  
+  .wing-right::after {
+	border-radius: 20% 50% 50% 20%;
+	transform: rotate(30deg);
+	right: 22px;
+  }
 
 @media (max-width:500px) {
 	/*	body{
