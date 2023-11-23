@@ -43,14 +43,14 @@ body {
 
 
 .card {
-	transition: 0.8s;
-    width: 330px;
+	transition: 0.5;
+    width: 320px;
 	padding: 10px;
     padding-bottom: 45px;
     padding-top: 12px;
 /*	overflow: hidden;*/
 	position: relative;
-    border-radius: 2%;
+    border-radius: 20px;
 /*	overflow-x: hidden;
     overflow-y: auto;*/
     background-color: rgb(240 238 235 / 93%);
