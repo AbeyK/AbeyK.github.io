@@ -4,7 +4,7 @@
 
 body { 
 	white-space:nowrap;
-	font-family: 'Lato';
+	font-family: 'Source Sans Pro';
 	background-image: url(../images/background.jpg);
 	background-position: center center;
     background-repeat: no-repeat;
@@ -34,7 +34,8 @@ body {
 		font-size: 1.9em;
 		margin-top: 35px;
 		margin-bottom: 4px;
-		font-weight: bolder;
+		font-weight: bold;
+
 	}
 
 	.info {
