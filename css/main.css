@@ -352,6 +352,50 @@ hr {
 	margin-top: 80%;
 	padding: 0;
 }
+
+@keyframes flap-left {
+    0% { transform: skew(0deg); }
+    50% { transform: skew(30deg); }
+    100% { transform: skew(0deg); }
+}
+
+@keyframes flap-right {
+    0% { transform: skew(0deg);}
+    50% { transform: skew(-20deg); }
+    100% { transform: skew(0deg); }
+}
+
+
+@keyframes flap-left-ant {
+    0% { transform: skew(0deg); }
+    50% { transform: skew(10deg); }
+    100% { transform: skew(0deg); }
+}
+
+@keyframes flap-right-ant {
+    0% { transform: skew(0deg); }
+    50% { transform: skew(-10deg); }
+    100% { transform: skew(0deg); }
+}
+
+@keyframes MoveUpDown {
+	0%, 100% {
+		transform: translate(-50%, -50%) rotate(0deg) translateX(0) translateY(0);
+	}
+	30% {
+		transform: translate(-50%, -50%) rotate(-300deg) translateX(-5px) translateY(-10px);
+	}
+	40% {
+		transform: translate(-50%, -50%) rotate(-10deg) translateX(5px) translateY(-10px);
+	}
+	30% {
+		transform: translate(-50%, -50%) rotate(20deg) translateX(10px) translateY(0px);
+	}
+	90% {
+		transform: translate(-50%, -50%) rotate(5deg) translateX(20px) translateY(-10px);
+	}
+  }
+
 .back-bee {
 	font-size: 5em;
 }
@@ -376,6 +420,7 @@ hr {
 	transform: translate(-50%, -50%) scale(.5);
 
 	background: var(--background-color);
+
   }
   
   .honeycomb-wrapper {
@@ -433,6 +478,9 @@ hr {
 	transform: translate(-50%, -50%) rotate(-30deg);
 	width: 200px;
 	height: 200px;
+	animation: MoveUpDown 6s infinite;
+
+
   }
   
   .bee {
@@ -456,6 +504,9 @@ hr {
 	  var(--bee-white) 90%, 
 	  var(--bee-white) );
 	border-radius: 50% 50% 40% 40%;
+	box-shadow: 0px 0px 95px rgba(0, 0, 0, .3), 0 5px 20px 0 rgba(0, 0, 0, 0.3);
+
+
   }
   
   /* Left antenna */
@@ -470,6 +521,8 @@ hr {
 	border-radius: 50% 50% 0% 0%;
 	border-left-color: transparent;
 	border-bottom-color: transparent;
+	animation: flap-right-ant 1s infinite;
+
   }
   
   /* Right antenna */
@@ -484,6 +537,8 @@ hr {
 	border-radius: 50% 50% 0% 0%;
 	border-right-color: transparent;
 	border-bottom-color: transparent;
+	animation: flap-left-ant 1s infinite;
+
   }
   
   .wing {
@@ -492,6 +547,9 @@ hr {
 	width: 70px;
 	height: 25px;
 	background: rgba(255,255,255,0.9);
+	box-shadow: 0px 0px 95px rgba(0, 0, 0, .3), 0 5px 20px 0 rgba(0, 0, 0, 0.3);
+
+
   }
   
   .wing::after {
@@ -501,12 +559,14 @@ hr {
 	width: 50px;
 	height: 15px;
 	background: rgba(255,255,255,0.8);
+	
   }
   
   .wing-left {
 	border-radius: 50% 20% 20% 50%;
 	left: 20px;
 	transform: rotate(20deg);
+	animation: flap-left 2s infinite;
   }
   
   .wing-left::after {
@@ -519,6 +579,7 @@ hr {
 	right: 20px;
 	transform: rotate(-20deg);
 	border-radius: 20% 50% 50% 20%;
+	animation: flap-right 2s infinite;
   }
   
   .wing-right::after {
