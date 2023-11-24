@@ -476,8 +476,8 @@ hr {
   .cell::before {
 	content: '';
 	position: absolute;
-	left: 6px;
-	top: 6px;
+	left: 5px;
+	top: 5px;
 	width: 90px;
 	height: 90px;
 	background: var(--background-color);
