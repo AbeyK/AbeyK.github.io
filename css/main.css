@@ -537,9 +537,9 @@ hr {
 	
 		.name {
 			font-size: 7vw;
-			/* margin-top: 40px; */
-			/* margin-bottom: 2px; */
-			/* font-weight: normal; */
+			margin-top: 40px;
+			margin-bottom: 2px;
+			font-weight: normal;
 			-webkit-text-size-adjust: 100%
 		}
 	
