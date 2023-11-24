@@ -32,16 +32,19 @@ body {
 
 	.name {
 		font-size: 1.9em;
-		margin-top: 35px;
 		margin-bottom: 4px;
 		font-weight: bold;
+		margin-top: 35px;
+		margin-bottom: 6px;
+		-webkit-text-size-adjust: 100%
 
 	}
 
 	.info {
 		margin-top: 2px;
-		margin-bottom: 28px;
 		font-size: 1.125em;
+		margin-bottom: 40px;
+		-webkit-text-size-adjust: 100%
 	}
 
 
@@ -49,7 +52,7 @@ body {
 	/* transition: .75; */
     width: 320px;
 	padding: 5px;
-    padding-bottom: 45px;
+	padding-bottom: 30px;
     padding-top: 10px;
 /*	overflow: hidden;*/
 	position: relative;
@@ -218,7 +221,7 @@ a {
 }
 
 .tooltip .tooltiptext {
-	font-size: 13px;
+	font-size: 14px;
 	font-weight: bold;
     visibility: hidden;
     width: 100px;
@@ -227,13 +230,13 @@ a {
     text-align: center;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
-    border-radius: 3px;
-    padding: 3px;
+    border-radius: 15px;
+    padding: 0px;
     position: absolute;
     z-index: 1;
     top: 125%;
     left: 50%;
-    margin-left: -53px;
+    margin-left: -51px;
 }
 
 .tooltip .tooltiptext::after {
@@ -524,13 +527,15 @@ hr {
 	right: 22px;
   }
 
+
+
 @media (max-width:500px) {
 	/*	body{
 			overflow: hidden;
 		 }*/
 		.card {
 			width: 80%;
-			padding-top: 20px;
+			padding-bottom: 30px;
 
 		}
 		.profile{
@@ -539,7 +544,7 @@ hr {
 	
 		.name {
 			font-size: 8.5vw;
-			margin-top: 45px;
+			margin-top: 40px;
 			margin-bottom: 6px;
 			font-weight: normal;
 			-webkit-text-size-adjust: 100%
@@ -547,7 +552,7 @@ hr {
 	
 		.info {
 			margin-top: 2px;
-			margin-bottom: 40px;
+			margin-bottom: 45px;
 			font-size: 4.8vw;
 			-webkit-text-size-adjust: 100%
 		}
