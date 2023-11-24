@@ -300,10 +300,16 @@ hr {
   color: rgb(255, 255, 255);
   width: 100%;
   height: 100%;
-  background: #4b1e3c;
+  background: #335b8a;
+  background-image: url(../images/honeycomb.svg);
   border-radius: 15px;
   border: 0px solid #5d4f3d36;
   z-index: -10;
+}
+
+.flower {
+	width: 60%;
+	padding-top: 12.5%;
 }
 
 .flip {
@@ -352,13 +358,14 @@ hr {
 .back-title-smaller{
 	font-size: 1.4em;
 	margin-top: 20%;
+	margin-bottom: 0;
 	padding: 0;
 
 }
 
 .back-name {
-	font-size: 1.4em;
-	margin-top: 90%;
+	font-size: 1.6em;
+	margin-top: 20%;
 	padding: 0;
 }
 
@@ -412,7 +419,7 @@ hr {
 
 
 :root {
-	--background-color: #4b1e3c;
+	--background-color: #335b8a;
 	--cell-outline-color: #b56d4d;
 	--bee-yellow: #efc210fe;
 	--bee-black: #000;
@@ -476,8 +483,8 @@ hr {
   .cell::before {
 	content: '';
 	position: absolute;
-	left: 5px;
-	top: 5px;
+	left: 6px;
+	top: 6px;
 	width: 90px;
 	height: 90px;
 	background: var(--background-color);
