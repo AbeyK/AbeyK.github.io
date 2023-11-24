@@ -270,13 +270,20 @@ hr {
 
 .front,
 .flip,
-.back{
+.back,
+.box-canvas, 
+.bee-wrapper,
+.bee,
+.wing,
+.wing-left,
+.wing-right {
     backface-visibility: hidden;
     -webkit-perspective: 0;
     -webkit-backface-visibility: hidden;
     -webkit-transform: translate3d(0,0,0);
 	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;
+	
 }
 
 .front {
