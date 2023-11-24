@@ -276,7 +276,9 @@ hr {
 .bee,
 .wing,
 .wing-left,
-.wing-right {
+.wing-right,
+.bee::before,
+.bee::after {
     backface-visibility: hidden;
     -webkit-perspective: 0;
     -webkit-backface-visibility: hidden;
