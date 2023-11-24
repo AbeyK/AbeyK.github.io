@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300');
-@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Kalam:400');
 
 body { 
 	white-space:nowrap;
@@ -33,7 +33,7 @@ body {
 		font-size: 2em;
 		margin-top: 35px;
 		margin-bottom: 4px;
-		font-weight: bold;
+		font-weight: lighter;
 	}
 
 	.info {
@@ -321,7 +321,8 @@ hr {
 }
 
 .back-title-smaller,
-.back-title{
+.back-title,
+.back-name{
 	font-size: 2em;
 	font-weight: bolder;
 	margin: 0;
@@ -330,7 +331,7 @@ hr {
 	color: #e4b851;
 
 	/* background-color: #0074b1; */
-	font-family: 'Pacifico';
+	font-family: 'Kalam';
 
 }
 
@@ -340,17 +341,23 @@ hr {
 	padding: 0;
 
 }
+
+.back-name {
+	font-size: 1.4em;
+	margin-top: 80%;
+	padding: 0;
+}
 .back-bee {
 	font-size: 5em;
 }
 
 
 :root {
-	--background-color: #F2CF4F;
-	--cell-outline-color: rgba(241, 131, 36, 0.5);
-	--bee-yellow: #F6CD25;
+	--background-color: #69435ce0;
+	--cell-outline-color: rgba(197, 108, 30, 0.5);
+	--bee-yellow: #efc210fe;
 	--bee-black: #000;
-	--bee-white: #fff;
+	--bee-white: #efc210fe;
   }
   
   
@@ -359,9 +366,9 @@ hr {
 	display: block;
 	margin-top: 8%;
 	margin-bottom: 8%;
-	top: 55%;
+	top: 50%;
 	right: 50%;
-	transform: translate(-50%, -50%) scale(.6);
+	transform: translate(-50%, -50%) scale(.5);
 
 	background: var(--background-color);
   }
@@ -371,6 +378,7 @@ hr {
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
+	color: transparent;
   }
   
   .honeycomb {
