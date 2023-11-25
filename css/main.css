@@ -5,7 +5,7 @@
 body { 
 	white-space:nowrap;
 	font-family: 'Source Sans Pro';
-  	background: #2b3548;
+  	background: #1f242e;
 	/* background-image: url(../images/background.jpg); */
 	background-position: center center;
     background-repeat: no-repeat;
@@ -315,7 +315,7 @@ hr {
 .flower {
 	width: 60%;
 	padding-top: 12.5%;
-	opacity: 90%;
+	opacity: 85%;
 }
 
 .flip {
