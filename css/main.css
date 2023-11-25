@@ -308,7 +308,7 @@ hr {
   background: rgb(20, 27, 39);
   background-image: url(../images/honeycomb.svg);
   border-radius: 20px;
-  border: 5px outset #00000036;
+  border: 6px outset #00000036;
   z-index: -10;
 }
 
