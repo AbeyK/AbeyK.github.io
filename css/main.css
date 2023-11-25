@@ -63,7 +63,7 @@ body {
     border-radius: 20px;
 /*	overflow-x: hidden;
     overflow-y: auto;*/
-    background-color: #F0F0F0;
+    background-color: #e7e7e7;
 	box-shadow: -1px 15px 30px -12px black;
 	/* border: 4px solid #F2F7FF; */
     transform-style: preserve-3d;
@@ -313,9 +313,9 @@ hr {
 }
 
 .flower {
-	width: 60%;
-	padding-top: 12.5%;
-	opacity: 85%;
+	width: 50%;
+	padding-top: 15%;
+	opacity: 100%;
 }
 
 .flip {
@@ -363,7 +363,7 @@ hr {
 
 .back-title-smaller{
 	font-size: 1.4em;
-	margin-top: 18%;
+	margin-top: 20%;
 	margin-bottom: 0;
 	padding: 0;
 
