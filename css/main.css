@@ -5,7 +5,7 @@
 body { 
 	white-space:nowrap;
 	font-family: 'Source Sans Pro';
-	background-color: #2b3548;
+  	background: #2b3548;
 	/* background-image: url(../images/background.jpg); */
 	background-position: center center;
     background-repeat: no-repeat;
@@ -16,6 +16,9 @@ body {
  	margin:0;
    	overflow: hidden;
 	-webkit-font-smoothing: antialiased;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
  }
 
 .fadeInLoad {
@@ -61,13 +64,14 @@ body {
 /*	overflow-x: hidden;
     overflow-y: auto;*/
     background-color: #F2F7FF;
- 	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
- 	border: 4px solid #F2F7FF;
+	box-shadow: -1px 15px 30px -12px black;
+	/* border: 4px solid #F2F7FF; */
     transform-style: preserve-3d;
 	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;
 	transform-style: preserve-3d;
 	perspective: 800px;	/* box-shadow: 0 0 50px rgba(0,0,0,0.5); */
+	border: 5px outset #00000036;
 
 
 }
@@ -79,7 +83,7 @@ body {
     border-radius: 50%;
     display: block;
     margin: 40px auto 0;
-  	border: 4px solid #fff;
+	border: 1px outset #00000036;
 /*	transition: 1.5s;
 */
 	box-shadow: 0px 0px 95px rgba(0, 0, 0, .3), 0 5px 20px 0 rgba(0, 0, 0, 0.3);
@@ -226,7 +230,7 @@ a {
 	font-weight: bold;
     visibility: hidden;
     width: 100px;
-    background-color:#10316B;
+    background-color:#364968;
     color: #fff;
     text-align: center;
     -webkit-border-radius: 3px;
@@ -301,10 +305,10 @@ hr {
   color: rgb(255, 255, 255);
   width: 100%;
   height: 100%;
-  background: #151c25;
+  background: #141b27;
   background-image: url(../images/honeycomb.svg);
-  border-radius: 15px;
-  border: 0px solid #5d4f3d36;
+  border-radius: 20px;
+  border: 5px outset #00000036;
   z-index: -10;
 }
 
@@ -314,8 +318,8 @@ hr {
 }
 
 .flip {
-	bottom: 99%;
-	left: 90%;
+	bottom: 98%;
+	left: 89.5%;
 }
 .flip-back {
 	bottom: 89.5%;
@@ -382,15 +386,13 @@ hr {
 
 
 @keyframes flap-left-ant {
-    0% { transform: skew(0deg); }
-    50% { transform: skew(10deg); }
-    100% { transform: skew(0deg); }
+    0%, 100% { transform: skew(0deg); }
+    50% { transform: skew(15deg); }
 }
 
 @keyframes flap-right-ant {
-    0% { transform: skew(0deg); }
-    50% { transform: skew(-10deg); }
-    100% { transform: skew(0deg); }
+    0%,100% { transform: skew(0deg); }
+    50% { transform: skew(-15deg); }
 }
 
 @keyframes MoveUpDown {
@@ -512,18 +514,61 @@ hr {
 	height: 100px;
 	width: 50px;
 	background: linear-gradient(
-	  var(--bee-black), 
-	  var(--bee-black) 20%, 
-	  var(--bee-yellow) 20%, 
-	  var(--bee-yellow) 25%, 
-	  var(--bee-black) 25%, 
-	  var(--bee-black) 60%, 
-	  var(--bee-yellow) 60%, 
-	  var(--bee-yellow) 75%, 
-	  var(--bee-black) 75%, 
-	  var(--bee-black) 90%, 
-	  var(--bee-white) 90%, 
-	  var(--bee-white) );
+		var(--bee-yellow) 0%, 
+		var(--bee-yellow) 5%, 
+
+		var(--bee-black) 10%, 
+		var(--bee-black) 15%, 
+
+		var(--bee-yellow) 20%, 
+		var(--bee-yellow) 25%,
+
+		var(--bee-black) 30%, 
+		var(--bee-black) 35%, 
+
+		var(--bee-yellow) 40%, 
+		var(--bee-yellow) 45%,
+
+		var(--bee-black) 50%, 
+		var(--bee-black) 55%, 
+
+		var(--bee-yellow) 60%, 
+		var(--bee-yellow) 65%,
+
+		var(--bee-black) 70%, 
+		var(--bee-black) 75%, 
+
+		var(--bee-yellow) 80%, 
+		var(--bee-yellow) 85%,
+
+		var(--bee-black) 90%, 
+		var(--bee-black) 95%, 
+
+		var(--bee-yellow) 100% );
+	  
+
+		/* var(--bee-yellow) 0%, 
+		var(--bee-yellow) 5%, 
+
+		var(--bee-black) 10%, 
+		var(--bee-black) 15%, 
+
+		var(--bee-yellow) 20%, 
+		var(--bee-yellow) 25%,
+
+		var(--bee-black) 30%, 
+		var(--bee-black) 35%, 
+
+		var(--bee-yellow) 40%, 
+		var(--bee-yellow) 45%,
+
+
+
+
+		var(--bee-black) 90%, 
+		var(--bee-black) 95%,  */
+
+		/* var(--bee-yellow) 100%,  */
 	border-radius: 50% 50% 40% 40%;
 	box-shadow: 0px 0px 95px rgba(0, 0, 0, .3), 0 5px 20px 0 rgba(0, 0, 0, 0.3);
 
@@ -536,9 +581,9 @@ hr {
 	position: absolute;
 	top: -10px;
 	right: 25px;
-	height: 20px;
+	height: 10px;
 	width: 15px;
-	border: 2px solid var(--bee-black);
+	border: 2px solid gray;
 	border-radius: 50% 50% 0% 0%;
 	border-left-color: transparent;
 	border-bottom-color: transparent;
@@ -552,9 +597,9 @@ hr {
 	position: absolute;
 	top: -10px;
 	right: 3px;
-	height: 20px;
+	height: 10px;
 	width: 15px;
-	border: 2px solid var(--bee-black);
+	border: 2px solid gray;
 	border-radius: 50% 50% 0% 0%;
 	border-right-color: transparent;
 	border-bottom-color: transparent;
