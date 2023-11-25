@@ -63,7 +63,7 @@ body {
     border-radius: 20px;
 /*	overflow-x: hidden;
     overflow-y: auto;*/
-    background-color: #F2F7FF;
+    background-color: #F0F0F0;
 	box-shadow: -1px 15px 30px -12px black;
 	/* border: 4px solid #F2F7FF; */
     transform-style: preserve-3d;
@@ -305,7 +305,7 @@ hr {
   color: rgb(255, 255, 255);
   width: 100%;
   height: 100%;
-  background: #1f1913e0;
+  background: #2f4a67;
   background-image: url(../images/honeycomb.svg);
   border-radius: 20px;
   border: 5px outset #00000036;
@@ -315,7 +315,7 @@ hr {
 .flower {
 	width: 60%;
 	padding-top: 12.5%;
-	opacity: 100%;
+	opacity: 85%;
 }
 
 .flip {
@@ -354,7 +354,7 @@ hr {
 	margin: 0;
 	padding: 0%;
 	/* padding-top: 45%; */
-	color: #FDBE34;
+	color: #F0F0F0;
 
 	/* background-color: #0074b1; */
 	font-family: 'Kalam';
