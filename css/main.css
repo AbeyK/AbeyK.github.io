@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300');
-@import url('https://fonts.googleapis.com/css?family=Pacifico:400');
+@import url('https://fonts.googleapis.com/css?family=Rock Salt');
 @import 'https://fonts.googleapis.com/css?family=Lato:300';
 
 body { 
@@ -336,7 +336,7 @@ hr {
 	color: #abaaa7;
 	cursor: pointer;
 	position: absolute;
-	font-family: 'Pacifico';
+	font-family: 'Rock Salt';
 
 }
 .flip-back:hover,
@@ -357,7 +357,7 @@ hr {
 	color: rgb(253, 190, 52);
 
 	/* background-color: #0074b1; */
-	font-family: 'Pacifico';
+	font-family: 'Rock Salt';
 
 }
 
@@ -516,21 +516,24 @@ hr {
 	width: 50px;
 	background: linear-gradient(
 		var(--bee-black) 0%, 
-		var(--bee-yellow) 15%, 
-		var(--bee-yellow) 20%, 
+		var(--bee-black) 5%, 
 
-		var(--bee-black) 20%, 
-		var(--bee-black) 50%,
+		var(--bee-yellow) 5%, 
+		var(--bee-yellow) 25%, 
 
-		var(--bee-yellow) 50%, 
-		var(--bee-yellow) 65%, 
+		var(--bee-black) 25%, 
+		var(--bee-black) 45%,
 
-		var(--bee-black) 65%, 
-		var(--bee-black) 80%,
+		var(--bee-yellow) 45%, 
+		var(--bee-yellow) 60%, 
 
-		var(--bee-yellow) 80%, 
-		var(--bee-yellow) 85%, 
+		var(--bee-black) 60%, 
+		var(--bee-black) 75%,
 
+		var(--bee-yellow) 75%, 
+		var(--bee-yellow) 95%, 
+
+		var(--bee-black) 95%,
 		var(--bee-black) 100%);
 	  
 
@@ -563,7 +566,7 @@ hr {
 	right: 25px;
 	height: 10px;
 	width: 15px;
-	border: 2px solid gray;
+	border: 2px solid var(--bee-black);
 	border-radius: 50% 50% 0% 0%;
 	border-left-color: transparent;
 	border-bottom-color: transparent;
@@ -579,7 +582,7 @@ hr {
 	right: 3px;
 	height: 10px;
 	width: 15px;
-	border: 2px solid gray;
+	border: 2px solid var(--bee-black);
 	border-radius: 50% 50% 0% 0%;
 	border-right-color: transparent;
 	border-bottom-color: transparent;
@@ -587,6 +590,18 @@ hr {
 
   }
   
+  .stinger {
+	position: absolute;
+	top: 146px;
+	left: 88px;
+	width: 0; 
+	height: 0; 
+	border-right: 12px solid transparent;
+	border-top: 18px solid var(--bee-black);
+	border-left: 12px solid transparent ;
+
+  }
+
   .wing {
 	position: absolute;
 	top: 70px;
@@ -594,7 +609,6 @@ hr {
 	height: 25px;
 	background: rgba(255,255,255,0.7);
 	box-shadow: 0px 0px 95px rgba(0, 0, 0, .3), 0 5px 20px 0 rgba(0, 0, 0, 0.3);
-
   }
   
   .wing::after {
