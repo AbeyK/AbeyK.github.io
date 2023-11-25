@@ -5,8 +5,8 @@
 body { 
 	white-space:nowrap;
 	font-family: 'Source Sans Pro';
-  	/* background: #2b3548; */
-	background-image: url(../images/background.jpg);
+  	background: #2b3548;
+	/* background-image: url(../images/background.jpg); */
 	background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -398,10 +398,10 @@ hr {
 
 @keyframes MoveUpDown {
 	0%, 100% {
-		transform: translate(-50%, -50%) rotate(20deg) scale(0.9) translateX(40%) translateY(150%);
+		transform: translate(-50%, -50%) rotate(20deg) scale(0.7) translateX(40%) translateY(150%);
 	}
 	30% {
-		transform: translate(-50%, -50%) rotate(50deg) scale(1) translateX(-120%) translateY(-20%);
+		transform: translate(-50%, -50%) rotate(50deg) scale(.7) translateX(-120%) translateY(-20%);
 	}
 	/* 70% {
 		transform: translate(-50%, -50%) rotate(10deg) scale(1) translateX(50%) translateY(50%);
@@ -413,7 +413,7 @@ hr {
 		transform: translate(-50%, -50%) rotate(5deg) scale(.9) translateX(50px) translateY(50px);
 	} */
 	60% {
-		transform: translate(-50%, -50%) rotate(310deg) scale(0.9) translateX(70%) translateY(80%);
+		transform: translate(-50%, -50%) rotate(310deg) scale(0.7) translateX(70%) translateY(80%);
 	}
   }
 
@@ -438,7 +438,7 @@ hr {
 	margin-bottom: 8%;
 	top: 50%;
 	right: 50%;
-	transform: translate(-50%, -50%) scale(.5);
+	transform: translate(-50%, -50%) scale(.6);
 
 	background: var(--background-color);
 
