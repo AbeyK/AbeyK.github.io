@@ -313,7 +313,7 @@ hr {
 }
 
 .flower {
-	width: 60%;
+	width: 70%;
 	padding-top: 12.5%;
 }
 
@@ -514,59 +514,38 @@ hr {
 	height: 100px;
 	width: 50px;
 	background: linear-gradient(
-		var(--bee-yellow) 0%, 
-		var(--bee-yellow) 5%, 
-
-		var(--bee-black) 10%, 
-		var(--bee-black) 15%, 
-
+		var(--bee-black) 0%, 
+		var(--bee-yellow) 15%, 
 		var(--bee-yellow) 20%, 
-		var(--bee-yellow) 25%,
 
-		var(--bee-black) 30%, 
-		var(--bee-black) 35%, 
+		var(--bee-black) 20%, 
+		var(--bee-black) 50%,
 
-		var(--bee-yellow) 40%, 
-		var(--bee-yellow) 45%,
+		var(--bee-yellow) 50%, 
+		var(--bee-yellow) 65%, 
 
-		var(--bee-black) 50%, 
-		var(--bee-black) 55%, 
-
-		var(--bee-yellow) 60%, 
-		var(--bee-yellow) 65%,
-
-		var(--bee-black) 70%, 
-		var(--bee-black) 75%, 
+		var(--bee-black) 65%, 
+		var(--bee-black) 80%,
 
 		var(--bee-yellow) 80%, 
-		var(--bee-yellow) 85%,
+		var(--bee-yellow) 85%, 
 
-		var(--bee-black) 90%, 
-		var(--bee-black) 95%, 
-
-		var(--bee-yellow) 100% );
+		var(--bee-black) 100%);
 	  
 
 		/* var(--bee-yellow) 0%, 
-		var(--bee-yellow) 5%, 
 
-		var(--bee-black) 10%, 
-		var(--bee-black) 15%, 
+				var(--bee-yellow) 0%, 
 
-		var(--bee-yellow) 20%, 
-		var(--bee-yellow) 25%,
-
-		var(--bee-black) 30%, 
-		var(--bee-black) 35%, 
 
 		var(--bee-yellow) 40%, 
-		var(--bee-yellow) 45%,
+		var(--bee-yellow) 60%,
 
+		var(--bee-yellow) 60%, 
+		var(--bee-yellow) 80%,
 
-
-
-		var(--bee-black) 90%, 
-		var(--bee-black) 95%,  */
+		var(--bee-yellow) 80%, 
+		var(--bee-yellow) 100%,
 
 		/* var(--bee-yellow) 100%,  */
 	border-radius: 50% 50% 40% 40%;
