@@ -364,6 +364,9 @@ hr {
 .flip-back {
 	bottom: 89.5%;
 	left: 1%;
+	color: rgba(255, 255, 255, 0.4);
+	background-color: #4c5061;
+
 }
 
 button,
@@ -376,7 +379,7 @@ input {
 .flip-back:hover,
 .flip:hover {
 	color: var(--accent-color);
-  	transform: scale(1.25);
+  	transform: scale(1.5);
 	cursor: pointer;
 }
 
