@@ -2,12 +2,11 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette');
 @import 'https://fonts.googleapis.com/css?family=Lato:300';
 
-
 :root {
 	--card-front-color: rgba(255, 255, 255, 0.85);
-	--back-background-color: #39183ab3;
+	--back-background-color: #181c3ab3;
 	--accent-color: #4687c7;
-	--front-text-color: #14599a;
+	--front-text-color: #22274d;
 	--accent-gray:#164470ad;
 	--cell-outline-color: #b56d4d;
 	--bee-yellow: #fdd31e;
@@ -18,7 +17,7 @@
 body { 
 	white-space:nowrap;
 	font-family: 'Source Sans Pro';
-  	background-image: radial-gradient(circle, #7d4876, #27273c);
+  	background-image: radial-gradient(circle, #7d486e, #27273c);
 	/* background-image: url(../images/background.jpg); */
 	background-position: center center;
     background-repeat: no-repeat;
@@ -684,4 +683,3 @@ hr {
 			left:0%;
 		} */
 	}
-	
