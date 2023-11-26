@@ -16,7 +16,7 @@ body {
 	white-space:nowrap;
 	font-family: 'Source Sans Pro';
   	background: #ae9558;
-	/* background-image: url(../images/background.jpg); */
+	/* background-image: url(../images/background1.jpg); */
 	background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -76,7 +76,7 @@ body {
 /*	overflow-x: hidden;
     overflow-y: auto;*/
     background-color: var(--card-front-color);
-	box-shadow: -1px 15px 30px -12px black;
+	box-shadow: 10px 10px;
 	/* border: 4px solid #F2F7FF; */
     transform-style: preserve-3d;
 	-webkit-transform-style: preserve-3d;
@@ -309,7 +309,7 @@ hr {
   height: 100%;
   background: #3e6499;
   border-radius: 20px;
-  border: 6px outset #00000036;
+  /* border: 6px outset #00000036; */
   z-index: -10;
   overflow: hidden;
 }
