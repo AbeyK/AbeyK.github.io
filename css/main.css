@@ -4,7 +4,7 @@
 
 
 :root {
-	--card-front-color: rgba(255, 255, 255, 0.9);
+	--card-front-color: rgba(255, 255, 255, 0.85);
 	--back-background-color: #39183ab3;
 	--accent-color: #558ABB;
 	--front-text-color: #154470;
@@ -65,7 +65,9 @@ body {
 		margin-top: 2px;
 		font-size: 1.125em;
 		margin-bottom: 40px;
-		-webkit-text-size-adjust: 100%
+		-webkit-text-size-adjust: 100%;
+		text-shadow: rgba(0, 0, 0, 0.2) 0 0 1px;;
+
 	}
 
 
@@ -217,7 +219,6 @@ a{
 	margin-top: 10px;
 	font-size: 1.75em !important;
 	padding-bottom: 30px;
-	filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.3));
 
 }
 
@@ -359,8 +360,8 @@ hr {
 	position: absolute;
 	font-family: 'Rock Salt';
 	z-index: 100;
-
 }
+
 .flip-back:hover,
 .flip:hover {
 	color: var(--accent-color);
@@ -383,7 +384,7 @@ hr {
 	padding-top: 20%;
 	font-size: 0.9em;
 	margin-bottom: -10px;
-	text-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -392,7 +393,7 @@ hr {
 	/* margin-top: 13%; */
 	padding: 0;
 	color: var(--bee-yellow);
-	text-shadow: rgba(0, 0, 0, 0.5) 0 0 5px;;
+	text-shadow: rgba(0, 0, 0, 0.3) 0 0 3px;;
 }
 
 @keyframes flap-left {
@@ -611,7 +612,6 @@ hr {
     border-radius: 50%;
     display: block;
     margin: 50px auto 0;
-	border: 10px transparent;
 	
 /*	transition: 1.5s;
 */
@@ -634,7 +634,7 @@ hr {
   .uh-image-inner {
 	width: 95%;
 	/* height: 95%; */
-	border: .3em solid var(--card-front-color);
+	border: .3em solid rgba(255, 255, 255, 0.9);
 	object-fit: cover;
 	border-radius: 50%;
 	z-index: 2;
