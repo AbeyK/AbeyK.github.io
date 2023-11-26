@@ -4,7 +4,7 @@
 
 
 :root {
-	--card-front-color: rgba(255, 255, 255, 0.85);
+	--card-front-color: rgba(255, 255, 255, 0.8);
 	--back-background-color: #181c3ab3;
 	--accent-color: #4687c7;
 	--front-text-color: #22274d;
@@ -19,7 +19,7 @@ body {
 	white-space:nowrap;
 	font-family: 'Source Sans Pro';
 	background-color: #2a283e;
-  	background-image:  url(../images/honeycomb.svg), radial-gradient(circle, #7d486e, #27273c);
+  	background-image:  url(../images/honeycomb.svg), radial-gradient(circle, #60424d, #27273c 90%);
 	/* background-image: url(../images/background.jpg); */
 	background-position: center center;
     background-repeat: no-repeat;
@@ -670,7 +670,7 @@ input {
   .uh-image-inner {
 	width: 95%;
 	/* height: 95%; */
-	border: .3em solid #e4e0e4;
+	border: .3em solid #d3cfd1;
 	object-fit: cover;
 	border-radius: 50%;
 	z-index: 2;
