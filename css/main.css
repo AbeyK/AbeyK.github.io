@@ -6,9 +6,9 @@
 :root {
 	--card-front-color: rgba(255, 255, 255, 0.85);
 	--back-background-color: #39183ab3;
-	--accent-color: #558ABB;
-	--front-text-color: #154470;
-	--accent-gray:#abaaa7;
+	--accent-color: #4687c7;
+	--front-text-color: #14599a;
+	--accent-gray:#164470ad;
 	--cell-outline-color: #b56d4d;
 	--bee-yellow: #fdd31e;
 	--bee-black: #000;
@@ -175,13 +175,13 @@ a{
 }
 
 .fa-github-alt {
-	opacity: 50%;
-	color: black;
+	opacity: 70%;
+	color: #4b3553;
 }
 
 .fa-github-alt:hover {
 	opacity: 100%;
-	color: black;
+	color: #4b3553;
 	transform: scale(1.05);
 }
 
@@ -272,7 +272,7 @@ a {
 hr {
     border: 0;
     height: 1px;
-	background: var(--front-text-color);
+	background: var(--accent-gray);
 
     margin-left: 15px;
     margin-right: 15px;
@@ -348,17 +348,15 @@ hr {
 }
 .flip,
 .flip-back {
-	background-color: rgb(240 238 235 / 0%);
-	border-radius: 50%;
-	border-width: 0;
-	padding: 0;
-	margin: 0;
+	background-color: rgba(240, 238, 235, 0.881);
+	border-radius: 20px;
 	font-size: 2.4em;
-	font-weight: lighter;
 	color: var(--accent-gray);
 	cursor: pointer;
+	border: 0;
 	position: absolute;
 	z-index: 100;
+	font-family: 'Courier New', Courier, monospace;
 }
 
 .flip-back:hover,
