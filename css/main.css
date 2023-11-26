@@ -241,19 +241,22 @@ a {
 	font-size: 14px;
 	font-weight: bold;
     visibility: hidden;
-    width: 100px;
-    background-color:var(--back-background-color);
-    color: #fff;
+    width: 80px;
+	background-color:#5a6ea2;
     text-align: center;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 15px;
-    padding: 0px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 8px;
+	border: 1px solid #b5b1b4;
+	border-bottom: 0;
     position: absolute;
     z-index: 99;
-    top: 65%;
-    left: 53%;
+    top: 69%;
+    left: 85%;
     margin-left: -51px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	color: rgba(255, 255, 255, .9);
 }
 
 .tooltip .tooltiptext::after {
@@ -264,7 +267,7 @@ a {
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: transparent transparent black transparent;
+    border-color: transparent transparent #b5b1b4 transparent;
 }
 
 .tooltip:hover .tooltiptext {
@@ -359,14 +362,14 @@ hr {
 }
 
 .flip {
-	bottom: 90%;
+	bottom: 90.25%;
 	left: 88%;
 	color: rgba(22, 68, 112, 0.4);
 	background-color: #a7b2c7ad;
 
 }
 .flip-back {
-	bottom: 90%;
+	bottom: 90.25%;
 	left: 1%;
 	color: rgba(255, 255, 255, 0.4);
 	background-color: #4c5061;
@@ -380,11 +383,19 @@ input {
 	appearance: none;
 }
 
-.flip-back:hover,
 .flip:hover {
 	color: var(--accent-color);
   	transform: scale(1.4);
 	cursor: pointer;
+	border-radius: 0px 10px 0 10px;
+}
+
+.flip-back:hover{
+	color: var(--accent-color);
+	transform: scale(1.4);
+	cursor: pointer;
+	border-radius: 10px 0 10px 0px;
+
 }
 
 .back-title,
