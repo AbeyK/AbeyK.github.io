@@ -281,7 +281,11 @@ hr {
 .wing-left,
 .wing-right,
 .bee::before,
-.bee::after {
+.bee::after,
+.uh-image,
+.uh-image-inner,
+.gradient,
+.profile {
     backface-visibility: hidden;
     -webkit-perspective: 0;
     -webkit-backface-visibility: hidden;
