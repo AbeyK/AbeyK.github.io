@@ -338,14 +338,7 @@ hr {
 	filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.3));
 }
 
-.flip {
-	bottom: 95%;
-	left: 90%;
-}
-.flip-back {
-	bottom: 85%;
-	left: 0%;
-}
+
 .flip,
 .flip-back {
 	background-color: rgba(240, 238, 235, 0.881);
@@ -360,6 +353,17 @@ hr {
 	font-weight: lighter;
 	padding-left: 5px;
 	padding-right: 5px;
+}
+
+.flip {
+	bottom: 95%;
+	left: 90%;
+	background-color: #a7b2c7ad;
+
+}
+.flip-back {
+	bottom: 85%;
+	left: 0%;
 }
 
 button,
