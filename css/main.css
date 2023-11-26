@@ -327,11 +327,11 @@ hr {
 
 .flower {
 	position: absolute;
-	width: 70%;
+	width: 75%;
     left: 50%;
-	top:0;
+	bottom:-3%;
     transform: translate(-50%, 0);
-	height: 70%;
+	height: 75%;
 	padding-top: 50%;
 	opacity: 100%;
 	-webkit-filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.3));
@@ -404,10 +404,10 @@ input {
 
 .back-attribution {
 	position: absolute;
-	font-size: 1.45em;
+	font-size: 1.1em;
 	text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
-	left: 10%;
-	top: 90%;
+	left: 12%;
+	top: 92%;
 }
 
 @keyframes flap-left {
