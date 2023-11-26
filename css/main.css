@@ -17,6 +17,7 @@
 body { 
 	white-space:nowrap;
 	font-family: 'Source Sans Pro';
+	background-color: var(--back-background-color);
   	background-image: radial-gradient(circle, #7d486e, #27273c);
 	/* background-image: url(../images/background.jpg); */
 	background-position: center center;
