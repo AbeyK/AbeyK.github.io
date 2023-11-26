@@ -673,7 +673,10 @@ input {
 			/* padding-bottom: 30px; */
 
 		}
-	
+		.uh-image {
+			width: 70vw;
+			height: 70vw;
+		}
 		.name {
 			font-size: 8.5vw;
 			margin-top: 40px;
