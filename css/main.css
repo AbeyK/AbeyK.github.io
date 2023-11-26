@@ -6,6 +6,7 @@
 :root {
 	--card-front-color: #e1dfdd;
 	--background-color: #335b8a;
+	--accent-color: #364967;
 	--cell-outline-color: #b56d4d;
 	--bee-yellow: #FFC436;
 	--bee-black: #000;
@@ -68,21 +69,22 @@ body {
 	/* transition: .75; */
     width: 320px;
 	padding: 5px;
-	padding-bottom: 30px;
-    padding-top: 10px;
+	/* padding-bottom: 10px; */
+    /* padding-top: 10px; */
 /*	overflow: hidden;*/
 	position: relative;
     border-radius: 20px;
 /*	overflow-x: hidden;
     overflow-y: auto;*/
     background-color: var(--card-front-color);
-	box-shadow: 10px 10px;
-	/* border: 4px solid #F2F7FF; */
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+	border: 6px outset #00000036;
     transform-style: preserve-3d;
 	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;
 	transform-style: preserve-3d;
-	perspective: 800px;	/* box-shadow: 0 0 50px rgba(0,0,0,0.5); */
+	perspective: 800px;	
+	/* box-shadow: 0 0 50px rgba(0,0,0,0.5); */
 	/* border: 5px outset #00000036; */
 }
 
@@ -209,7 +211,9 @@ a{
 .fa {
 	text-align: center;
 	margin-top: 10px;
-	font-size: 1.75em !important;}
+	font-size: 1.75em !important;
+	padding-bottom: 30px;
+}
 
 
 a { 
@@ -300,16 +304,16 @@ hr {
 	height: 100%;
 }
 .back {
+  width: 100%;
+  height: 100%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) rotateY(180deg);
   position: fixed;
   color: rgb(255, 255, 255);
-  width: 100%;
-  height: 100%;
   background: #3e6499;
   border-radius: 20px;
-  /* border: 6px outset #00000036; */
+  border: 6px outset #00000036;
   z-index: -10;
   overflow: hidden;
 }
@@ -326,24 +330,27 @@ hr {
 }
 
 .flip {
-	bottom: 98%;
-	left: 89.5%;
+	bottom: 95%;
+	left: 90%;
 }
 .flip-back {
-	bottom: 89.5%;
-	left: 2%;
+	bottom: 85%;
+	left: 5%;
 }
 .flip,
 .flip-back {
 	background-color: rgb(240 238 235 / 0%);
 	border-radius: 50%;
 	border-width: 0;
+	padding: 0;
+	margin: 0;
 	font-size: 2.4em;
 	font-weight: lighter;
 	color: #abaaa7;
 	cursor: pointer;
 	position: absolute;
 	font-family: 'Rock Salt';
+	z-index: 100;
 
 }
 .flip-back:hover,
@@ -380,6 +387,7 @@ hr {
 	/* margin-top: 13%; */
 	padding: 0;
 	color: var(--bee-yellow);
+	text-shadow: 3px 3px #558ABB;
 }
 
 @keyframes flap-left {
@@ -661,8 +669,8 @@ hr {
 	}
 
   .uh-image {
-	width: 17rem;
-	height: 17rem;
+	width: 16rem;
+	height: 16rem;
 	border-radius: 50%;
 	position: relative;
 	display: flex;
@@ -696,7 +704,7 @@ hr {
 		 }*/
 		.card {
 			width: 80%;
-			padding-bottom: 30px;
+			/* padding-bottom: 30px; */
 
 		}
 	
@@ -717,14 +725,16 @@ hr {
 		.fa {
 			text-align: center;
 			margin-top: 10px;
-			font-size: 8.0vw !important;}
+			font-size: 8.0vw !important;
+			padding-bottom: 30px;
+		}
 	
-		.flip {
+		/* .flip {
 			left:80%;
 		}
 		
 		.flip-back {
 			left:0%;
-		}
+		} */
 	}
 	
