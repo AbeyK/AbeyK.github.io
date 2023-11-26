@@ -314,7 +314,7 @@ hr {
   color: rgb(255, 255, 255);
   background: var(--back-background-color);
   border-radius: 20px;
-  border: 6px outset #00000036;
+  border: 8px outset #00000036;
   z-index: -10;
   overflow: hidden;
 }
