@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette');
 @import 'https://fonts.googleapis.com/css?family=Lato:300';
 
+
 :root {
 	--card-front-color: rgba(255, 255, 255, 0.85);
 	--back-background-color: #181c3ab3;
@@ -177,17 +178,19 @@ a{
 .fa-github-alt {
 	opacity: 70%;
 	color: #4b3553;
+	transform: scale(1.03);
+
 }
 
 .fa-github-alt:hover {
 	opacity: 100%;
 	color: #4b3553;
-	transform: scale(1.05);
+	transform: scale(1.08);
 }
 
 .fa-file-text-o {
 	opacity: 70%;
-	transform: scale(.9);
+	transform: scale(.85) translateY(-3px);
 	color: #4281f5;
 }
 
@@ -247,9 +250,9 @@ a {
     border-radius: 15px;
     padding: 0px;
     position: absolute;
-    z-index: 1;
-    top: 125%;
-    left: 50%;
+    z-index: 99;
+    top: 65%;
+    left: 53%;
     margin-left: -51px;
 }
 
@@ -349,20 +352,21 @@ hr {
 	border: 0;
 	position: absolute;
 	z-index: 100;
-	font-family: 'Courgette';
-	font-weight: lighter;
 	padding-left: 5px;
 	padding-right: 5px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: normal;
 }
 
 .flip {
-	bottom: 89.5%;
+	bottom: 90%;
 	left: 88%;
+	color: rgba(22, 68, 112, 0.4);
 	background-color: #a7b2c7ad;
 
 }
 .flip-back {
-	bottom: 89.5%;
+	bottom: 90%;
 	left: 1%;
 	color: rgba(255, 255, 255, 0.4);
 	background-color: #4c5061;
@@ -379,7 +383,7 @@ input {
 .flip-back:hover,
 .flip:hover {
 	color: var(--accent-color);
-  	transform: scale(1.5);
+  	transform: scale(1.4);
 	cursor: pointer;
 }
 
