@@ -634,7 +634,7 @@ hr {
   .uh-image-inner {
 	width: 95%;
 	/* height: 95%; */
-	border: .3em solid rgba(255, 255, 255, 0.9);
+	border: .3em solid #e4e0e4;
 	object-fit: cover;
 	border-radius: 50%;
 	z-index: 2;
