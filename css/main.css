@@ -376,8 +376,8 @@ input {
 }
 
 .back-title,
-.back-name{
-	font-weight: bolder;
+.back-name,
+.back-attribution {
 	margin: 0;
 	padding: 0%;
 	color: #e3e2d5;
@@ -389,17 +389,25 @@ input {
 
 .back-title {
 	padding-top: 15%;
-	font-size: 1.5em;
+	font-size: 1.45em;
 	text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
 }
 
-
 .back-name {
-	font-size: 2.3em;
+	font-size: 2.2em;
 	/* margin-top: 13%; */
 	padding: 0;
 	color: #f6ac3d;
 	text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.back-attribution {
+	position: absolute;
+	font-size: 1.45em;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+	left: 8%;
+	top: 90%;
+	color: var(--bee-yellow);
 }
 
 @keyframes flap-left {
