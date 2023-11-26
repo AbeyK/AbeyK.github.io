@@ -9,7 +9,7 @@
 	--front-text-color: #22274d;
 	--accent-gray:#164470ad;
 	--cell-outline-color: #b56d4d;
-	--bee-yellow: #fdd31e;
+	--bee-yellow: #ffc337;
 	--bee-black: #000;
 	--bee-white: #FFF0CE;
   }
@@ -398,7 +398,7 @@ input {
 	font-size: 2.2em;
 	/* margin-top: 13%; */
 	padding: 0;
-	color: #f6ac3d;
+	color: var(--bee-yellow);
 	text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
 }
 
@@ -489,21 +489,21 @@ input {
 	width: 50px;
 	background: linear-gradient(
 		var(--bee-black) 0%,
-		var(--bee-black) 5%,
+		var(--bee-black) 18%,
 
-		var(--bee-yellow) 5%,
-		var(--bee-yellow) 25%,
+		var(--bee-yellow) 15%,
+		var(--bee-yellow) 30%,
 
-		var(--bee-black) 25%,
-		var(--bee-black) 45%,
+		var(--bee-black) 30%,
+		var(--bee-black) 50%,
 
-		var(--bee-yellow) 45%,
-		var(--bee-yellow) 60%,
+		var(--bee-yellow) 50%,
+		var(--bee-yellow) 65%,
 
-		var(--bee-black) 60%,
-		var(--bee-black) 75%,
+		var(--bee-black) 65%,
+		var(--bee-black) 80%,
 
-		var(--bee-yellow) 75%,
+		var(--bee-yellow) 80%,
 		var(--bee-yellow) 95%,
 
 		var(--bee-black) 95%,
