@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300');
-@import url('https://fonts.googleapis.com/css?family=Rock Salt');
+@import url('https://fonts.googleapis.com/css?family=Courgette');
 @import 'https://fonts.googleapis.com/css?family=Lato:300';
 
 
@@ -10,7 +10,7 @@
 	--front-text-color: #154470;
 	--accent-gray:#abaaa7;
 	--cell-outline-color: #b56d4d;
-	--bee-yellow: #FFC436;
+	--bee-yellow: #fdd31e;
 	--bee-black: #000;
 	--bee-white: #FFF0CE;
   }
@@ -358,7 +358,6 @@ hr {
 	color: var(--accent-gray);
 	cursor: pointer;
 	position: absolute;
-	font-family: 'Rock Salt';
 	z-index: 100;
 }
 
@@ -374,26 +373,24 @@ hr {
 	font-weight: bolder;
 	margin: 0;
 	padding: 0%;
-	color: var(--bee-white);
-
+	color: #e3e2d5;
 	/* background-color: #0074b1; */
-	font-family: 'Rock Salt';
+	font-family: 'Courgette';
 }
 
 .back-title {
 	padding-top: 20%;
-	font-size: 0.9em;
-	margin-bottom: -10px;
+	font-size: 1.2em;
 	text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
 }
 
 
 .back-name {
-	font-size: 1.6em;
+	font-size: 2.2em;
 	/* margin-top: 13%; */
 	padding: 0;
-	color: var(--bee-yellow);
-	text-shadow: rgba(0, 0, 0, 0.3) 0 0 3px;;
+	color: #f6ac3d;
+	text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
 }
 
 @keyframes flap-left {
@@ -419,10 +416,10 @@ hr {
 
 @keyframes MoveUpDown {
 	0%, 100% {
-		transform: translate(-50%, -50%) rotate(20deg) scale(0.7) translateX(40%) translateY(150%);
+		transform: translate(-50%, -50%) rotate(20deg) scale(0.5) translateX(40%) translateY(150%);
 	}
 	30% {
-		transform: translate(-50%, -50%) rotate(50deg) scale(.7) translateX(-120%) translateY(-20%);
+		transform: translate(-50%, -50%) rotate(50deg) scale(.65) translateX(-120%) translateY(-20%);
 	}
 	/* 70% {
 		transform: translate(-50%, -50%) rotate(10deg) scale(1) translateX(50%) translateY(50%);
@@ -434,7 +431,7 @@ hr {
 		transform: translate(-50%, -50%) rotate(5deg) scale(.9) translateX(50px) translateY(50px);
 	} */
 	60% {
-		transform: translate(-50%, -50%) rotate(310deg) scale(0.7) translateX(70%) translateY(80%);
+		transform: translate(-50%, -50%) rotate(310deg) scale(.8) translateX(70%) translateY(80%);
 	}
   }
 
