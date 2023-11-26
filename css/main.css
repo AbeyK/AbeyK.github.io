@@ -17,7 +17,7 @@
 body { 
 	white-space:nowrap;
 	font-family: 'Source Sans Pro';
-	background-color: var(--back-background-color);
+	background-color: #27273c;
   	background-image: radial-gradient(circle, #7d486e, #27273c);
 	/* background-image: url(../images/background.jpg); */
 	background-position: center center;
@@ -344,7 +344,7 @@ hr {
 }
 .flip-back {
 	bottom: 85%;
-	left: 5%;
+	left: 0%;
 }
 .flip,
 .flip-back {
@@ -357,6 +357,9 @@ hr {
 	position: absolute;
 	z-index: 100;
 	font-family: 'Courier New', Courier, monospace;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;	
 }
 
 .flip-back:hover,
