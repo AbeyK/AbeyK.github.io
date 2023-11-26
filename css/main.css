@@ -7,7 +7,7 @@
 	--card-front-color: #e1dfdd;
 	--back-background-color: #154071;
 	--accent-color: #558ABB;
-	--accent-gray:#808080;
+	--accent-gray:#abaaa7;
 	--cell-outline-color: #b56d4d;
 	--bee-yellow: #FFC436;
 	--bee-black: #000;
@@ -214,7 +214,6 @@ a{
 	margin-top: 10px;
 	font-size: 1.75em !important;
 	padding-bottom: 30px;
-	color: var(--accent-gray);
 }
 
 
@@ -375,7 +374,7 @@ hr {
 
 .back-title {
 	padding-top: 20%;
-	font-size: 0.8em;
+	font-size: 0.9em;
 	margin-bottom: -10px;
 }
 
