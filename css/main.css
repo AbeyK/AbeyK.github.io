@@ -4,7 +4,7 @@
 
 
 :root {
-	--card-front-color: rgba(255,255,255,1);
+	--card-front-color: #e1dfdd;
 	--background-color: #335b8a;
 	--cell-outline-color: #b56d4d;
 	--bee-yellow: #FFC436;
@@ -15,7 +15,7 @@
 body { 
 	white-space:nowrap;
 	font-family: 'Source Sans Pro';
-  	background: #ae9558;
+  	background: #4a3e2378;
 	/* background-image: url(../images/background1.jpg); */
 	background-position: center center;
     background-repeat: no-repeat;
