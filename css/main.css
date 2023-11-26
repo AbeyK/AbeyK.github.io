@@ -342,7 +342,7 @@ hr {
 .flip,
 .flip-back {
 	background-color: rgba(240, 238, 235, 0.881);
-	border-radius: 20px;
+	border-radius: 10px;
 	font-size: 2.4em;
 	color: var(--accent-gray);
 	cursor: pointer;
@@ -356,14 +356,14 @@ hr {
 }
 
 .flip {
-	bottom: 95%;
-	left: 90%;
+	bottom: 89.5%;
+	left: 88%;
 	background-color: #a7b2c7ad;
 
 }
 .flip-back {
-	bottom: 85%;
-	left: 0%;
+	bottom: 89.5%;
+	left: 1%;
 }
 
 button,
