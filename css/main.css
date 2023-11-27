@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300');
 @import url('https://fonts.googleapis.com/css?family=Courgette');
-@import 'https://fonts.googleapis.com/css?family=Lato:300';
-
+@import 'https://fonts.googleapis.com/css?family=Overpass';
 
 :root {
 	--card-front-color: rgba(255, 255, 255, 0.8);
@@ -366,12 +365,12 @@ hr {
 	z-index: 100;
 	padding-left: 5px;
 	padding-right: 5px;
-	font-family: Roboto !important;
+	font-family: 'Overpass';
 	font-weight: normal;
 }
 
 .flip {
-	bottom: 90.25%;
+	bottom: 89.5%;
 	left: 88%;
 	color: rgba(22, 68, 112, 0.4);
 	background-color: #a7b2c7ad;
