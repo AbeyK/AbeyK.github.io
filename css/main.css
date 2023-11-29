@@ -367,6 +367,7 @@ hr {
 	padding-right: 5px;
 	font-family: 'Overpass';
 	font-weight: normal;
+	z-index: 100;
 }
 
 .flip {
