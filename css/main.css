@@ -50,8 +50,8 @@ img {
   pointer-events: none;
 }
 
-.fadeInLoad {
-    animation: fadeInLoad 1.5s;
+/*.fadeInLoad {
+    animation: fadeInLoad 0.1s;
 }
 
 @keyframes fadeInLoad {
@@ -62,7 +62,7 @@ img {
         opacity:1;
     }
 }
-
+*/
 	.name {
 		font-size: 1.9em;
 		margin-bottom: 4px;
