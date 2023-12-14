@@ -314,7 +314,9 @@ hr {
 .uh-image,
 .uh-image-inner,
 .gradient,
-.profile {
+.profile,
+a, 
+.fa {
     backface-visibility: hidden;
     -webkit-perspective: 0;
     -webkit-backface-visibility: hidden;
@@ -366,12 +368,10 @@ hr {
 	cursor: pointer;
 	border: 0;
 	position: absolute;
-	z-index: 100;
 	padding-left: 5px;
 	padding-right: 5px;
 	font-family: 'Overpass';
 	font-weight: normal;
-	z-index: 100;
 }
 
 .flip {
