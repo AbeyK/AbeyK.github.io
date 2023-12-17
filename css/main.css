@@ -4,7 +4,7 @@
 
 :root {
 	--card-front-color: rgba(255, 255, 255, 0.8);
-	--back-background-color: #181c3ab3;
+	--back-background-color: #444965;
 	--accent-color: #4687c7;
 	--front-text-color: #22274d;
 	--accent-gray:#164470ad;
@@ -22,7 +22,7 @@ body {
 	white-space:nowrap;
 	font-family: 'Source Sans Pro';
 	background-color: #2a283e;
-  	background-image:  url(../images/honeycomb.svg), radial-gradient(circle, #60424d, #27273c 90%);
+  	background-image:  url(../images/honeycomb.svg);
 	/* background-image: url(../images/background.jpg); */
 	background-position: center center;
     background-repeat: no-repeat;
@@ -97,7 +97,7 @@ img {
     overflow-y: auto;*/
     background-color: var(--card-front-color);
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
-	border: 6px outset #00000036;
+	border: 6px inset #00000036;
     transform-style: preserve-3d;
 	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;
@@ -341,7 +341,7 @@ a,
   color: rgb(255, 255, 255);
   background: var(--back-background-color);
   border-radius: 20px;
-  border: 8px outset #00000036;
+  border: 3px inset; #353a50;
   z-index: -10;
   overflow: hidden;
 }
@@ -386,7 +386,7 @@ a,
 	bottom: 89.5%;
 	left: 1%;
 	color: rgba(255, 255, 255, 0.4);
-	background-color: #4c5061;
+	background-color: #353a50;
 
 }
 
