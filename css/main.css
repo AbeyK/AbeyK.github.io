@@ -316,6 +316,7 @@ hr {
 .gradient,
 .profile,
 a, 
+.link,
 .fa {
     backface-visibility: hidden;
     -webkit-perspective: 0;
