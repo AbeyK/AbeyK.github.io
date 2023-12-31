@@ -724,9 +724,9 @@ input {
 		}
 		.name {
 			font-size: 8.5vw;
-			margin-top: 30px;
+			margin-top: 32px;
 			margin-bottom: 6px;
-/*			font-weight: normal;*/
+			font-weight: normal;
 			-webkit-text-size-adjust: 100%
 		}
 
