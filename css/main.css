@@ -64,7 +64,7 @@ img {
 }
 */
 	.name {
-		font-size: 1.9em;
+		font-size: 2em;
 		margin-bottom: 4px;
 		font-weight: bold;
 		margin-top: 33px;
@@ -76,7 +76,7 @@ img {
 
 	.info {
 		margin-top: 2px;
-		font-size: 1.125em;
+		font-size: 1.15em;
 		margin-bottom: 35px;
 		-webkit-text-size-adjust: 100%;
 		/* text-shadow: rgba(0, 0, 0, 0.2) 0 0 1px;; */
@@ -86,7 +86,7 @@ img {
 
 .card {
 	/* transition: .75; */
-    width: 315px;
+    width: 300px;
 /*	padding: 5px;*/
 	/* padding-bottom: 10px; */
     /* padding-top: 10px; */
@@ -680,8 +680,8 @@ input {
 	}
 
   .uh-image {
-	width: 16rem;
-	height: 16rem;
+	width: 15rem;
+	height: 15rem;
 	border-radius: 50%;
 	position: relative;
 	display: flex;
@@ -692,8 +692,8 @@ input {
 
   }
   .uh-image-inner {
-	width: 95%;
-	/* height: 95%; */
+	width: 96%;
+	height: 96%; 
 	border: .2em solid #d3cfd1;
 	object-fit: cover;
 	border-radius: 50%;
