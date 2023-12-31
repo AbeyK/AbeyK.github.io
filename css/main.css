@@ -702,10 +702,10 @@ input {
   .gradient {
 	width: 96%;
 	height: 96%;
-	padding: .3em;
+	padding: .35em;
 	position: absolute;
 	border-radius: 50%;
-	background: var(--back-background-color);
+	background: linear-gradient(45deg, #ffc600 0%, #c003b3 100%);
   }
 
 
@@ -719,8 +719,8 @@ input {
 
 		}
 		.uh-image {
-			width: 70vw;
-			height: 70vw;
+			width: 68vw;
+			height: 68vw;
 		}
 		.name {
 			font-size: 9vw;
@@ -733,14 +733,14 @@ input {
 		.info {
 			margin-top: 2px;
 			margin-bottom: 40px;
-			font-size: 4.8vw;
+			font-size: 4.9vw;
 			-webkit-text-size-adjust: 100%
 		}
 		.fa {
 			text-align: center;
 /*			margin-top: 10px;*/
 			font-size: 8.0vw !important;
-			padding-bottom: 24px;
+			padding-bottom: 26px;
 		}
 
 		/* .flip {
