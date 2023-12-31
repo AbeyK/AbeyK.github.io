@@ -105,6 +105,7 @@ img {
 	perspective: 800px;
 	/* box-shadow: 0 0 50px rgba(0,0,0,0.5); */
 	/* border: 5px outset #00000036; */
+/*	aspect-ratio: 6.5/10;*/
 }
 
 
@@ -167,15 +168,10 @@ b {
   );
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-}
-
-a{
-  display:inline-block;
-  transform: scale(1.05);
-  margin-left: 2px;
-  font-weight: bold;
+	font-weight: bold;
 
 }
+
 .fa-linkedin {
 	opacity: 70%;
 	color: #0074b1;
@@ -324,8 +320,10 @@ hr {
 .uh-image-inner,
 .gradient,
 .profile,
-a, 
 .link,
+.instagram,
+.info,
+a, 
 .bottom,
 .fa {
     backface-visibility: hidden;
@@ -379,22 +377,21 @@ a,
 	cursor: pointer;
 	border: 0;
 	position: absolute;
-	padding-left: 5px;
-	padding-right: 5px;
+	padding-left: 10px;
+	padding-right: 8px;
 	font-family: 'Overpass';
 	font-weight: normal;
+	right: 0;
+	border-radius: 0px 10px 0 10px;
+
 }
 
 .flip {
-	bottom: 91%;
-	left: 89%;
 	color: rgba(22, 68, 112, 0.4);
 	background-color: #a7b2c7ad;
 
 }
 .flip-back {
-	bottom: 91%;
-	left: 0%;
 	color: rgba(255, 255, 255, 0.4);
 	background-color: #353a50;
 
@@ -409,16 +406,14 @@ input {
 
 .flip:hover {
 	color: var(--accent-color);
-  	transform: scale(1.25);
-	cursor: pointer;
 	border-radius: 0px 10px 0 10px;
+	font-size: 2.3em;
 }
 
 .flip-back:hover{
 	color: var(--accent-color);
-	transform: scale(1.2);
-	cursor: pointer;
-	border-radius: 10px 0 10px 0px;
+	border-radius: 0px 10px 0 10px;
+	font-size: 2.3em;
 
 }
 
@@ -672,6 +667,7 @@ input {
     border-radius: 50%;
     display: block;
     margin: 40px auto 0;
+    margin-top: 45px;
 
 /*	transition: 1.5s;
 */
@@ -714,7 +710,7 @@ input {
 			overflow: hidden;
 		 }*/
 		.card {
-			width: 80%;
+			width: 85%;
 			/* padding-bottom: 30px; */
 
 		}
@@ -722,6 +718,7 @@ input {
 			width: 68vw;
 			height: 68vw;
 		}
+
 		.name {
 			font-size: 9vw;
 			margin-top: 34px;
@@ -743,11 +740,8 @@ input {
 			padding-bottom: 26px;
 		}
 
-		/* .flip {
-			left:80%;
+		.flip, .flip-back, .flip:hover, .flip-back:hover {
+			font-size: 11vw;
 		}
 
-		.flip-back {
-			left:0%;
-		} */
 	}
