@@ -326,6 +326,7 @@ hr {
 .profile,
 a, 
 .link,
+.bottom,
 .fa {
     backface-visibility: hidden;
     -webkit-perspective: 0;
@@ -713,7 +714,7 @@ input {
 			overflow: hidden;
 		 }*/
 		.card {
-			width: 84%;
+			width: 80%;
 			/* padding-bottom: 30px; */
 
 		}
@@ -725,7 +726,7 @@ input {
 			font-size: 8.5vw;
 			margin-top: 30px;
 			margin-bottom: 6px;
-			font-weight: normal;
+/*			font-weight: normal;*/
 			-webkit-text-size-adjust: 100%
 		}
 
