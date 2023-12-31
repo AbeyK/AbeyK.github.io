@@ -723,8 +723,8 @@ input {
 			height: 70vw;
 		}
 		.name {
-			font-size: 8.5vw;
-			margin-top: 32px;
+			font-size: 9vw;
+			margin-top: 34px;
 			margin-bottom: 6px;
 			font-weight: normal;
 			-webkit-text-size-adjust: 100%
@@ -732,7 +732,7 @@ input {
 
 		.info {
 			margin-top: 2px;
-			margin-bottom: 45px;
+			margin-bottom: 40px;
 			font-size: 4.8vw;
 			-webkit-text-size-adjust: 100%
 		}
