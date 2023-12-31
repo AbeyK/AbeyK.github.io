@@ -4,7 +4,7 @@
 
 :root {
 	--card-front-color: rgba(255, 255, 255, 0.8);
-	--back-background-color: #2d3f5d;
+	--back-background-color: #26304a;
 	--accent-color: #4687c7;
 	--front-text-color: #22274d;
 	--accent-gray:#164470ad;
@@ -385,15 +385,15 @@ a,
 }
 
 .flip {
-	bottom: 89.5%;
-	left: 88%;
+	bottom: 91%;
+	left: 89%;
 	color: rgba(22, 68, 112, 0.4);
 	background-color: #a7b2c7ad;
 
 }
 .flip-back {
-	bottom: 89.5%;
-	left: 1%;
+	bottom: 91%;
+	left: 0%;
 	color: rgba(255, 255, 255, 0.4);
 	background-color: #353a50;
 
@@ -408,7 +408,7 @@ input {
 
 .flip:hover {
 	color: var(--accent-color);
-  	transform: scale(1.2);
+  	transform: scale(1.25);
 	cursor: pointer;
 	border-radius: 0px 10px 0 10px;
 }
