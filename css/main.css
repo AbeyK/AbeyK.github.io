@@ -4,7 +4,7 @@
 
 :root {
 	--card-front-color: rgba(255, 255, 255, 0.8);
-	--back-background-color: #26304a;
+	--back-background-color: #304560;
 	--accent-color: #4687c7;
 	--front-text-color: #22274d;
 	--accent-gray:#164470ad;
@@ -388,12 +388,12 @@ a,
 
 .flip {
 	color: rgba(22, 68, 112, 0.4);
-	background-color: #a7b2c7ad;
+	background-color: #abb5c8ad;
 
 }
 .flip-back {
 	color: rgba(255, 255, 255, 0.4);
-	background-color: #353a50;
+	background-color: #4c5669ad;
 
 }
 
