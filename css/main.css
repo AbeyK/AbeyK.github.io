@@ -689,7 +689,7 @@ input {
   .uh-image-inner {
 	width: 96%;
 	height: 96%; 
-	border: .2em solid #d3cfd1;
+	border: .2em solid #d4d5d8;
 	object-fit: cover;
 	border-radius: 50%;
 	z-index: 2;
