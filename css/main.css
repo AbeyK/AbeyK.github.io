@@ -452,12 +452,12 @@ input {
 
 @keyframes flap-left {
     0%, 100% { transform: skew(0deg) scale(0.9); }
-    50% { transform: skew(20deg) scale(1.1); }
+    50% { transform: skew(20deg) scale(1.2); }
 }
 
 @keyframes flap-right {
     0%,100% { transform: skew(0deg) scale(0.9);}
-    50% { transform: skew(-20deg) scale(1.1); }
+    50% { transform: skew(-20deg) scale(1.2); }
 }
 
 
@@ -473,14 +473,11 @@ input {
 
 @keyframes MoveUpDown {
 	0%, 100% {
-		transform: translate(-50%, -50%) rotate(20deg) scale(0.5) translateX(40%) translateY(150%);
+		transform: translate(-50%, -50%) rotate(20deg) scale(0.49) translateX(20%) translateY(230%);
 	}
 	30% {
-		transform: translate(-50%, -50%) rotate(50deg) scale(.65) translateX(-120%) translateY(-20%);
+		transform: translate(-50%, -50%) rotate(55deg) scale(.5) translateX(-220%) translateY(0%);
 	}
-	/* 70% {
-		transform: translate(-50%, -50%) rotate(10deg) scale(1) translateX(50%) translateY(50%);
-	} */
 	/* 75% {
 		transform: translate(-50%, -50%) rotate(20deg) scale(.8) translateX(10px) translateY(0px);
 	} */
@@ -488,7 +485,7 @@ input {
 		transform: translate(-50%, -50%) rotate(5deg) scale(.9) translateX(50px) translateY(50px);
 	} */
 	60% {
-		transform: translate(-50%, -50%) rotate(310deg) scale(.8) translateX(70%) translateY(80%);
+		transform: translate(-50%, -50%) rotate(280deg) scale(.51) translateX(30%) translateY(180%);
 	}
   }
 
@@ -517,7 +514,7 @@ input {
 	transform: translate(-50%, -50%) rotate(-30deg);
 	width: 200px;
 	height: 200px;
-	animation: MoveUpDown ease-in-out 20s infinite;
+	animation: MoveUpDown ease-in-out 18s infinite;
   }
 
   .bee {
@@ -525,8 +522,8 @@ input {
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
-	height: 100px;
-	width: 50px;
+	height: 95px;
+	width: 60px;
 	background: linear-gradient(
 		var(--bee-black) 0%,
 		var(--bee-black) 18%,
@@ -565,9 +562,8 @@ input {
 		var(--bee-yellow) 100%,
 
 		/* var(--bee-yellow) 100%,  */
-	border-radius: 50% 50% 40% 40%;
+	border-radius: 50%;
 	box-shadow: 5px 5px 5px rgba(0, 0, 0, .3), -5px 5px 5px 0 rgba(0, 0, 0, 0.3);
-
 
   }
 
@@ -576,11 +572,11 @@ input {
 	content: '';
 	position: absolute;
 	top: -10px;
-	right: 25px;
+	right: 28px;
 	height: 10px;
 	width: 15px;
-	border: 2px solid var(--bee-black);
-	border-radius: 50% 50% 0% 0%;
+	border: 5px solid var(--bee-black);
+	border-radius: 50%;
 	border-left-color: transparent;
 	border-bottom-color: transparent;
 	animation: flap-right-ant 1s infinite;
@@ -592,11 +588,11 @@ input {
 	content: '';
 	position: absolute;
 	top: -10px;
-	right: 3px;
+	right: 0px;
 	height: 10px;
 	width: 15px;
-	border: 2px solid var(--bee-black);
-	border-radius: 50% 50% 0% 0%;
+	border: 5px solid var(--bee-black);
+	border-radius: 50%;
 	border-right-color: transparent;
 	border-bottom-color: transparent;
 	animation: flap-left-ant 1s infinite;
@@ -605,59 +601,60 @@ input {
 
   .stinger {
 	position: absolute;
-	top: 146px;
+	top: 145px;
 	left: 88px;
 	width: 0;
 	height: 0;
 	border-right: 12px solid transparent;
 	border-top: 18px solid var(--bee-black);
 	border-left: 12px solid transparent ;
-
   }
 
   .wing {
 	position: absolute;
-	top: 70px;
-	width: 70px;
-	height: 25px;
+	top: 75px;
+	width: 60px;
+	height: 30px;
 	background: rgba(255,255,255,0.7);
-	box-shadow: 0px 0px 95px rgba(0, 0, 0, .3), 0 5px 20px 0 rgba(0, 0, 0, 0.3);
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, .3), -5px 5px 5px 0 rgba(0, 0, 0, 0.3);
   }
 
   .wing::after {
 	content: '';
 	position: absolute;
 	bottom: -10px;
-	width: 50px;
+	width: 40px;
 	height: 15px;
 	background: rgba(255, 255, 255, 0.8);
+
 
   }
 
   .wing-left {
-	border-radius: 50% 20% 20% 50%;
-	left: 20px;
+	border-radius: 50%;
+	left: 30px;
 	transform: rotate(20deg);
-	animation: flap-left .2s infinite alternate;
+	animation: flap-left .25s infinite alternate;
   }
 
   .wing-left::after {
-	border-radius: 50% 20% 20% 50%;
+	border-radius: 50%;
 	transform: rotate(-30deg);
 	left: 22px;
   }
 
   .wing-right {
-	right: 20px;
+	right: 30px;
 	transform: rotate(-20deg);
-	border-radius: 20% 50% 50% 20%;
-	animation: flap-right 0.2s infinite alternate;
+	border-radius: 50%;
+	animation: flap-right 0.25s infinite alternate;
   }
 
   .wing-right::after {
-	border-radius: 20% 50% 50% 20%;
+	border-radius: 50%;
 	transform: rotate(30deg);
 	right: 22px;
+
   }
 
   .profile {
