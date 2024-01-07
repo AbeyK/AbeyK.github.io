@@ -725,7 +725,7 @@ input {
 		.info {
 			margin-top: 2px;
 			margin-bottom: 40px;
-			font-size: 4.9vw;
+			font-size: 5vw;
 			-webkit-text-size-adjust: 100%
 		}
 		.fa {
@@ -737,6 +737,10 @@ input {
 
 		.flip, .flip-back, .flip:hover, .flip-back:hover {
 			font-size: 11vw;
+		}
+
+		.tooltip:hover .tooltiptext {
+		    visibility: hidden;
 		}
 
 	}
