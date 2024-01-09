@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
 @import url('https://fonts.googleapis.com/css?family=Courgette');
 @import 'https://fonts.googleapis.com/css?family=Overpass';
 
@@ -6,7 +6,7 @@
 	--card-front-color: rgba(255, 255, 255, 0.8);
 	--back-background-color: #304560;
 	--accent-color: #4687c7;
-	--front-text-color: #22274d;
+	--front-text-color: #304560;
 	--accent-gray:#164470ad;
 	--cell-outline-color: #b56d4d;
 	--bee-yellow: #ffc337;
@@ -21,6 +21,7 @@ body, html {
 body {
 	white-space:nowrap;
 	font-family: 'Source Sans Pro';
+	font-weight: 300;
 	background-color: #252b3d;
 	background-image: radial-gradient(circle, #27273c, #242c3d);
 /*  	background-image:  url(../images/honeycomb.svg);*/
@@ -65,10 +66,10 @@ img {
 }
 */
 	.name {
-		font-size: 2em;
+		font-size: 1.9em;
 		margin-bottom: 4px;
-		font-weight: bold;
-		margin-top: 33px;
+		font-weight: 400;
+		margin-top: 35px;
 		margin-bottom: 6px;
 		-webkit-text-size-adjust: 100%;
 		text-shadow: rgba(0, 0, 0, 0.2) 0 0 1px;
@@ -77,7 +78,7 @@ img {
 
 	.info {
 		margin-top: 2px;
-		font-size: 1.15em;
+		font-size: 1.1em;
 		margin-bottom: 35px;
 		-webkit-text-size-adjust: 100%;
 		/* text-shadow: rgba(0, 0, 0, 0.2) 0 0 1px;; */
@@ -141,22 +142,13 @@ img {
   	transform-style: preserve-3d;
 }
 
-.btn {
-	display: inline-block;
-    color: #585657;
-    margin-left: 6%;
-	margin-right: 6%;
 
 }
+
 b {
-	font-weight: bolder;
+	font-weight: 400;
 }
 
-
-.btn:hover {
-	color: black;
-
-}
 
 
 .instagram {
@@ -169,59 +161,57 @@ b {
   );
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	font-weight: bold;
+	font-weight: 400;
 
 }
 
-.fa-linkedin {
+.fa-instagram {
+	opacity: 70%;
+	color: #833AB4 ;
+}
+
+.fa-instagram:hover {
+	opacity: 100%;
+	color: #833AB4;
+	transform: scale(1.05);
+}
+
+
+.fa-linkedin-square {
 	opacity: 70%;
 	color: #0074b1;
 }
 
-.fa-linkedin:hover {
+.fa-linkedin-square:hover {
 	opacity: 100%;
 	color: #0074b1;
 	transform: scale(1.05);
 }
 
-.fa-github-alt {
+.fa-github {
 	opacity: 70%;
 	color: #4b3553;
-	transform: scale(1.03);
-
 }
 
-.fa-github-alt:hover {
+.fa-github:hover {
 	opacity: 100%;
 	color: #4b3553;
-	transform: scale(1.08);
+	transform: scale(1.05);
 }
 
-.fa-file-text-o {
-	opacity: 70%;
-	transform: scale(.85) translateY(-3px);
-	color: #4281f5;
-}
-
-.fa-file-text-o:hover {
-	opacity: 100%;
-	color: #4281f5;
-	transform: scale(.95);
-}
 
 .fa-medium:hover {
 	color: #01ab6c;
-	transform: scale(1.05);
 }
 
-.fa-envelope-o {
+.fa-envelope-square {
 	opacity: 70%;
-	color: #c3452c;
+	color: #304560;
 }
 
-.fa-envelope-o:hover {
+.fa-envelope-square:hover {
 	opacity: 100%;
-	color: #c3452c;
+	color: #304560;
 	transform: scale(1.05);
 }
 
@@ -229,11 +219,17 @@ b {
 .fa {
 	text-align: center;
 	margin-top: 10px;
-	font-size: 1.75em !important;
+	font-size: 1.9em !important;
 	padding-bottom: 30px;
 
 }
 
+.btn {
+	display: inline-block;
+    color: #585657;
+    margin-left: 6%;
+	margin-right: 6%;
+}
 
 a {
 	color: inherit;
@@ -248,7 +244,7 @@ a {
 
 .tooltip .tooltiptext {
 	font-size: 11px;
-	font-weight: bold;
+	font-weight: 400;
     visibility: hidden;
     width: 65px;
 	background-color:var(--accent-color);
@@ -715,24 +711,23 @@ input {
 		}
 
 		.name {
-			font-size: 9vw;
-			margin-top: 34px;
-			margin-bottom: 6px;
-			font-weight: normal;
+			font-size: 8vw;
+/*			margin-top: 40px;
+			margin-bottom: 6px;*/
 			-webkit-text-size-adjust: 100%
 		}
 
 		.info {
-			margin-top: 2px;
-			margin-bottom: 40px;
-			font-size: 5vw;
+/*			margin-top: 2px;*/
+/*			margin-bottom: 40px;*/
+			font-size: 4.65vw;
 			-webkit-text-size-adjust: 100%
 		}
 		.fa {
 			text-align: center;
-/*			margin-top: 10px;*/
+			padding-top: 5px;
 			font-size: 8.0vw !important;
-			padding-bottom: 26px;
+			padding-bottom: 25px;
 		}
 
 		.flip, .flip-back, .flip:hover, .flip-back:hover {
