@@ -500,6 +500,7 @@ input {
 	width: 200px;
 	height: 200px;
 	animation: MoveUpDown ease-in-out 18s infinite;
+
   }
 
   .bee {
@@ -679,7 +680,7 @@ input {
   .gradient {
 	width: 96%;
 	height: 96%;
-	padding: .4em;
+	padding: .45em;
 	position: absolute;
 	border-radius: 50%;
 	background: linear-gradient(45deg, #ffc600 0%, #c003b3 100%);
@@ -736,6 +737,9 @@ input {
 		}
 		.btn {
 			transform: scale(1.1);
+		}
+		.gradient{
+			padding: 2vw;
 		}
 
 	}
