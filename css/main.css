@@ -401,8 +401,7 @@ input {
 }
 
 .flip-back:hover{
-	color: var(--accent-color);
-/*	background-color: #b9babdd4;*/
+	color: rgba(255, 255, 255, 0.6);
 	border-radius: 0px 15px 0 15px;
 	transform: scale(1.15) translateX(-2px) translateY(2px);
 
