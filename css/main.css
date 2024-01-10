@@ -738,6 +738,11 @@ input {
 		.btn {
 			transform: scale(1.1);
 		}
+	    .uh-image-inner {
+			width: 96%;
+			height: 96%; 
+			border: 1vw solid #d4d5d8;
+		}
 		.gradient{
 			padding: 2vw;
 		}
