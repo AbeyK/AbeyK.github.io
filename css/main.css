@@ -705,7 +705,7 @@ input {
 	background: linear-gradient(
 	    45deg,
 	    rgba(245, 160, 77, 1) 0%,
-	    rgba(160, 15, 139, 1) 100%
+	    #9a3c84 100%
 	  );
 	-webkit-animation: rotating 6s linear infinite;
   	-moz-animation: rotating 6s linear infinite;
