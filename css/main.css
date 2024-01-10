@@ -365,17 +365,17 @@ a,
 	font-weight: normal;
 	right: 0;
 	border-radius: 0px 10px 0 10px;
-	transition: transform .2s, color .3s; /* Animation */
+	transition: transform .2s, color .3s, background-color .1s; /* Animation */
 
 }
 
 .flip {
-	color: rgba(22, 68, 112, 0.4);
+	color: var(--accent-color);
 	background-color: #abb5c8ad;
 
 }
 .flip-back {
-	color: rgba(255, 255, 255, 0.4);
+	color: rgba(255, 255, 255, 0.3);
 	background-color: #4c5669ad;
 
 }
@@ -395,6 +395,7 @@ input {
 
 .flip-back:hover{
 	color: var(--accent-color);
+/*	background-color: #b9babdd4;*/
 	border-radius: 0px 10px 0 10px;
 	transform: scale(1.15) translateX(-2px) translateY(2px);
 
