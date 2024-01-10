@@ -195,7 +195,7 @@ b {
     color: #585657;
     margin-left: 6%;
 	margin-right: 6%;
-	opacity: 85%;
+	opacity: 80%;
 	transition: transform .2s, opacity .5s; /* Animation */
 }
 
@@ -733,7 +733,6 @@ input {
 		}
 		.btn {
 			transform: scale(1.1);
-			opacity: 90%;
 		}
 
 	}
