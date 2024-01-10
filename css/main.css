@@ -680,7 +680,7 @@ input {
   .gradient {
 	width: 96%;
 	height: 96%;
-	padding: .45em;
+	padding: .425em;
 	position: absolute;
 	border-radius: 50%;
 	background: linear-gradient(45deg, #ffc600 0%, #c003b3 100%);
@@ -739,7 +739,7 @@ input {
 			transform: scale(1.1);
 		}
 		.gradient{
-			padding: 2vw;
+			padding: 1.75vw;
 		}
 
 	}
