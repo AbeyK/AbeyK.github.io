@@ -353,19 +353,26 @@ a,
 .flip,
 .flip-back {
 	background-color: rgba(240, 238, 235, 0.881);
-	border-radius: 10px;
-	font-size: 2em;
+	font-size: 1.9em;
 	color: var(--accent-gray);
 	cursor: pointer;
 	border: 0;
 	position: absolute;
+	padding: auto;
+	font-family: 'Overpass';
+	font-weight: 400;
+	margin: auto;
+	right: 0;
+/*	padding-left: 12px;
+	padding-right: 8px;
+	padding-bottom: 2px;*/
+	border-radius: 0px 15px 0 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	padding-left: 10px;
 	padding-right: 8px;
-	font-family: 'Overpass';
-	font-weight: normal;
-	right: 0;
-	border-radius: 0px 10px 0 10px;
-	transition: transform .2s, color .3s, background-color .1s; /* Animation */
+	transition: all .2s, color .3s, background-color .1s; /* Animation */
+	line-height:60%;
 
 }
 
@@ -389,14 +396,14 @@ input {
 
 .flip:hover {
 	color: var(--accent-color);
-	border-radius: 0px 10px 0 10px;
+	border-radius: 0px 15px 0 15px;
 	transform: scale(1.15) translateX(-2px) translateY(2px);
 }
 
 .flip-back:hover{
 	color: var(--accent-color);
 /*	background-color: #b9babdd4;*/
-	border-radius: 0px 10px 0 10px;
+	border-radius: 0px 15px 0 15px;
 	transform: scale(1.15) translateX(-2px) translateY(2px);
 
 }
