@@ -666,25 +666,55 @@ input {
 	justify-content: center;
 	align-items: center;
 	filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
-/*	box-shadow: 0px 0px 10px rgba(0, 0, 0, .3), 0 2px 5px 0 rgba(0, 0, 0, 0.3);*/
 
   }
   .uh-image-inner {
 	width: 96%;
 	height: 96%; 
-	border: .25em solid #d4d5d8;
+	border: .25em solid #d4d4d8;
 	object-fit: cover;
 	border-radius: 50%;
 	z-index: 2;
   }
+
+
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+
   .gradient {
 	width: 96%;
 	height: 96%;
 	padding: .5em;
 	position: absolute;
 	border-radius: 50%;
-	background: linear-gradient(45deg, #ffc600 0%, #c003b3 100%);
+	background: linear-gradient(
+	    45deg,
+	    rgba(245, 160, 77, 1) 0%,
+	    rgba(160, 15, 139, 1) 100%
+	  );
+	-webkit-animation: rotating 6s linear infinite;
+  	-moz-animation: rotating 6s linear infinite;
+  	-ms-animation: rotating 6s linear infinite;
+  	-o-animation: rotating 6s linear infinite;
+  	animation: rotating 6s linear infinite;
+
   }
+
 
 
 @media (max-width:500px) {
