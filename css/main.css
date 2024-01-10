@@ -66,7 +66,7 @@ img {
 }
 */
 	.name {
-		font-size: 1.9em;
+		font-size: 2em;
 		margin-bottom: 4px;
 		font-weight: 400;
 		margin-top: 35px;
@@ -78,8 +78,9 @@ img {
 
 	.info {
 		margin-top: 2px;
-		font-size: 1.1em;
+		font-size: 1.16em;
 		margin-bottom: 35px;
+		font-style: italic;
 		-webkit-text-size-adjust: 100%;
 		/* text-shadow: rgba(0, 0, 0, 0.2) 0 0 1px;; */
 
@@ -90,8 +91,7 @@ img {
 	/* transition: .75; */
     width: 300px;
 /*	padding: 5px;*/
-	/* padding-bottom: 10px; */
-    /* padding-top: 10px; */
+	padding-bottom: 5px; 
 /*	overflow: hidden;*/
 	position: relative;
     border-radius: 20px;
@@ -166,62 +166,28 @@ b {
 }
 
 .fa-instagram {
-	opacity: 70%;
 	color: #833AB4 ;
 }
 
-.fa-instagram:hover {
-	opacity: 100%;
-	color: #833AB4;
-	transform: scale(1.05);
-}
-
-
 .fa-linkedin-square {
-	opacity: 70%;
 	color: #0074b1;
-}
-
-.fa-linkedin-square:hover {
-	opacity: 100%;
-	color: #0074b1;
-	transform: scale(1.05);
 }
 
 .fa-github {
-	opacity: 70%;
 	color: #4b3553;
-}
-
-.fa-github:hover {
-	opacity: 100%;
-	color: #4b3553;
-	transform: scale(1.05);
-}
-
-
-.fa-medium:hover {
-	color: #01ab6c;
 }
 
 .fa-envelope-square {
-	opacity: 70%;
 	color: #304560;
-}
-
-.fa-envelope-square:hover {
-	opacity: 100%;
-	color: #304560;
-	transform: scale(1.05);
 }
 
 
 .fa {
 	text-align: center;
-	margin-top: 10px;
-	font-size: 1.9em !important;
-	padding-bottom: 30px;
-
+	padding-top: 10px;
+	font-size: 2.1em !important;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 .btn {
@@ -229,6 +195,13 @@ b {
     color: #585657;
     margin-left: 6%;
 	margin-right: 6%;
+	opacity: 85%;
+	transition: transform .2s, opacity .5s; /* Animation */
+}
+
+.btn:hover {
+	transform: scale(1.15);
+	opacity: 100%;
 }
 
 a {
@@ -237,16 +210,20 @@ a {
 
 }
 
+i {
+	margin: 0;
+}
+
 .tooltip {
     position: relative;
     display: inline-block;
 }
 
-.tooltip .tooltiptext {
-	font-size: 11px;
+.tooltiptext {
+	font-size: 9px;
 	font-weight: 400;
     visibility: hidden;
-    width: 65px;
+/*    width: 65px;*/
 	background-color:var(--accent-color);
     text-align: center;
     -webkit-border-radius: 5px;
@@ -254,16 +231,20 @@ a {
     border-radius: 8px;
 	border: 1px solid var(--accent-gray);
     position: absolute;
+   left: 50%;
+  	transform: translate(-50%, 0%);
     z-index: 99;
-    top: 69%;
-    left: 85%;
-    margin-left: -43px;
-	padding-top: 1px;
-	padding-bottom: 1px;
+    top: 70%;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 8px;
+	padding-right: 8px;
 	color: rgba(255, 255, 255, .9);
+    opacity: 0;
+
 }
 
-.tooltip .tooltiptext::after {
+.tooltiptext::after {
     content: "";
     position: absolute;
     bottom: 100%;
@@ -272,10 +253,15 @@ a {
     border-width: 5px;
     border-style: solid;
     border-color: transparent transparent #164470f7 transparent;
+    opacity: 0;
 }
 
-.tooltip:hover .tooltiptext {
-    visibility: visible;
+.tooltip:hover .tooltiptext, .tooltiptext::after {
+	visibility: visible;
+    opacity: 90%;
+    transition: opacity 0.2s;
+    transition-delay: 0.1s;
+
 }
 
 
@@ -377,6 +363,7 @@ a,
 	font-weight: normal;
 	right: 0;
 	border-radius: 0px 10px 0 10px;
+	transition: transform .2s, color .3s; /* Animation */
 
 }
 
@@ -401,13 +388,13 @@ input {
 .flip:hover {
 	color: var(--accent-color);
 	border-radius: 0px 10px 0 10px;
-	font-size: 2.3em;
+	transform: scale(1.15) translateX(-2px) translateY(2px);
 }
 
 .flip-back:hover{
 	color: var(--accent-color);
 	border-radius: 0px 10px 0 10px;
-	font-size: 2.3em;
+	transform: scale(1.15) translateX(-2px) translateY(2px);
 
 }
 
@@ -711,31 +698,26 @@ input {
 		}
 
 		.name {
-			font-size: 8vw;
-/*			margin-top: 40px;
-			margin-bottom: 6px;*/
+			font-size: 8.5vw;
+			margin-bottom: 6px;
 			-webkit-text-size-adjust: 100%
 		}
 
 		.info {
-/*			margin-top: 2px;*/
-/*			margin-bottom: 40px;*/
-			font-size: 4.65vw;
+			margin-top: 2px;
+			margin-bottom: 40px;
+			font-size: 4.9vw;
 			-webkit-text-size-adjust: 100%
 		}
 		.fa {
 			text-align: center;
-			padding-top: 5px;
-			font-size: 8.0vw !important;
+			font-size: 9vw !important;
+			padding-top: 15px;
 			padding-bottom: 25px;
 		}
 
 		.flip, .flip-back, .flip:hover, .flip-back:hover {
 			font-size: 11vw;
-		}
-
-		.tooltip:hover .tooltiptext {
-		    visibility: hidden;
 		}
 
 		.back-title {
@@ -748,6 +730,10 @@ input {
 
 		.back-attribution {
 			font-size: 5vw;
+		}
+		.btn {
+			transform: scale(1.1);
+			opacity: 90%;
 		}
 
 	}
