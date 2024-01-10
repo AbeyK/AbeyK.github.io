@@ -672,7 +672,7 @@ input {
   .uh-image-inner {
 	width: 96%;
 	height: 96%; 
-	border: .2em solid #d4d5d8;
+	border: .25em solid #d4d5d8;
 	object-fit: cover;
 	border-radius: 50%;
 	z-index: 2;
@@ -680,7 +680,7 @@ input {
   .gradient {
 	width: 96%;
 	height: 96%;
-	padding: .425em;
+	padding: .5em;
 	position: absolute;
 	border-radius: 50%;
 	background: linear-gradient(45deg, #ffc600 0%, #c003b3 100%);
@@ -739,7 +739,7 @@ input {
 			transform: scale(1.1);
 		}
 		.gradient{
-			padding: 1.75vw;
+			padding: 2.1vw;
 		}
 
 	}
