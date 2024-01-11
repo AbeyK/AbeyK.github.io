@@ -562,23 +562,34 @@ input {
 	background: linear-gradient(
 		var(--bee-black) 0%,
 		var(--bee-black) 18%,
+		#b56d4d 18%,
+		#b56d4d 20%,
 
-		var(--bee-yellow) 15%,
+		var(--bee-yellow) 20%,
 		var(--bee-yellow) 30%,
 
-		var(--bee-black) 30%,
+		#b56d4d 30%,
+		#b56d4d 32%,
+		var(--bee-black) 32%,
 		var(--bee-black) 50%,
+		#b56d4d 50%,
+		#b56d4d 52%,
 
-		var(--bee-yellow) 50%,
+		var(--bee-yellow) 52%,
 		var(--bee-yellow) 65%,
 
-		var(--bee-black) 65%,
+		#b56d4d 65%,
+		#b56d4d 67%,
+		var(--bee-black) 67%,
 		var(--bee-black) 80%,
-
-		var(--bee-yellow) 80%,
+		#b56d4d 80%,
+		#b56d4d 82%,
+		var(--bee-yellow) 82%,
 		var(--bee-yellow) 95%,
 
-		var(--bee-black) 95%,
+		#b56d4d 95%,
+		#b56d4d 97%,
+		var(--bee-black) 97%,
 		var(--bee-black) 100%);
 
 
@@ -598,6 +609,7 @@ input {
 
 		/* var(--bee-yellow) 100%,  */
 	border-radius: 50%;
+	border: 1px solid var(--bee-black);
 	box-shadow: 5px 5px 5px rgba(0, 0, 0, .3), -5px 5px 5px 0 rgba(0, 0, 0, 0.3);
 
   }
@@ -650,7 +662,7 @@ input {
 	top: 75px;
 	width: 60px;
 	height: 30px;
-	background: rgba(255,255,255,0.7);
+	background: rgba(255,255,255,0.6);
 	box-shadow: 5px 5px 5px rgba(0, 0, 0, .3), -5px 5px 5px 0 rgba(0, 0, 0, 0.3);
   }
 
