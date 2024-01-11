@@ -546,10 +546,11 @@ input {
 	position: absolute;
 	left: 50%;
 	top: 50%;
-	transform: translate(-50%, -50%) rotate(-2deg);
+	transform: translate(-50%, -50%) rotate(-60deg) translateX(-50%) translateY(190%);
 	width: 200px;
 	height: 200px;
-	animation: MoveUpDown2 ease-in-out 18s infinite;
+	animation: MoveUpDown2 ease-in-out 16s infinite;
+	animation-delay: 4s;
   }
 
   .bee {
