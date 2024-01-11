@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
-@import url('https://fonts.googleapis.com/css?family=Courgette');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
 @import 'https://fonts.googleapis.com/css?family=Overpass';
 
 :root {
@@ -344,7 +344,7 @@ a,
     transform: translate(-50%, 0);
 	height: 75%;
 	padding-top: 50%;
-	opacity: 100%;
+	opacity: 85%;
 	-webkit-filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.3));
 	filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.3));
 }
@@ -414,31 +414,43 @@ input {
 	padding: 0%;
 	color: #e3e2d5;
 	/* background-color: #0074b1; */
-	font-family: 'Courgette';
-	font-weight: lighter;
+	font-family: 'Gloria Hallelujah';
 
 }
 
+.star {
+	font-size: 0em;
+	line-height: 100%;
+}
+
 .back-title {
-	padding-top: 15%;
-	font-size: 1.45em;
+	padding-top: 13%;
+	font-size: 1em;
 	text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
 }
 
 .back-name {
-	font-size: 2.2em;
+	font-size: 2.4em;
+	letter-spacing: .15rem;
 	/* margin-top: 13%; */
+	line-height: 90%;
+	font-weight: 600;
 	padding: 0;
-	color: var(--bee-yellow);
+	color: rgba(255, 195, 55, .9);
 	text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
 }
 
 .back-attribution {
 	position: absolute;
-	font-size: 1.1em;
+	font-size: 1.2em;
 	text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
 	left: 12%;
 	top: 92%;
+/*	letter-spacing: .1rem;*/
+}
+
+.bee-attribution{
+	color: rgba(255, 195, 55, .9);
 }
 
 @keyframes flap-left {
@@ -763,7 +775,7 @@ input {
 		}
 
 		.back-title {
-			font-size: 5.8vw;
+			font-size: 4vw;
 		}
 
 		.back-name {
