@@ -481,10 +481,10 @@ input {
 
 @keyframes MoveUpDown {
 	0%, 100% {
-		transform: translate(-50%, -50%) rotate(20deg) scale(0.25) translateX(20%) translateY(230%);
+		transform: translate(-50%, -50%) rotate(20deg) translateX(20%) translateY(230%);
 	}
 	30% {
-		transform: translate(-50%, -50%) rotate(55deg) scale(.25) translateX(-220%) translateY(0%);
+		transform: translate(-50%, -50%) rotate(55deg) translateX(-220%) translateY(0%);
 	}
 	/* 75% {
 		transform: translate(-50%, -50%) rotate(20deg) scale(.8) translateX(10px) translateY(0px);
@@ -493,7 +493,7 @@ input {
 		transform: translate(-50%, -50%) rotate(5deg) scale(.9) translateX(50px) translateY(50px);
 	} */
 	60% {
-		transform: translate(-50%, -50%) rotate(280deg) scale(.25) translateX(30%) translateY(180%);
+		transform: translate(-50%, -50%) rotate(280deg) translateX(30%) translateY(180%);
 	}
   }
 
@@ -509,9 +509,9 @@ input {
 	display: block;
 	margin-top: 8%;
 	margin-bottom: 8%;
-	top: 50%;
+	top: 45%;
 	right: 50%;
-	transform: translate(-50%, -50%) scale(1);
+	transform: translate(-50%, -50%) scale(.22);
   }
 
 
@@ -522,7 +522,7 @@ input {
 	transform: translate(-50%, -50%) rotate(-30deg);
 	width: 200px;
 	height: 200px;
-	animation: MoveUpDown ease-in-out 18s infinite;
+	animation: MoveUpDown ease-in-out 22s infinite;
 
   }
 
