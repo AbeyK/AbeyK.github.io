@@ -498,6 +498,22 @@ input {
 	}
   }
 
+
+@keyframes MoveUpDown2 {
+	0%, 100% {
+		transform: translate(-50%, -50%) rotate(-60deg) translateX(-50%) translateY(190%);
+	}
+	33% {
+		transform: translate(-50%, -50%) rotate(45deg) translateX(100%) translateY(250%);
+	}
+/*	60% {
+		transform: translate(-50%, -50%) rotate(-30deg) translateX(60%) translateY(-50%) scale(.85);
+	}*/
+	80% {
+		transform: translate(-50%, -50%) rotate(-40deg) translateX(130%) translateY(50%);
+	}
+  }
+
 .back-bee {
 	font-size: 5em;
 }
@@ -512,7 +528,7 @@ input {
 	margin-bottom: 8%;
 	top: 42%;
 	right: 50%;
-	transform: translate(-50%, -50%) scale(.27);
+	transform: translate(-50%, -50%) scale(.25);
   }
 
 
@@ -523,8 +539,17 @@ input {
 	transform: translate(-50%, -50%) rotate(-30deg);
 	width: 200px;
 	height: 200px;
-	animation: MoveUpDown ease-in-out 10s infinite;
+	animation: MoveUpDown ease-in-out 18s infinite;
+  }
 
+  .bee-wrapper-2 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%) rotate(-2deg);
+	width: 200px;
+	height: 200px;
+	animation: MoveUpDown2 ease-in-out 20s infinite;
   }
 
   .bee {
