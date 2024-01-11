@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
-@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
 @import 'https://fonts.googleapis.com/css?family=Overpass';
 
 :root {
@@ -338,15 +338,15 @@ a,
 
 .flower {
 	position: absolute;
-	width: 75%;
+	width: 81%;
     left: 50%;
 	bottom:-3%;
     transform: translate(-50%, 0);
-	height: 75%;
+	height: 76%;
 	padding-top: 50%;
 	opacity: 85%;
-	-webkit-filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.3));
-	filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.3));
+	-webkit-filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.3));
+	filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.3));
 }
 
 
@@ -412,9 +412,9 @@ input {
 .back-attribution {
 	margin: 0;
 	padding: 0%;
-	color: #e3e2d5;
+	color: #c9cac3;
 	/* background-color: #0074b1; */
-	font-family: 'Gloria Hallelujah';
+	font-family: 'Pacifico';
 
 }
 
@@ -424,33 +424,38 @@ input {
 }
 
 .back-title {
-	padding-top: 13%;
+	padding-top: 15%;
 	font-size: 1em;
 	text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+	letter-spacing: .1rem;
 }
 
 .back-name {
 	font-size: 2.4em;
-	letter-spacing: .15rem;
+	letter-spacing: .1rem;
 	/* margin-top: 13%; */
 	line-height: 90%;
-	font-weight: 600;
 	padding: 0;
-	color: rgba(255, 195, 55, .9);
+	color: #eab53c;
 	text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+	text-shadow: -1px -1px 0px var(--back-background-color),
+	    2px 2px 0px var(--back-background-color),
+	    3px 3px 0px #00000055;
 }
 
 .back-attribution {
 	position: absolute;
 	font-size: 1.2em;
 	text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
-	left: 12%;
+	left: 10%;
 	top: 92%;
-/*	letter-spacing: .1rem;*/
+	letter-spacing: .1rem;
+
 }
 
 .bee-attribution{
-	color: rgba(255, 195, 55, .9);
+	color: #eab53c;
+
 }
 
 @keyframes flap-left {
