@@ -436,7 +436,7 @@ input {
 	/* margin-top: 13%; */
 	line-height: 90%;
 	padding: 0;
-	color: #eab53c;
+	color: #d7ab47;
 	text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
 	text-shadow: -1px -1px 0px var(--back-background-color),
 	    2px 2px 0px var(--back-background-color),
@@ -454,7 +454,7 @@ input {
 }
 
 .bee-attribution{
-	color: #eab53c;
+	color: #d7ab47;
 
 }
 
