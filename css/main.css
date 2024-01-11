@@ -540,6 +540,7 @@ input {
 	width: 200px;
 	height: 200px;
 	animation: MoveUpDown ease-in-out 16s infinite;
+	opacity: 95%;
   }
 
   .bee-wrapper-2 {
@@ -551,6 +552,8 @@ input {
 	height: 200px;
 	animation: MoveUpDown2 ease-in-out 16s infinite;
 	animation-delay: 4s;
+	opacity: 95%;
+
   }
 
   .bee {
