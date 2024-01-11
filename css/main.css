@@ -869,7 +869,7 @@ input {
 			padding: 2vw;
 		}
 		.box-canvas{
-			transform: translate(-50%, -50%) scale(.32);
+			transform: translate(-50%, -50%) scale(.31);
 		}
 
 	}
