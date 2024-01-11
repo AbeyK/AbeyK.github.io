@@ -528,7 +528,7 @@ input {
 	margin-bottom: 8%;
 	top: 42%;
 	right: 50%;
-	transform: translate(-50%, -50%) scale(.25);
+	transform: translate(-50%, -50%) scale(.28);
   }
 
 
@@ -826,6 +826,9 @@ input {
 		}
 		.gradient{
 			padding: 2vw;
+		}
+		.box-canvas{
+			transform: translate(-50%, -50%) scale(.32);
 		}
 
 	}
