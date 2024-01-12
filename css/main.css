@@ -460,12 +460,12 @@ input {
 }
 
 @keyframes flap-left {
-    0%, 100% { transform: skew(10deg) scale(0.9); }
+    0%, 100% { transform: skew(10deg) scale(1); }
     50% { transform: skew(30deg) scale(1.2); }
 }
 
 @keyframes flap-right {
-    0%,100% { transform: skew(-10deg) scale(0.9);}
+    0%,100% { transform: skew(-10deg) scale(1);}
     50% { transform: skew(-30deg) scale(1.2); }
 }
 
@@ -500,27 +500,25 @@ input {
 
 
 @keyframes MoveUpDown2 {
+
 	0%, 100% {
-		transform: translate(-50%, -50%) rotate(-60deg) translateX(-50%) translateY(190%);
-	}
-	33% {
-		transform: translate(-50%, -50%) rotate(45deg) translateX(100%) translateY(250%);
+		transform: translate(-50%, -50%) rotate(45deg) translateX(100%) translateY(250%) scale(1.1);
 	}
 /*	60% {
 		transform: translate(-50%, -50%) rotate(-30deg) translateX(60%) translateY(-50%) scale(.85);
 	}*/
-	80% {
+/*	80% {
 		transform: translate(-50%, -50%) rotate(-40deg) translateX(130%) translateY(50%);
-	}
+	}*/
   }
 
 @keyframes MoveUpDown3 {
 	0%, 100% {
-		transform: translate(-50%, -50%) rotate(150deg) translateX(0%) translateY(380%) scale(0.9);
+		transform: translate(-50%, -50%) rotate(152deg) translateX(0%) translateY(400%) scale(1);
 	}
 
 	50%{
-		transform: translate(-50%, -50%) rotate(160deg) translateX(0%) translateY(380%) scale(0.9);
+		transform: translate(-50%, -50%) rotate(160deg) translateX(0%) translateY(400%) scale(1);
 	}
   }
 
@@ -538,7 +536,7 @@ input {
 	margin-bottom: 8%;
 	top: 42%;
 	right: 50%;
-	transform: translate(-50%, -50%) scale(.27);
+	transform: translate(-50%, -50%) scale(.26);
   }
 
 
@@ -549,7 +547,7 @@ input {
 	transform: translate(-50%, -50%) rotate(20deg) translateX(-100%) translateY(105%);
 	width: 200px;
 	height: 200px;
-	animation: MoveUpDown ease-in-out  25s infinite;
+	animation: MoveUpDown ease-in-out  18s infinite;
 	opacity: 95%;
   }
 
@@ -561,9 +559,7 @@ input {
 	width: 200px;
 	height: 200px;
 	animation: MoveUpDown2 ease-in-out  18s infinite;
-	animation-delay: 4s;
 	opacity: 95%;
-
   }
 
   .bee-wrapper-3 {
@@ -575,10 +571,18 @@ input {
 	height: 200px;
 	animation: MoveUpDown3 ease-in-out 6s infinite;
 	opacity: 95%;
-
   }
 
-
+  .bee-wrapper-4 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%) rotate(-30deg) translateX(130%) translateY(50%);
+	width: 200px;
+	height: 200px;
+/*	animation: MoveUpDown3 ease-in-out 6s infinite;*/
+	opacity: 95%;
+  }
 
   .bee {
 	position: absolute;
@@ -704,7 +708,25 @@ input {
 
 
   }
+  .wing {
+	position: absolute;
+	top: 75px;
+	width: 60px;
+	height: 30px;
+	background: rgba(255,255,255,0.6);
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, .3), -5px 5px 5px 0 rgba(0, 0, 0, 0.3);
+  }
 
+  .wing::after {
+	content: '';
+	position: absolute;
+	bottom: -10px;
+	width: 50px;
+	height: 15px;
+	background: rgba(255, 255, 255, 0.7);
+
+
+  }
   .wing-left-2 {
 	border-radius: 50%;
 	left: 30px;
@@ -739,6 +761,34 @@ input {
   }
 
   .wing-right-2::after {
+	border-radius: 50%;
+	transform: rotate(30deg);
+	right: 2px;
+
+  }
+
+
+  .wing-left-3 {
+	border-radius: 50%;
+	left: 30px;
+	transform: rotate(20deg);
+	animation: flap-left 1.5s infinite;
+  }
+
+  .wing-left-3::after {
+	border-radius: 50%;
+	transform: rotate(-30deg);
+	left: 2px;
+  }
+
+  .wing-right-3 {
+	right: 30px;
+	transform: rotate(-20deg);
+	border-radius: 50%;
+	animation: flap-right 1.5s infinite;
+  }
+
+  .wing-right-3::after {
 	border-radius: 50%;
 	transform: rotate(30deg);
 	right: 2px;
