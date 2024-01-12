@@ -545,8 +545,8 @@ input {
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%) rotate(20deg) translateX(-100%) translateY(105%);
-	width: 200px;
-	height: 200px;
+	width: 12.5em;
+	height: 12.5em;
 	animation: MoveUpDown ease-in-out  18s infinite;
 	opacity: 95%;
   }
@@ -556,8 +556,8 @@ input {
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%) rotate(-60deg) translateX(-50%) translateY(190%);
-	width: 200px;
-	height: 200px;
+	width: 12.5em;
+	height: 12.5em;
 	animation: MoveUpDown2 ease-in-out  18s infinite;
 	opacity: 95%;
   }
@@ -567,8 +567,8 @@ input {
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%) rotate(0) translateX(0%) translateY(0%);
-	width: 200px;
-	height: 200px;
+	width: 12.5em;
+	height: 12.5em;
 	animation: MoveUpDown3 ease-in-out 6s infinite;
 	opacity: 95%;
   }
@@ -578,8 +578,8 @@ input {
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%) rotate(-30deg) translateX(130%) translateY(50%);
-	width: 200px;
-	height: 200px;
+	width: 12.5em;
+	height: 12.5em;
 /*	animation: MoveUpDown3 ease-in-out 6s infinite;*/
 	opacity: 95%;
   }
@@ -589,8 +589,8 @@ input {
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
-	height: 95px;
-	width: 60px;
+	height: 6em;
+	width: 4em;
 	background: linear-gradient(
 		var(--bee-black) 0%,
 		var(--bee-black) 18%,
@@ -881,7 +881,6 @@ input {
   	animation: rotating 6s linear infinite;
 
   }
-
 
 
 @media (max-width:500px) {
