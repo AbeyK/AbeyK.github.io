@@ -87,12 +87,14 @@ img {
 }
 
 .wave {
-  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
-  animation-duration: 5s;        /* Change to speed up or slow down */
-  animation-iteration-count: 1;  /* Never stop waving :) */
+/*  animation-name: wave-animation;  
+  animation-duration: 5s;        
+  animation-iteration-count: 1; 
   transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
   display: inline-block;
-  font-size: .95em;
+  transform: scale(-0.95, 0.95) translateX(-10%);
+  opacity: 90%;
+  margin-left: 1.25%;
 
 }
 
