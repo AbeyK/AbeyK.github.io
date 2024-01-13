@@ -266,13 +266,15 @@ i {
 
 hr {
     border: 0;
-    height: 1px;
-	background: var(--accent-gray);
+    height: 2px;
+	background: rgba(175, 176, 178, 0.5);
 
-    margin-left: 15px;
-    margin-right: 15px;
-
+    width: 100%;
+	margin: auto;
+	margin-bottom: 2.5%;
 }
+
+
 
 .bottom{
 /*	background-color: #00000036;
