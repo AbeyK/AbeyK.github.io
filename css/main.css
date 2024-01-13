@@ -98,11 +98,11 @@ img {
 
 @keyframes wave-animation {
     0% { transform: rotate( 0.0deg) scale(-1, 1) translateX(40%);}
-   10% { transform: rotate(14.0deg) scale(-1, 1) translateX(40%);}  /* The following five values can be played with to make the waving more or less extreme */
-   20% { transform: rotate(-8.0deg) scale(-1, 1)translateX(40%);}
-   30% { transform: rotate(14.0deg) scale(-1, 1)translateX(40%);}
-   40% { transform: rotate(-4.0deg) scale(-1, 1)translateX(40%);}
-   50% { transform: rotate(10.0deg) scale(-1, 1)translateX(40%);}
+   10% { transform: rotate(-14.0deg) scale(-1, 1) translateX(40%);}  /* The following five values can be played with to make the waving more or less extreme */
+   20% { transform: rotate(8.0deg) scale(-1, 1)translateX(40%);}
+   30% { transform: rotate(-14.0deg) scale(-1, 1)translateX(40%);}
+   40% { transform: rotate(4.0deg) scale(-1, 1)translateX(40%);}
+   50% { transform: rotate(-10.0deg) scale(-1, 1)translateX(40%);}
    60% { transform: rotate( 0.0deg) scale(-1, 1)translateX(40%);}  /* Reset for the last half to pause */
   100% { transform: rotate( 0.0deg) scale(-1, 1)translateX(40%);}
 }
