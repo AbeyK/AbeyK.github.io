@@ -72,7 +72,6 @@ img {
 		margin-top: 30px;
 		margin-bottom: 6px;
 		-webkit-text-size-adjust: 100%;
-		text-shadow: rgba(0, 0, 0, 0.2) 0 0 1px;
   		transform: scale(1, 1.08) !important;
 
 	}
@@ -99,7 +98,6 @@ img {
 /*	overflow-x: hidden;
     overflow-y: auto;*/
     background-color: var(--card-front-color);
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
 	border: 4px outset #00000036;
     transform-style: preserve-3d;
 	-webkit-transform-style: preserve-3d;
@@ -428,7 +426,7 @@ input {
 .back-title {
 	padding-top: 16%;
 	font-size: 1.2em;
-	text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+/*	text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);*/
 	letter-spacing: .1rem;
 }
 
@@ -439,7 +437,6 @@ input {
 /*	line-height: 100%;*/
 	padding: 0;
 	color: var(--bee-yellow);
-	text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
 	text-shadow: -1px -1px 0px var(--back-background-color),
 	    1px 1px 0px var(--back-background-color),
 	    2px 2px 0px #b56d4d;
@@ -449,7 +446,6 @@ input {
 .back-attribution {
 	position: absolute;
 	font-size: 1.375em;
-	text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
 	left: 10%;
 	top: 93%;
 	font-style: italic;
