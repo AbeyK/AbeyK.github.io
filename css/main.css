@@ -330,7 +330,8 @@ hr {
 a, 
 .bottom,
 .fa,
-.name {
+.name,
+.wave {
     backface-visibility: hidden;
     -webkit-perspective: 0;
     -webkit-backface-visibility: hidden;
