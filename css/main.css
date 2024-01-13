@@ -67,10 +67,9 @@ img {
 */
 .name {
 	font-size: 2em;
-	margin-bottom: 4px;
 	font-weight: 400;
-	margin-top: 30px;
-	margin-bottom: 6px;
+	margin-top: 33px;
+	margin-bottom: 8px;
 	-webkit-text-size-adjust: 100%;
 		transform: scale(1, 1.08) !important;
 
@@ -873,11 +872,11 @@ input {
   animation-iteration-count: 1; 
   transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
   display: inline-block;
-  transform: scale(-0.98, 0.98) translateX(-5%);
-  opacity: 90%;
-  padding-right: 2%;
-  width: fit-content;
-
+  transform: scale(0.98) translateX(5%) translateY(10%);
+/*  opacity: 80%;*/
+  padding-left: 2.2%;
+  opacity: 95%;
+  width: 0.98em;
 }
 
 @keyframes wave-animation {
@@ -908,7 +907,7 @@ input {
 		}
 
 		.name {
-			font-size: 8.5vw;
+			font-size: 8.8vw;
 /*			margin-bottom: 6px;*/
 			-webkit-text-size-adjust: 100%
 		}
@@ -916,7 +915,7 @@ input {
 		.info {
 /*			margin-top: 2px;*/
 			margin-bottom: 9vw;
-			font-size: 4.9vw;
+			font-size: 5.05vw;
 			-webkit-text-size-adjust: 100%
 		}
 		.fa {
