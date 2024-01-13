@@ -71,7 +71,7 @@ img {
 	margin-top: 33px;
 	margin-bottom: 8px;
 	-webkit-text-size-adjust: 100%;
-		transform: scale(1, 1.08) !important;
+	transform: scale(1, 1.08) !important;
 
 }
 
@@ -185,6 +185,7 @@ b {
 	font-size: 2.1em !important;
 	padding-top: 8px;
 	padding-bottom: 12px;
+	-webkit-text-size-adjust: 100%;
 }
 
 .btn {
@@ -373,7 +374,7 @@ a,
 	transition: all .2s, color .3s, background-color .1s; /* Animation */
 	line-height:60%;
 	z-index: 101;
-
+	-webkit-text-size-adjust: 100%;
 }
 
 .flip {
@@ -417,6 +418,7 @@ input {
 	font-family: 'Handlee';
 	position: relative;
 	z-index: 100;
+	-webkit-text-size-adjust: 100%;
 }
 
 .star {
@@ -908,14 +910,12 @@ input {
 		.name {
 			font-size: 8.8vw;
 /*			margin-bottom: 6px;*/
-			-webkit-text-size-adjust: 100%
 		}
 
 		.info {
 /*			margin-top: 2px;*/
 			margin-bottom: 9vw;
 			font-size: 5.05vw;
-			-webkit-text-size-adjust: 100%
 		}
 		.fa {
 			text-align: center;
