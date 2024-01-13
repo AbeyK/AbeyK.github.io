@@ -65,27 +65,29 @@ img {
     }
 }
 */
-	.name {
-		font-size: 2em;
-		margin-bottom: 4px;
-		font-weight: 400;
-		margin-top: 30px;
-		margin-bottom: 6px;
-		-webkit-text-size-adjust: 100%;
-  		transform: scale(1, 1.08) !important;
+.name {
+	font-size: 2em;
+	margin-bottom: 4px;
+	font-weight: 400;
+	margin-top: 30px;
+	margin-bottom: 6px;
+	-webkit-text-size-adjust: 100%;
+		transform: scale(1, 1.08) !important;
 
-	}
+}
 
-	.info {
-		margin-top: 2px;
-		font-size: 1.16em;
-		margin-bottom: 35px;
-		font-style: italic;
-		-webkit-text-size-adjust: 100%;
-		/* text-shadow: rgba(0, 0, 0, 0.2) 0 0 1px;; */
+.info {
+	margin-top: 2px;
+	font-size: 1.16em;
+	margin-bottom: 35px;
+	font-style: italic;
+	-webkit-text-size-adjust: 100%;
+	/* text-shadow: rgba(0, 0, 0, 0.2) 0 0 1px;; */
 
-	}
+}
 
+.wave {
+}
 
 .card {
 	/* transition: .75; */
