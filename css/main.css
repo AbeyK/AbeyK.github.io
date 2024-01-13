@@ -182,10 +182,9 @@ b {
 
 .fa {
 	text-align: center;
-	padding-top: 10px;
 	font-size: 2.1em !important;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: 8px;
+	padding-bottom: 12px;
 }
 
 .btn {
@@ -921,8 +920,8 @@ input {
 		.fa {
 			text-align: center;
 			font-size: 9vw !important;
-			padding-top: 5vw;
-			padding-bottom: 6vw;
+			padding-top: 3.8vw;
+			padding-bottom: 4.5vw;
 		}
 
 		.flip, .flip-back, .flip:hover, .flip-back:hover {
