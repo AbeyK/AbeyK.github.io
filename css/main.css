@@ -757,7 +757,7 @@ input {
 	border-radius: 50%;
 	left: 30px;
 	transform: rotate(20deg);
-	animation: flap-left 1.5s infinite;
+	animation: flap-left 1.9s infinite;
   }
 
   .wing-left-3::after {
@@ -770,7 +770,7 @@ input {
 	right: 30px;
 	transform: rotate(-20deg);
 	border-radius: 50%;
-	animation: flap-right 1.5s infinite;
+	animation: flap-right 1.9s infinite;
   }
 
   .wing-right-3::after {
@@ -779,6 +779,35 @@ input {
 	right: 2px;
 
   }
+
+
+  .wing-left-4 {
+	border-radius: 50%;
+	left: 30px;
+	transform: rotate(20deg);
+	animation: flap-left 1.6s infinite;
+  }
+
+  .wing-left-4::after {
+	border-radius: 50%;
+	transform: rotate(-30deg);
+	left: 2px;
+  }
+
+  .wing-right-4 {
+	right: 30px;
+	transform: rotate(-20deg);
+	border-radius: 50%;
+	animation: flap-right 1.6s infinite;
+  }
+
+  .wing-right-4::after {
+	border-radius: 50%;
+	transform: rotate(30deg);
+	right: 2px;
+
+  }
+
 
    .wing-right {
 	right: 30px;
