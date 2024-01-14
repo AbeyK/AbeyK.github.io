@@ -4,7 +4,7 @@
 
 :root {
 	--card-front-color: #ddd;
-	--back-background-color: #304560;
+	--back-background-color: #284461;
 	--accent-color: #4687c7;
 	--front-text-color: #304560;
 	--accent-gray:#164470ad;
@@ -22,7 +22,7 @@ body {
 	white-space:nowrap;
 	font-family: 'Source Sans Pro';
 	font-weight: 300;
-	background-color: #36465b;
+	background-color: #2d4159;
 /*	background-image: radial-gradient(ellipse at bottom, #2d4159 30%, #27273c);*/
 	/* background-image: url(../images/background.jpg); */
 	background-position: center center;
@@ -105,8 +105,7 @@ img {
 	/* box-shadow: 0 0 50px rgba(0,0,0,0.5); */
 	/* border: 5px outset #00000036; */
 /*	aspect-ratio: 6.5/10;*/
-/*	box-shadow: rgba(0, 0, 0, 0.1) 0px 40px 30px -15px, rgba(0, 0, 0, 0.1) 0px -40px 30px -15px, rgba(0, 0, 0, 0.1) 40px 20px 20px -20px, rgba(0, 0, 0, 0.1) -40px 20px 20px -20px;*/
-  box-shadow: 0 0 5px rgba(75, 75, 75, .07);
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 40px 30px -15px, rgba(0, 0, 0, 0.1) 40px 20px 20px -20px, rgba(0, 0, 0, 0.1) -40px 20px 20px -20px;
 
 }
 
@@ -369,7 +368,7 @@ a,
 /*	padding-left: 12px;
 	padding-right: 8px;
 	padding-bottom: 2px;*/
-	border-radius: 0px 15px 0 15px;
+	border-radius: 0px 15px 0 12px;
 	padding-top: 1.5%;
 	padding-bottom: 3.5%;
 	padding-left: 3%;
@@ -849,13 +848,14 @@ input {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-/*	filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));*/
+	opacity: 95%;
+	filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.2));
 
   }
   .uh-image-inner {
 	width: 96%;
 	height: 96%; 
-	border: .25em solid #d4d6d9;
+	border: .25em solid #ddd;
 	object-fit: cover;
 	border-radius: 50%;
 	z-index: 2;
@@ -888,8 +888,8 @@ input {
 	border-radius: 50%;
 	background: linear-gradient(
 	    45deg,
-	    rgba(245, 160, 77, 1) 0%,
-	    #9a3c84 100%
+	    var(--bee-yellow) 0%,
+	    #C13584 100%
 	  );
 	-webkit-animation: rotating 6s linear infinite;
   	-moz-animation: rotating 6s linear infinite;
