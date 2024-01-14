@@ -3,10 +3,10 @@
 @import 'https://fonts.googleapis.com/css?family=Overpass';
 
 :root {
-	--card-front-color: rgba(240, 240, 240, 0.925);
-	--back-background-color: #284461;
+	--card-front-color: #ddd;
+	--back-background-color: #304560;
 	--accent-color: #4687c7;
-	--front-text-color: #284461;
+	--front-text-color: #304560;
 	--accent-gray:#164470ad;
 	--cell-outline-color: #b56d4d;
 	--bee-yellow: #ffc337;
@@ -22,8 +22,8 @@ body {
 	white-space:nowrap;
 	font-family: 'Source Sans Pro';
 	font-weight: 300;
-	background-color: #2b3249;
-	background-image: radial-gradient(ellipse at bottom, #2d4159 30%, #27273c);
+	background-color: #36465b;
+/*	background-image: radial-gradient(ellipse at bottom, #2d4159 30%, #27273c);*/
 	/* background-image: url(../images/background.jpg); */
 	background-position: center center;
     background-repeat: no-repeat;
@@ -105,7 +105,9 @@ img {
 	/* box-shadow: 0 0 50px rgba(0,0,0,0.5); */
 	/* border: 5px outset #00000036; */
 /*	aspect-ratio: 6.5/10;*/
-	box-shadow: rgba(0, 0, 0, 0.1) 0px 40px 30px -15px, rgba(0, 0, 0, 0.1) 0px -40px 50px -15px, rgba(0, 0, 0, 0.1) 40px 40px 20px -20px, rgba(0, 0, 0, 0.1) -40px 40px 20px -20px;
+/*	box-shadow: rgba(0, 0, 0, 0.1) 0px 40px 30px -15px, rgba(0, 0, 0, 0.1) 0px -40px 30px -15px, rgba(0, 0, 0, 0.1) 40px 20px 20px -20px, rgba(0, 0, 0, 0.1) -40px 20px 20px -20px;*/
+  box-shadow: 0 0 5px rgba(75, 75, 75, .07);
+
 }
 
 
@@ -353,7 +355,7 @@ a,
 .flip,
 .flip-back {
 	background-color: rgba(240, 238, 235, 0.881);
-	font-size: 2.2em;
+	font-size: 2em;
 	font-weight: lighter;
 	color: var(--accent-gray);
 	cursor: pointer;
@@ -367,11 +369,11 @@ a,
 /*	padding-left: 12px;
 	padding-right: 8px;
 	padding-bottom: 2px;*/
-	border-radius: 0px 15px 0 100%;
-	padding-top: 1%;
-	padding-bottom: 5%;
-	padding-left: 5%;
-	padding-right: 2%;
+	border-radius: 0px 15px 0 15px;
+	padding-top: 1.5%;
+	padding-bottom: 3.5%;
+	padding-left: 3%;
+	padding-right: 2.5%;
 	transition: all .2s, color .3s, background-color .1s; /* Animation */
 	z-index: 101;
 	line-height: 75%;
@@ -379,8 +381,8 @@ a,
 }
 
 .flip {
-	color: rgba(22, 68, 112, 0.4);
-	background-color: rgba(171, 181, 200, 0.4);
+	color: var(--accent-color);
+	background-color: #abb5c8ad;
 
 }
 .flip-back {
@@ -847,13 +849,13 @@ input {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
+/*	filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));*/
 
   }
   .uh-image-inner {
 	width: 96%;
 	height: 96%; 
-	border: .25em solid #d4d4d8;
+	border: .25em solid #d4d6d9;
 	object-fit: cover;
 	border-radius: 50%;
 	z-index: 2;
@@ -925,10 +927,6 @@ input {
 
 
 @media (max-width:500px) {
-		body{
-			background-color: #282c42;
-			background-image: radial-gradient(circle, #2d4159 50%, #27273c);
-		 }
 
 		.card {
 			width: 80%;
