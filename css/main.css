@@ -360,7 +360,7 @@ a,
 	position: absolute;
 	padding: auto;
   	font-family: Arial, Helvetica, sans-serif;
-  	font-weight: 400;
+  	font-weight: lighter !important;
 	margin: auto;
 	right: 0;
 /*	padding-left: 12px;
@@ -962,8 +962,8 @@ input {
 		}
 
 		.flip, .flip-back, .flip:hover, .flip-back:hover {
-			font-size: 10vw;
-			transform: scale(1.05);
+			font-size: 8.5vw;
+			transform: scale(1.1);
 /*			padding-top: 3%;
 			padding-bottom: 5%;
 			padding-left: 4%;
