@@ -359,21 +359,21 @@ a,
 	border: 0;
 	position: absolute;
 	padding: auto;
-	font-family: 'Overpass';
-	font-weight: 400;
+  	font-family: Arial, Helvetica, sans-serif;
+  	font-weight: 400;
 	margin: auto;
 	right: 0;
 /*	padding-left: 12px;
 	padding-right: 8px;
 	padding-bottom: 2px;*/
 	border-radius: 0px 15px 0 15px;
-	padding-top: 12px;
-	padding-bottom: 12px;
-	padding-left: 10px;
-	padding-right: 8px;
+	padding-top: 2.5%;
+	padding-bottom: 4%;
+	padding-left: 3.5%;
+	padding-right: 2.5%;
 	transition: all .2s, color .3s, background-color .1s; /* Animation */
-	line-height:60%;
 	z-index: 101;
+	line-height: 75%;
 	-webkit-text-size-adjust: 100%;
 }
 
@@ -957,8 +957,10 @@ input {
 
 		.flip, .flip-back, .flip:hover, .flip-back:hover {
 			font-size: 9vw;
-			padding-top: 15px;
-			padding-bottom: 15px;
+			padding-top: 3%;
+			padding-bottom: 5%;
+			padding-left: 4%;
+			padding-right: 3%;
 		}
 
 		.back-title {
