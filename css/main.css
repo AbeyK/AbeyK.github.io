@@ -380,6 +380,7 @@ a,
 .flip {
 	color: var(--accent-color);
 	background-color: #abb5c8ad;
+	opacity: 80%;
 
 }
 .flip-back {
@@ -399,6 +400,7 @@ input {
 	color: var(--accent-color);
 	border-radius: 0px 15px 0 15px;
 	transform: scale(1.15) translateX(-2px) translateY(2px);
+	opacity: 100%;
 }
 
 .flip-back:hover{
@@ -957,6 +959,7 @@ input {
 
 		.flip:hover, .flip-back:hover {
 			transform: scale(1);
+			opacity: 100%;
 		}
 
 		.flip, .flip-back, .flip:hover, .flip-back:hover {
