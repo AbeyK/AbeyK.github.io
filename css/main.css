@@ -925,9 +925,11 @@ input {
 
 
 @media (max-width:500px) {
-	/*	body{
-			overflow: hidden;
-		 }*/
+		body{
+			background-color: #282c42;
+			background-image: radial-gradient(circle, #2d4159 50%, #27273c);
+		 }
+
 		.card {
 			width: 80%;
 			/* padding-bottom: 30px; */
