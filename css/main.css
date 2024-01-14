@@ -86,7 +86,7 @@ img {
 
 
 .card {
-	/* transition: .75; */
+	transition: transform .1s; 
     width: 300px;
 /*	padding: 5px;*/
 	padding-bottom: 5px; 
@@ -106,7 +106,6 @@ img {
 	/* border: 5px outset #00000036; */
 /*	aspect-ratio: 6.5/10;*/
 	box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
-
 }
 
 
@@ -137,7 +136,7 @@ img {
 	left: 50%;
 
 	/* bring your own prefixes */
-	transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%) scale(1.05);
   	transform-style: preserve-3d;
 }
 
@@ -930,14 +929,14 @@ input {
 			overflow: hidden;
 		 }*/
 		.card {
-			width: 80%;
+			width: 76%;
 			/* padding-bottom: 30px; */
 
 		}
 
 		.uh-image {
-			width: 68vw;
-			height: 68vw;
+			width: 65vw;
+			height: 65vw;
 		}
 
 		.name {
