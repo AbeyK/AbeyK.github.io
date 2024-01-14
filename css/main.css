@@ -353,7 +353,8 @@ a,
 .flip,
 .flip-back {
 	background-color: rgba(240, 238, 235, 0.881);
-	font-size: 2em;
+	font-size: 2.2em;
+	font-weight: lighter;
 	color: var(--accent-gray);
 	cursor: pointer;
 	border: 0;
@@ -962,7 +963,7 @@ input {
 		}
 
 		.flip, .flip-back, .flip:hover, .flip-back:hover {
-			font-size: 8.5vw;
+			font-size: 9.5vw;
 			transform: scale(1.1);
 /*			padding-top: 3%;
 			padding-bottom: 5%;
