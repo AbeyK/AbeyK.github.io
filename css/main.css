@@ -183,8 +183,8 @@ b {
 .fa {
 	text-align: center;
 	font-size: 2.1em !important;
-	padding-top: 8px;
-	padding-bottom: 12px;
+	padding-top: 35%;
+	padding-bottom: 50%;
 	-webkit-text-size-adjust: 100%;
 }
 
@@ -832,7 +832,7 @@ input {
     border-radius: 50%;
     display: block;
     margin: 40px auto 0;
-    margin-top: 50px;
+    margin-top: 15%;
 
 /*	transition: 1.5s;
 */
@@ -953,8 +953,8 @@ input {
 		.fa {
 			text-align: center;
 			font-size: 9.1vw !important;
-			padding-top: 3.8vw;
-			padding-bottom: 4.5vw;
+/*			padding-top: 3.8vw;
+			padding-bottom: 4.5vw;*/
 		}
 
 		.flip:hover, .flip-back:hover {
