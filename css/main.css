@@ -353,7 +353,7 @@ a,
 .flip,
 .flip-back {
 	background-color: rgba(240, 238, 235, 0.881);
-	font-size: 1.9em;
+	font-size: 2em;
 	color: var(--accent-gray);
 	cursor: pointer;
 	border: 0;
@@ -367,8 +367,8 @@ a,
 	padding-right: 8px;
 	padding-bottom: 2px;*/
 	border-radius: 0px 15px 0 60%;
-	padding-top: 2.5%;
-	padding-bottom: 4%;
+	padding-top: 1.5%;
+	padding-bottom: 3.5%;
 	padding-left: 3.5%;
 	padding-right: 2.5%;
 	transition: all .2s, color .3s, background-color .1s; /* Animation */
@@ -398,15 +398,15 @@ input {
 
 .flip:hover {
 	color: var(--accent-color);
-	border-radius: 0px 15px 0 15px;
-	transform: scale(1.15) translateX(-2px) translateY(2px);
+/*	border-radius: 0px 15px 0 15px;*/
+	transform: scale(1.1) translateX(-1px) translateY(1px);
 	opacity: 100%;
 }
 
 .flip-back:hover{
 	color: rgba(255, 255, 255, 0.5);
-	border-radius: 0px 15px 0 15px;
-	transform: scale(1.15) translateX(-2px) translateY(2px);
+/*	border-radius: 0px 15px 0 15px;*/
+	transform: scale(1.1) translateX(-1px) translateY(1px);
 
 }
 
@@ -960,15 +960,16 @@ input {
 		.flip:hover, .flip-back:hover {
 			transform: scale(1);
 			opacity: 100%;
+			border-radius: 0px 15px 0 60%;
 		}
 
 		.flip, .flip-back, .flip:hover, .flip-back:hover {
 			font-size: 9vw;
-			padding-top: 3%;
+/*			padding-top: 3%;
 			padding-bottom: 5%;
 			padding-left: 4%;
 			padding-right: 3%;
-		}
+*/		}
 
 
 		.back-title {
