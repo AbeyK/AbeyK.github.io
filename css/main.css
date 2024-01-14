@@ -955,6 +955,10 @@ input {
 			padding-bottom: 4.5vw;
 		}
 
+		.flip:hover, .flip-back:hover {
+			transform: scale(1);
+		}
+
 		.flip, .flip-back, .flip:hover, .flip-back:hover {
 			font-size: 9vw;
 			padding-top: 3%;
@@ -962,6 +966,7 @@ input {
 			padding-left: 4%;
 			padding-right: 3%;
 		}
+
 
 		.back-title {
 			font-size: 5vw;
