@@ -3,10 +3,10 @@
 @import 'https://fonts.googleapis.com/css?family=Overpass';
 
 :root {
-	--card-front-color: rgba(255, 255, 255, 0.8);
-	--back-background-color: #304560;
+	--card-front-color: rgba(240, 240, 240, 0.95);
+	--back-background-color: #284461;
 	--accent-color: #4687c7;
-	--front-text-color: #304560;
+	--front-text-color: #284461;
 	--accent-gray:#164470ad;
 	--cell-outline-color: #b56d4d;
 	--bee-yellow: #ffc337;
@@ -22,9 +22,8 @@ body {
 	white-space:nowrap;
 	font-family: 'Source Sans Pro';
 	font-weight: 300;
-	background-color: #252b3d;
-	background-image: radial-gradient(circle, #27273c, #242c3d);
-/*  	background-image:  url(../images/honeycomb.svg);*/
+	background-color: #22273c;
+	background-image: radial-gradient(circle, #2d4159 0%, #27273c);/*  	background-image:  url(../images/honeycomb.svg);*/
 	/* background-image: url(../images/background.jpg); */
 	background-position: center center;
     background-repeat: no-repeat;
@@ -106,6 +105,8 @@ img {
 	/* box-shadow: 0 0 50px rgba(0,0,0,0.5); */
 	/* border: 5px outset #00000036; */
 /*	aspect-ratio: 6.5/10;*/
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+
 }
 
 
@@ -380,7 +381,7 @@ a,
 
 .flip {
 	color: rgba(22, 68, 112, 0.4);
-    background-color: #abb5c8ad;
+	background-color: rgba(171, 181, 200, 0.4);
 
 }
 .flip-back {
