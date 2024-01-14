@@ -366,11 +366,11 @@ a,
 /*	padding-left: 12px;
 	padding-right: 8px;
 	padding-bottom: 2px;*/
-	border-radius: 0px 15px 0 60%;
-	padding-top: 1.5%;
-	padding-bottom: 3.5%;
-	padding-left: 3.5%;
-	padding-right: 2.5%;
+	border-radius: 0px 15px 0 100%;
+	padding-top: 1%;
+	padding-bottom: 5%;
+	padding-left: 5%;
+	padding-right: 2%;
 	transition: all .2s, color .3s, background-color .1s; /* Animation */
 	z-index: 101;
 	line-height: 75%;
