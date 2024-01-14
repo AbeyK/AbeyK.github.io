@@ -953,8 +953,8 @@ input {
 		.fa {
 			text-align: center;
 			font-size: 9.1vw !important;
-/*			padding-top: 3.8vw;
-			padding-bottom: 4.5vw;*/
+			padding-top: 3.8vw;
+			padding-bottom: 4.5vw;
 		}
 
 		.flip:hover, .flip-back:hover {
@@ -970,7 +970,9 @@ input {
 			padding-right: 3%;
 */		}
 
-
+		.profile {
+			margin-top: 50px;
+		}
 		.back-title {
 			font-size: 5vw;
 		}
