@@ -927,7 +927,9 @@ input {
 
 
 @media (max-width:500px) {
-
+		body{
+			background-color: #304560;
+		}
 		.card {
 			width: 80%;
 			/* padding-bottom: 30px; */
