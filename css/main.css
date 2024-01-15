@@ -4,7 +4,7 @@
 
 :root {
 	--card-front-color: #ddd;
-	--back-background-color: #284461;
+	--back-background-color: #324953;
 	--accent-color: #4687c7;
 	--front-text-color: #304560;
 	--accent-gray:#164470ad;
@@ -22,8 +22,7 @@ body {
 	white-space:nowrap;
 	font-family: 'Source Sans Pro';
 	font-weight: 300;
-	background-color: #2d4159;
-/*	background-image: radial-gradient(ellipse at bottom, #2d4159 30%, #27273c);*/
+	background-color: #383941;
 	/* background-image: url(../images/background.jpg); */
 	background-position: center center;
     background-repeat: no-repeat;
@@ -386,7 +385,7 @@ a,
 }
 .flip-back {
 	color: rgba(255, 255, 255, 0.3);
-	background-color: #4c5669ad;
+	background-color: #ffffff1c;
 
 }
 
@@ -855,7 +854,7 @@ input {
   .uh-image-inner {
 	width: 96%;
 	height: 96%; 
-	border: .25em solid #ddd;
+	border: .25em solid var(--card-front-color);
 	object-fit: cover;
 	border-radius: 50%;
 	z-index: 2;
@@ -927,9 +926,6 @@ input {
 
 
 @media (max-width:500px) {
-		body{
-			background-color: #304560;
-		}
 		.card {
 			width: 80%;
 			/* padding-bottom: 30px; */
