@@ -3,11 +3,26 @@ document.addEventListener('DOMContentLoaded', function () {
   var frontFlipBtn = document.getElementById("frontflip");
   var backFlipBtn = document.getElementById("backflip");
   var playing = false;
+  var flipped = false;
 
   function flipCard() {
+    document.body.style.transition = 'background-color 0.5s ease';
+
     if (playing) return;
 
     playing = true;
+
+    if (flipped) {
+      setTimeout(function() {
+        document.body.style.backgroundColor = "#263548"; // New background color
+      }, 500); // Delay in milliseconds (1000ms = 1s)
+
+    } else {
+      setTimeout(function() {
+        document.body.style.backgroundColor = "#3a3846"; // New background color
+      }, 500); // Delay in milliseconds (1000ms = 1s)
+    }
+
 
     anime({
       targets: profileCard,
@@ -33,6 +48,7 @@ document.addEventListener('DOMContentLoaded', function () {
       duration: 900,
       complete: function (anim) {
         playing = false;
+        flipped = !flipped;
       }
     });
   }
