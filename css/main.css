@@ -4,7 +4,7 @@
 
 :root {
 	--card-front-color: #ddd;
-	--back-background-color: #324953;
+	--back-background-color: #1c3d4bfc;
 	--accent-color: #4687c7;
 	--front-text-color: #304560;
 	--accent-gray:#164470ad;
@@ -380,7 +380,7 @@ a,
 
 .flip {
 	color: var(--accent-color);
-	background-color: #abb5c8ad;
+	background-color: #abb5c880;
 
 }
 .flip-back {
