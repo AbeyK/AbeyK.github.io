@@ -3,7 +3,7 @@
 @import 'https://fonts.googleapis.com/css?family=Overpass';
 
 :root {
-	--card-front-color: #e8e8ec;
+	--card-front-color: #eee;
 	--back-background-color: #304560;
 	--accent-color: #4687c7;
 	--front-text-color: #304560;
@@ -103,7 +103,7 @@ img {
 	/* box-shadow: 0 0 50px rgba(0,0,0,0.5); */
 	/* border: 5px outset #00000036; */
 /*	aspect-ratio: 6.5/10;*/
-	box-shadow: rgba(0, 0, 0, 0.3) 0px 40px 30px -15px, rgba(0, 0, 0, 0.15) 40px 20px 20px -20px, rgba(0, 0, 0, 0.15) -40px 20px 20px -20px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 40px 30px -12px, rgba(0, 0, 0, 0.1) 40px 20px 20px -25px, rgba(0, 0, 0, 0.1) -40px 20px 20px -25px;
 
 }
 
@@ -847,7 +847,7 @@ input {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	opacity: 95%;
+	opacity: 97.5%;
 	filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.2));
 
   }
