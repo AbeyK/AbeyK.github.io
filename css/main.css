@@ -22,7 +22,7 @@ body {
 	white-space:nowrap;
 	font-family: 'Source Sans Pro';
 	font-weight: 300;
-	background-color: #263548;
+	background-color: #324053;
 /*	background-image: radial-gradient(circle, #3a3846 0%, #242c3d);*/
 
 	/* background-image: url(../images/background.jpg); */
@@ -858,7 +858,7 @@ input {
   .uh-image-inner {
 	width: 96%;
 	height: 96%; 
-	border: .25em solid #d3d7da;
+	border: .25em solid #d7d9dd;
 	object-fit: cover;
 	border-radius: 50%;
 	z-index: 2;

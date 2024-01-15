@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (flipped) {
       setTimeout(function() {
-        document.body.style.backgroundColor = "#263548"; // New background color
+        document.body.style.backgroundColor = "#324053"; // New background color
       }, 500); // Delay in milliseconds (1000ms = 1s)
 
     } else {
