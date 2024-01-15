@@ -4,9 +4,9 @@
 
 :root {
 	--card-front-color: rgba(255, 255, 255, 0.8);
-	--back-background-color: #304560;
+	--back-background-color: #2a445c;
 	--accent-color: #4687c7;
-	--front-text-color: #304560;
+	--front-text-color: var(--back-background-color);
 	--accent-gray:#164470ad;
 	--cell-outline-color: #b56d4d;
 	--bee-yellow: #ffc337;
