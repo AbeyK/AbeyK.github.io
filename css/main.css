@@ -3,8 +3,8 @@
 @import 'https://fonts.googleapis.com/css?family=Overpass';
 
 :root {
-	--card-front-color: #eee;
-	--back-background-color: #274451fc;
+	--card-front-color: #e8e8ec;
+	--back-background-color: #304560;
 	--accent-color: #4687c7;
 	--front-text-color: #304560;
 	--accent-gray:#164470ad;
@@ -22,7 +22,7 @@ body {
 	white-space:nowrap;
 	font-family: 'Source Sans Pro';
 	font-weight: 300;
-	background-color: #383941;
+	background-color: #3a3846;
 	/* background-image: url(../images/background.jpg); */
 	background-position: center center;
     background-repeat: no-repeat;
@@ -91,11 +91,10 @@ img {
 	padding-bottom: 5px; 
 /*	overflow: hidden;*/
 	position: relative;
-    border-radius: 20px;
+    border-radius: 15px;
 /*	overflow-x: hidden;
     overflow-y: auto;*/
     background-color: var(--card-front-color);
-	border: 4px outset #00000036;
     transform-style: preserve-3d;
 	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;
@@ -104,7 +103,7 @@ img {
 	/* box-shadow: 0 0 50px rgba(0,0,0,0.5); */
 	/* border: 5px outset #00000036; */
 /*	aspect-ratio: 6.5/10;*/
-	box-shadow: rgba(0, 0, 0, 0.1) 0px 40px 30px -15px, rgba(0, 0, 0, 0.1) 40px 20px 20px -20px, rgba(0, 0, 0, 0.1) -40px 20px 20px -20px;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 40px 30px -15px, rgba(0, 0, 0, 0.15) 40px 20px 20px -20px, rgba(0, 0, 0, 0.15) -40px 20px 20px -20px;
 
 }
 
@@ -266,7 +265,7 @@ i {
 hr {
     border: 0;
     height: 1px;
-	background: rgba(48, 69, 96,0.4);
+	background: #bfc3be;
 
     width: 100%;
 	margin: auto;
@@ -329,7 +328,7 @@ a,
   color: rgb(255, 255, 255);
   background: var(--back-background-color);
   border-radius: 16px;
-/*  border: 1.5px solid #e3e2d5;*/
+  border: 2px solid #bfc3be;
 
   z-index: -10;
   overflow: hidden;
@@ -353,7 +352,7 @@ a,
 .flip,
 .flip-back {
 	background-color: rgba(240, 238, 235, 0.881);
-	font-size: 2em;
+	font-size: 2.1em;
 	font-weight: lighter;
 	color: var(--accent-gray);
 	cursor: pointer;
@@ -379,11 +378,12 @@ a,
 }
 
 .flip {
-	color: var(--accent-color);
-	background-color: #abb5c880;
+	color: #4687c7c2;
+	background-color: rgba(171, 181, 200, 0.5);
 
 }
 .flip-back {
+	border-radius: 0px 14px 0 12px;
 	color: rgba(255, 255, 255, 0.3);
 	background-color: #ffffff1c;
 
@@ -399,7 +399,7 @@ input {
 .flip:hover {
 	color: var(--accent-color);
 /*	border-radius: 0px 15px 0 15px;*/
-	transform: scale(1.1) translateX(-1px) translateY(1px);
+	transform: scale(1.1) translateX(-1.5px) translateY(1.5px);
 }
 
 .flip-back:hover{
@@ -847,7 +847,7 @@ input {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	opacity: 98%;
+	opacity: 95%;
 	filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.2));
 
   }
@@ -889,6 +889,11 @@ input {
 	    45deg,
 	    var(--bee-yellow) 0%,
 	    #C13584 100%
+	  );
+	background: linear-gradient(
+	    45deg,
+	    rgba(245, 160, 77, 1) 0%,
+	    #9a3c84 100%
 	  );
 	-webkit-animation: rotating 6s linear infinite;
   	-moz-animation: rotating 6s linear infinite;
@@ -959,8 +964,8 @@ input {
 		}
 
 		.flip, .flip-back, .flip:hover, .flip-back:hover {
-			font-size: 9.5vw;
-			transform: scale(1.1);
+			font-size: 9vw;
+			transform: scale(1.1) translateX(-1.5px) translateY(1.5px);
 /*			padding-top: 3%;
 			padding-bottom: 5%;
 			padding-left: 4%;
