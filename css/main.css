@@ -847,7 +847,7 @@ input {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	opacity: 97.5%;
+	opacity: 98%;
 	filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.2));
 
   }
@@ -900,6 +900,7 @@ input {
   	-ms-animation: rotating 6s linear infinite;
   	-o-animation: rotating 6s linear infinite;
   	animation: rotating 6s linear infinite;
+  	opacity: 95%;
 
   }
 
