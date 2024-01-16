@@ -969,12 +969,12 @@ input {
 
 		.flip, .flip-back, .flip:hover, .flip-back:hover {
 			font-size: 9vw;
+			padding-top: 2.5%;
+			padding-bottom: 2.5%;
+			padding-left: 3%;
+			padding-right: 2.5%;
 			transform: scale(1.1) translateX(-1.5px) translateY(1.5px);
-/*			padding-top: 3%;
-			padding-bottom: 5%;
-			padding-left: 4%;
-			padding-right: 3%;
-*/		}
+	}
 
 		.profile {
 			margin-top: 50px;
