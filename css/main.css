@@ -356,8 +356,8 @@ a,
 .flip,
 .flip-back {
 	background-color: rgba(240, 238, 235, 0.881);
-	font-size: 2.5em;
-	font-weight: lighter;
+	font-size: 1.2em;
+	font-weight: bolder;
 	color: var(--accent-gray);
 	cursor: pointer;
 	border: 0;
@@ -370,14 +370,15 @@ a,
 	padding-right: 8px;
 	padding-bottom: 2px;*/
 	border-radius: 0px 12px 0 12px;
-	padding-top: 1.5%;
-	padding-bottom: 3.5%;
-	padding-left: 3%;
-	padding-right: 2.5%;
+	padding: 3%;
+	padding-top: 3.5%;
+	padding-bottom: 3%;
 	transition: all .2s, color .3s, background-color .1s; /* Animation */
 	z-index: 101;
-	line-height: 75%;
 	-webkit-text-size-adjust: 100%;
+}
+.fa-arrow-rotate-left {
+	transform: rotate(90deg);
 }
 
 .flip {
@@ -968,11 +969,7 @@ input {
 		}
 
 		.flip, .flip-back, .flip:hover, .flip-back:hover {
-			font-size: 9vw;
-			padding-top: 2.5%;
-			padding-bottom: 2.5%;
-			padding-left: 3%;
-			padding-right: 2.5%;
+			font-size: 5vw;
 			transform: scale(1.1) translateX(-1.5px) translateY(1.5px);
 	}
 		.back-title {
