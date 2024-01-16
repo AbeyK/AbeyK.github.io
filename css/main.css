@@ -5,7 +5,7 @@
 	--card-front-color: rgba(255, 255, 255, 0.8);
 	--back-background-color: #2a445c;
 	--accent-color: #4687c7;
-	--front-text-color: var(--back-background-color);
+	--front-text-color: #2b4769;
 	--accent-gray:#164470ad;
 	--cell-outline-color: #b56d4d;
 	--bee-yellow: #ffc337;
@@ -179,7 +179,7 @@ b {
 }
 
 .fa-envelope-square {
-	color: #304560;
+	color: #2b4d72;
 }
 
 
@@ -308,7 +308,10 @@ a,
 .bottom,
 .fa,
 .name,
-.wave {
+.wave,
+.fas,
+.fa-arrow-rotate-left
+ {
     backface-visibility: hidden;
     -webkit-perspective: 0;
     -webkit-backface-visibility: hidden;
@@ -382,14 +385,14 @@ a,
 }
 
 .flip {
-	color: #4687c7c2;
-	background-color: rgba(171, 181, 200, 0.5);
+	color: #708fb3;
+	background-color: rgba(171, 181, 200, 0.4);
 
 }
 .flip-back {
 	border-radius: 0px 14px 0 12px;
 	color: rgba(255, 255, 255, 0.3);
-	background-color: #ffffff1c;
+	background-color: #bdc0c21c;
 
 }
 
@@ -969,7 +972,8 @@ input {
 		}
 
 		.flip, .flip-back, .flip:hover, .flip-back:hover {
-			font-size: 5vw;
+			padding-bottom: 2.5%;
+			font-size: 5.25vw;
 			transform: scale(1.1) translateX(-1.5px) translateY(1.5px);
 	}
 		.back-title {
