@@ -68,8 +68,8 @@ img {
 .name {
 	font-size: 2em;
 	font-weight: 400;
-	margin-top: 33px;
-	margin-bottom: 8px;
+	margin-top: 11%;
+	margin-bottom: 2.5%;
 	-webkit-text-size-adjust: 100%;
 	transform: scale(1, 1.08) !important;
 
@@ -833,7 +833,7 @@ input {
 	/*height: 60%;*/
     border-radius: 50%;
     display: block;
-    margin: 40px auto 0;
+    margin: auto;
     margin-top: 15%;
 /*	transition: 1.5s;
 */
@@ -975,10 +975,6 @@ input {
 			padding-right: 2.5%;
 			transform: scale(1.1) translateX(-1.5px) translateY(1.5px);
 	}
-
-		.profile {
-			margin-top: 50px;
-		}
 		.back-title {
 			font-size: 5vw;
 		}
