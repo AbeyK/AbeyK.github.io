@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var flipped = false;
 
   function flipCard() {
-    document.body.style.transition = 'background-color 0.5s ease';
+    document.body.style.transition = 'background-color 0.4s ease';
 
     if (playing) return;
 
@@ -15,12 +15,12 @@ document.addEventListener('DOMContentLoaded', function () {
     if (flipped) {
       setTimeout(function() {
         document.body.style.backgroundColor = "#324053"; // New background color
-      }, 500); // Delay in milliseconds (1000ms = 1s)
+      }, 400); // Delay in milliseconds (1000ms = 1s)
 
     } else {
       setTimeout(function() {
         document.body.style.backgroundColor = "#3a3846"; // New background color
-      }, 500); // Delay in milliseconds (1000ms = 1s)
+      }, 400); // Delay in milliseconds (1000ms = 1s)
     }
 
 
@@ -55,4 +55,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
   frontFlipBtn.addEventListener('click', flipCard);
   backFlipBtn.addEventListener('click', flipCard);
+  document.addEventListener('keydown', function(event) {
+    if (event.code === "Space") {
+      flipCard();
+    }
+  });
+
 });
