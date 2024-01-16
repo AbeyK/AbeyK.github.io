@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function () {
   frontFlipBtn.addEventListener('click', flipCard);
   backFlipBtn.addEventListener('click', flipCard);
   document.addEventListener('keydown', function(event) {
-    if (event.code === "Space") {
+    if (event.code == "Space" || event.code == "ArrowUp" || event.code == "ArrowDown" || event.code == "ArrowRight" || event.code == "ArrowLeft") {
       flipCard();
     }
   });
