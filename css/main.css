@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
 @import url('https://fonts.googleapis.com/css?family=Handlee');
-@import 'https://fonts.googleapis.com/css?family=Overpass';
 
 :root {
 	--card-front-color: rgba(255, 255, 255, 0.8);
@@ -357,15 +356,14 @@ a,
 .flip,
 .flip-back {
 	background-color: rgba(240, 238, 235, 0.881);
-	font-size: 2.1em;
+	font-size: 2.5em;
 	font-weight: lighter;
 	color: var(--accent-gray);
 	cursor: pointer;
 	border: 0;
 	position: absolute;
 	padding: auto;
-  	font-family: Arial, Helvetica, sans-serif;
-  	font-weight: lighter !important;
+	font-family: monospace !important;
 	margin: auto;
 	right: 0;
 /*	padding-left: 12px;
