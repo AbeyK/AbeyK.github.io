@@ -144,13 +144,6 @@ img {
 }
 
 
-}
-
-b {
-	font-weight: 400;
-}
-
-
 
 .instagram {
 	color: #C13584;
@@ -220,51 +213,6 @@ i {
     display: inline-block;
 }
 
-.tooltiptext {
-	font-size: 9px;
-	font-weight: 400;
-    visibility: hidden;
-/*    width: 65px;*/
-	background-color:var(--accent-color);
-    text-align: center;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 8px;
-	border: 1px solid var(--accent-gray);
-    position: absolute;
-   left: 50%;
-  	transform: translate(-50%, 0%);
-    z-index: 99;
-    top: 70%;
-	padding-top: 2px;
-	padding-bottom: 2px;
-	padding-left: 8px;
-	padding-right: 8px;
-	color: rgba(255, 255, 255, .9);
-    opacity: 0;
-
-}
-
-.tooltiptext::after {
-    content: "";
-    position: absolute;
-    bottom: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: transparent transparent #164470f7 transparent;
-    opacity: 0;
-}
-
-.tooltip:hover .tooltiptext, .tooltiptext::after {
-	visibility: visible;
-    opacity: 90%;
-    transition: opacity 0.2s;
-    transition-delay: 0.1s;
-
-}
-
 
 hr {
     border: 0;
@@ -304,7 +252,7 @@ hr {
 .link,
 .instagram,
 .info,
-a, 
+a,
 .bottom,
 .fa,
 .name,
@@ -394,13 +342,6 @@ a,
 	color: rgba(255, 255, 255, 0.3);
 	background-color: #bdc0c21c;
 
-}
-
-button,
-input {
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
 }
 
 .flip:hover {
@@ -530,10 +471,6 @@ input {
 		transform: translate(-50%, -50%) rotate(160deg) translateX(0%) translateY(400%) scale(1);
 	}
   }
-
-.back-bee {
-	font-size: 5em;
-}
 
 
 
@@ -923,17 +860,6 @@ input {
   opacity: 90%;
   width: 0.98em;
   height: 0.98em;
-}
-
-@keyframes wave-animation {
-    0% { transform: rotate( 0.0deg) scale(-1, 1) translateX(40%);}
-   10% { transform: rotate(-14.0deg) scale(-1, 1) translateX(40%);}  /* The following five values can be played with to make the waving more or less extreme */
-   20% { transform: rotate(8.0deg) scale(-1, 1)translateX(40%);}
-   30% { transform: rotate(-14.0deg) scale(-1, 1)translateX(40%);}
-   40% { transform: rotate(4.0deg) scale(-1, 1)translateX(40%);}
-   50% { transform: rotate(-10.0deg) scale(-1, 1)translateX(40%);}
-   60% { transform: rotate( 0.0deg) scale(-1, 1)translateX(40%);}  /* Reset for the last half to pause */
-  100% { transform: rotate( 0.0deg) scale(-1, 1)translateX(40%);}
 }
 
 
