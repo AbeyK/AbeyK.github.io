@@ -128,12 +128,15 @@ const audio = document.getElementById('background-audio');
 let isPlaying = false;
 
 playButton.addEventListener('click', () => {
+  const icon = playButton.querySelector('i'); // Select the icon inside the button
   if (isPlaying) {
     audio.pause();
-    playButton.innerHTML = '<i class="play-icon">▶</i>'; // Change back to play icon
+    icon.classList.remove('fa-pause'); // Remove pause icon
+    icon.classList.add('fa-play'); // Add play icon
   } else {
     audio.play();
-    playButton.innerHTML = '<i class="play-icon">⏸</i>'; // Change to pause icon
+    icon.classList.remove('fa-play'); // Remove play icon
+    icon.classList.add('fa-pause'); // Add pause icon
   }
   isPlaying = !isPlaying;
 });

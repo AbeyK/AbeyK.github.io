@@ -70,7 +70,7 @@ html, body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    text-shadow: 0 1px 1px #3f3456, 0 1px 1px #fff;
+    text-shadow:0px 8px 15px rgba(0, 0, 0, 0.2);
 
 }
 
@@ -1190,13 +1190,14 @@ html, body {
 }  
 
 .floating-play-button {
+  color: #273e5d; /* Set the icon color (white in this case) */
   opacity: 90%;
   position: fixed;
   bottom: 40px;
   right: 40px;
   width: 60px;
   height: 60px;
-  background: linear-gradient(135deg, #ff7eb3, #ff758c);
+  background: var(--font-color);
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
   border-radius: 50%;
   display: flex; /* Enables flexbox */
@@ -1254,12 +1255,7 @@ i {
     right: 4vw;
     width: 10vw;
     height: 10vw;
+    font-size: 3.5vw;
   }
-  .play-icon {
-  color: #fff;
-  font-size: 5vw;
-  font-weight: bold;
-  user-select: none;
-  pointer-events: none; /* Prevent icon from blocking click */
-}
+
 }
