@@ -30,6 +30,11 @@ html, body {
   cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>❄️</text></svg>") 16 0,auto; /*!emojicursor.app*/
 
 }
+br {
+      display: block; /* makes it have a width */
+      content: ""; /* clears default height */
+      margin-top: 6vh; /* change this to whatever height you want it */
+}
 .snow {
   position: absolute;
   z-index: 100;
@@ -47,15 +52,15 @@ html, body {
   grid-column: 1/4;
   align-self: center;
   justify-self: center;
-  font-size: 3rem;
+  font-size: 3vw;
   padding-bottom: 10%;
   margin: 10%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .merry {
     margin: 0%;
-    font-size: 7rem;
+    font-size: 60px;
   }
 }
 
