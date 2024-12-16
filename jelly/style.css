@@ -74,13 +74,7 @@ html, body {
 
 }
 
-@media only screen and (max-width: 1025px) {
-  .merry {
-    margin: 0; /* Reduce margins for better spacing on mobile */
-    font-size: 6vw; /* Use relative units for responsive scaling */
-    line-height: 2;
-  }
-}
+
 
 .heart {
   position: absolute;
@@ -1194,3 +1188,78 @@ html, body {
 .float-child {
     flex: 1;
 }  
+
+.floating-play-button {
+  opacity: 90%;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #ff7eb3, #ff758c);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  display: flex; /* Enables flexbox */
+  align-items: center; /* Vertically centers the icon */
+  justify-content: center; /* Horizontally centers the icon */
+  cursor: pointer;
+  z-index: 1000; /* Ensure it floats on top */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.floating-play-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.play-icon {
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  user-select: none;
+  pointer-events: none; /* Prevent icon from blocking click */
+    line-height: 1; /* Remove extra spacing caused by default font metrics */
+}
+
+.floating-play-button {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+.play-icon {
+  font-style: normal; /* Prevents italic styling */
+}
+
+i {
+  font-style: normal; /* Removes default italic styling from all <i> tags */
+}
+
+@media only screen and (max-width: 1025px) {
+  .merry {
+    margin: 0; /* Reduce margins for better spacing on mobile */
+    font-size: 6vw; /* Use relative units for responsive scaling */
+    line-height: 2;
+  }
+  .floating-play-button {
+    position: fixed;
+    bottom: 4vw;
+    right: 4vw;
+    width: 10vw;
+    height: 10vw;
+  }
+  .play-icon {
+  color: #fff;
+  font-size: 5vw;
+  font-weight: bold;
+  user-select: none;
+  pointer-events: none; /* Prevent icon from blocking click */
+}
+}

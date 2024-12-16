@@ -122,3 +122,18 @@ document.querySelector("#particles-js canvas").addEventListener("click", () => {
     }, 50); // Apply adjustments every 50ms for a smoother effect
   });
 });
+
+const playButton = document.querySelector('.floating-play-button');
+const audio = document.getElementById('background-audio');
+let isPlaying = false;
+
+playButton.addEventListener('click', () => {
+  if (isPlaying) {
+    audio.pause();
+    playButton.innerHTML = '<i class="play-icon">▶</i>'; // Change back to play icon
+  } else {
+    audio.play();
+    playButton.innerHTML = '<i class="play-icon">⏸</i>'; // Change to pause icon
+  }
+  isPlaying = !isPlaying;
+});
