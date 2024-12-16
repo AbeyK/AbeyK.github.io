@@ -131,12 +131,12 @@ playButton.addEventListener('click', () => {
   const icon = playButton.querySelector('i'); // Select the icon inside the button
   if (isPlaying) {
     audio.pause();
-    icon.classList.remove('fa-pause'); // Remove pause icon
-    icon.classList.add('fa-play'); // Add play icon
+    icon.classList.remove('fa-volume-mute'); // Remove pause icon
+    icon.classList.add('fa-music'); // Add play icon
   } else {
     audio.play();
-    icon.classList.remove('fa-play'); // Remove play icon
-    icon.classList.add('fa-pause'); // Add pause icon
+    icon.classList.remove('fa-music'); // Remove play icon
+    icon.classList.add('fa-volume-mute'); // Add pause icon
   }
   isPlaying = !isPlaying;
 });
