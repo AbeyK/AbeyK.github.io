@@ -21,7 +21,7 @@ particlesJS("particles-js", {
 
 
     "opacity": {
-      "value": 1,
+      "value": 0.9,
       "random": true,
       "anim": {
         "enable": false,
@@ -42,9 +42,9 @@ particlesJS("particles-js", {
 
     "move": {
       "enable": true,
-      "speed": 1,
+      "speed": 0.8,
       "direction": "bottom",
-      "random": false,
+      "random": true,
       "straight": false,
       "out_mode": "out",
       "bounce": false,
@@ -64,7 +64,7 @@ particlesJS("particles-js", {
 
       "onclick": {
         "enable": true,
-        "mode": "repulse" },
+        "mode": "push" },
 
       "resize": true },
 
@@ -76,18 +76,18 @@ particlesJS("particles-js", {
 
 
       "bubble": {
-        "distance": 100,
-        "size": 4,
+        "distance": 300,
+        "size": 10,
         "duration": 0.3,
-        "opacity": 1,
-        "speed": 3 },
+        "opacity": 0.5,
+        "speed": 10 },
 
       "repulse": {
-        "distance": 100,
-        "duration": 0.4 },
+        "distance": 75,
+        "duration": 1 },
 
       "push": {
-        "particles_nb": 4 },
+        "particles_nb": 50 },
 
       "remove": {
         "particles_nb": 2 } } },
@@ -95,3 +95,30 @@ particlesJS("particles-js", {
 
 
   "retina_detect": true });
+
+document.querySelector("#particles-js canvas").addEventListener("click", () => {
+  const particles = window.pJSDom[0].pJS.particles.array;
+
+  // Modify only the newly added particles (last 50, since push adds 50)
+  particles.slice(-50).forEach((particle) => {
+    // Initial explosion effect: Set outward velocity
+    const angle = Math.random() * Math.PI * 2; // Random angle
+    const speed = Math.random() * 3 + 2; // Explosion speed (higher range)
+    particle.vx = Math.cos(angle) * speed; // Horizontal velocity
+    particle.vy = Math.sin(angle) * speed * -1; // Strong upward velocity
+
+    // Gradually apply gravity
+    const gravityInterval = setInterval(() => {
+      // Gradually increase downward velocity (gravity effect)
+      particle.vy += 0.05; // Smaller gravity increment for a smoother transition
+
+      // Gradually reduce horizontal movement (air resistance)
+      particle.vx *= 0.98;
+
+      // Stop applying gravity after particles have fully transitioned to falling
+      if (particle.vy >= 1.5) { // Lower threshold for smoother falling
+        clearInterval(gravityInterval); // Stop gravity adjustment
+      }
+    }, 50); // Apply adjustments every 50ms for a smoother effect
+  });
+});
