@@ -60,7 +60,7 @@ html, body {
   grid-column: 1/4;
   align-self: center;
   justify-self: center;
-  font-size: 3vw;
+  font-size: 2.5vw;
   padding-bottom: 10%;
   margin: 10%;
   line-height: 1.7;
@@ -1248,6 +1248,7 @@ i {
     margin: 0; /* Reduce margins for better spacing on mobile */
     font-size: 6vw; /* Use relative units for responsive scaling */
     line-height: 2;
+    margin-bottom: 20%;
   }
   .floating-play-button {
     position: fixed;
@@ -1258,4 +1259,12 @@ i {
     font-size: 3.5vw;
   }
 
+  .float-container {
+  position: absolute;
+    display: flex;
+    bottom: 13%;
 }
+
+}
+
+
