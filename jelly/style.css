@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Handlee&family=Noto+Serif+Myanmar:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root {
-    --font-color: #b6b8d8;
-    --jelly-corgi-front-color: #ad8975;
-    --jelly-corgi-back-color: #937e7e;
+    --font-color: #e6f5ffbd;
+    --jelly-corgi-front-color: #676199;
+    --jelly-corgi-back-color: #7a6a9a;
     --jelly-corgi-eye-color: #2d1212;
     --jelly-corgi-nose-color: #433434;
     --jelly-corgi-mouth-color: #441212;
@@ -163,6 +163,13 @@ html, body {
   border-bottom-right-radius: 5% 13%;
   border-bottom-left-radius: 30% 40%;
   z-index: 3;
+}
+
+.audioPlayer{
+  display: block;
+  border-radius: 20px;
+  margin:0 auto;
+  background-color: transparent;
 }
 
 .cheast {
