@@ -11,7 +11,7 @@
     --abey-corgi-back-color: #6d6375;
     --abey-corgi-eye-color: #132f46;
     --abey-corgi-nose-color: #254161;
-    --abey-corgi-mouth-color: #102c44;
+    --abey-corgi-mouth-color: #254161;
 }
 
 html, body {
@@ -357,6 +357,7 @@ html, body {
 .legs__front--right {
   left: 20%;
   transform: rotate(-4deg);
+
 }
 .legs__back--left {
   left: 69%;
@@ -1015,7 +1016,7 @@ html, body {
   background: #FFFFFF;
   width: 39%;
   height: 100%;
-  border-color: var(--abey-corgi-mouth-color:);
+  border-color: var(--abey-corgi-mouth-color);
   border-width: 3px;
   border-style: solid;
   border-bottom-right-radius: 50%;
