@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Handlee&family=Noto+Serif+Myanmar:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root {
-    --font-color: #ddc8e2bd;
+    --font-color: #ddc8e2e0;
     --jelly-corgi-front-color: #676199;
     --jelly-corgi-back-color: #7a6a9a;
     --jelly-corgi-eye-color: #2d1212;
@@ -57,10 +57,13 @@ br {
   margin: 10%;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1025px) {
   .merry {
     margin: 0%;
     font-size: 60px;
+  }
+  br {
+        margin-top: 90px; /* change this to whatever height you want it */
   }
 }
 
