@@ -4,14 +4,14 @@
     --font-color: #ddc8e2e0;
     --jelly-corgi-front-color: #7b6fa9;
     --jelly-corgi-back-color: #5a517f;
-    --jelly-corgi-eye-color: #2d1212;
-    --jelly-corgi-nose-color: #433434;
-    --jelly-corgi-mouth-color: #441212;
+    --jelly-corgi-eye-color: #244161;
+    --jelly-corgi-nose-color: #3f3456;
+    --jelly-corgi-mouth-color: #3f3456;
     --abey-corgi-front-color: #975c5c;
     --abey-corgi-back-color: #6d6375;
     --abey-corgi-eye-color: #132f46;
     --abey-corgi-nose-color: #254161;
-    --abey-corgi-mouth-color: #254161;
+    --abey-corgi-mouth-color: #441212;
 }
 
 html, body {
