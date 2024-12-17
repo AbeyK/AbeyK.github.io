@@ -17,7 +17,7 @@
 html, body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow: hidden
+  overflow: hidden;
   background-repeat: no-repeat;
   white-space: normal;
   display: flex;
