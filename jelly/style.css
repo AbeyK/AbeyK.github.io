@@ -2,8 +2,8 @@
 
 :root {
     --font-color: #ddc8e2e0;
-    --jelly-corgi-front-color: #676199;
-    --jelly-corgi-back-color: #a693cc;
+    --jelly-corgi-front-color: #7b6fa9;
+    --jelly-corgi-back-color: #5a517f;
     --jelly-corgi-eye-color: #2d1212;
     --jelly-corgi-nose-color: #433434;
     --jelly-corgi-mouth-color: #441212;
@@ -172,12 +172,12 @@ html, body {
 
 .body {
   position: absolute;
-  width: 100%;
+  width: 90%;
   height: 50%;
   background-color: var(--jelly-corgi-front-color);
-  border-top-right-radius: 17% 40%;
-  border-top-left-radius: 25%;
-  border-bottom-right-radius: 5% 13%;
+  border-top-right-radius: 37% 40%;
+  border-top-left-radius: 45%;
+  border-bottom-right-radius: 24% 23%;
   border-bottom-left-radius: 30% 40%;
   z-index: 3;
 }
@@ -191,13 +191,13 @@ html, body {
 
 .cheast {
   position: absolute;
-  width: 45%;
+  width: 50%;
   height: 100%;
   background-color: #fff;
   border-top-right-radius: 17% 40%;
   border-top-left-radius: 25%;
   border-bottom-right-radius: 40% 40%;
-  border-bottom-left-radius: 40% 40%;
+  border-bottom-left-radius: 50% 45%;
   z-index: 4;
 }
 .cheast:after, .cheast:before {
@@ -223,8 +223,8 @@ html, body {
   width: 100%;
   height: 100%;
   z-index: 4;
-  -webkit-animation: dog-head 1s ease-out infinite;
-          animation: dog-head 1s ease-out infinite;
+  -webkit-animation: dog-head 0.4s ease-out infinite;
+          animation: dog-head 0.4s ease-out infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   -webkit-animation-direction: alternate;
@@ -243,10 +243,10 @@ html, body {
 
 .jellytail {
   position: absolute;
-  top: -14%;
-  left: 92%;
-  width: 10%;
-  height: 45%;
+  top: -11%;
+  left: 90%;
+  width: 8%;
+  height: 50%;
   background-color: var(--jelly-corgi-front-color);
   border-top-right-radius: 30% 30%;
   border-top-left-radius: 40% 30%;
@@ -254,8 +254,8 @@ html, body {
   border-bottom-left-radius: 40% 40%;
   z-index: 2;
   transform: rotate(20deg);
-  -webkit-animation: dog-tail 170ms ease-out infinite;
-          animation: dog-tail 170ms ease-out infinite;
+  -webkit-animation: dog-tail 200ms ease-out infinite;
+          animation: dog-tail 200ms ease-out infinite;
 }
 @-webkit-keyframes dog-tail {
   from, to {
@@ -333,7 +333,7 @@ html, body {
   }
 }
 .legs__front, .legs__back {
-  width: 10%;
+  width: 11%;
   height: 100%;
   background-color: var(--jelly-corgi-front-color);
   position: absolute;
@@ -345,27 +345,48 @@ html, body {
   position: absolute;
   top: 50%;
   width: 100%;
-  height: 49%;
+  height: 52%;
   background-color: #fff;
   border-bottom-right-radius: 100%;
   border-bottom-left-radius: 100%;
+
+  }
+.legs__front:after{
+
 }
+
 .legs__front--left {
   left: 38%;
-  transform: rotate(1deg);
+  transform: rotate(9deg);
+
+}
+
+.legs__front--left:after{
+  animation: paw-press 2s none infinite;
+
 }
 .legs__front--right {
   left: 20%;
-  transform: rotate(-4deg);
+  transform: rotate(10deg);
+  background-color: var(--jelly-corgi-back-color);
+}
+
+.legs__front--right:after{
+  animation: paw-press 1.8s none infinite;
 
 }
 .legs__back--left {
   left: 69%;
-  transform: rotate(-7deg);
+  transform: rotate(-3deg);
+  background: linear-gradient(var(--jelly-corgi-front-color), 30%, var(--jelly-corgi-back-color));
+
 }
 .legs__back--right {
   left: 85%;
-  transform: rotate(2deg);
+  bottom: 5%;
+  height: 120%;
+  transform: rotate(-3deg);
+
 }
 
 .jellyface {
@@ -379,6 +400,7 @@ html, body {
   border-top-left-radius: 35% 50%;
   border-bottom-left-radius: 35% 21%;
   z-index: 6;
+
 }
 .jellyface:after, .jellyface:before {
   content: "";
@@ -414,33 +436,10 @@ html, body {
   top: 24%;
   background-color: var(--jelly-corgi-eye-color);
   z-index: 6;
-  -webkit-animation: dog-eye 1800ms infinite;
-          animation: dog-eye 1800ms infinite;
+  animation: eye-blink 1.2s none infinite;
+
 }
-@-webkit-keyframes dog-eye {
-  from, to {
-    -webkit-animation-timing-function: step-end;
-            animation-timing-function: step-end;
-    opacity: 1;
-  }
-  50%, 55% {
-    -webkit-animation-timing-function: step-start;
-            animation-timing-function: step-start;
-    opacity: 0;
-  }
-}
-@keyframes dog-eye {
-  from, to {
-    -webkit-animation-timing-function: step-end;
-            animation-timing-function: step-end;
-    opacity: 1;
-  }
-  50%, 55% {
-    -webkit-animation-timing-function: step-start;
-            animation-timing-function: step-start;
-    opacity: 0;
-  }
-}
+
 .jellyeye--left {
   left: 27%;
 }
@@ -457,7 +456,7 @@ html, body {
   height: 48%;
   z-index: 6;
   position: absolute;
-  bottom: 35%;
+  bottom: 25%;
   left: 14%;
   border-top-color: transparent;
   border-bottom-left-radius: 72% 100%;
@@ -465,7 +464,7 @@ html, body {
   border-right-color: transparent;
   border-top-right-radius: 50%;
   border-left-color: transparent;
-  transform: rotate(-41deg);
+  transform: rotate(-40deg);
 }
 
 .year {
@@ -1077,10 +1076,10 @@ html, body {
   background-color: var(--abey-corgi-front-color);
   right: 10.5%;
   bottom: 12%;
-  border-top-left-radius: 20% 50%;
-  border-bottom-left-radius: 20% 50%;
+  border-top-left-radius: 30% 50%;
+  border-bottom-left-radius: 30% 50%;
   border-top-right-radius: 20% 60%;
-  border-bottom-right-radius: 20% 40%;
+  border-bottom-right-radius: 30% 40%;
   z-index: 2;
   overflow: hidden;
   animation: body-shake 2s none infinite;
@@ -1091,8 +1090,8 @@ html, body {
   width: 29%;
   right: 5%;
   bottom: -3%;
-  border-top-left-radius: 50% 40%;
-  border-top-right-radius: 50% 40%;
+  border-top-left-radius: 50% 60%;
+  border-top-right-radius: 50% 60%;
 }
 .corgi .foot {
   height: 35%;
@@ -1128,10 +1127,14 @@ html, body {
   right: 25%;
 }
 .corgi .foot__1 {
+    animation: paw-press 2.5s none infinite;
+
   right: 37%;
 }
 .corgi .foot__2 {
-  right: 15%;
+  right: 16%;
+    animation: paw-press 2.1s none infinite;
+
 }
 .corgi .foot__2:before {
   transform: skewX(-10deg);
@@ -1139,9 +1142,11 @@ html, body {
 }
 .corgi .foot__3 {
   left: 12.65%;
+
 }
 .corgi .foot__4 {
   left: 31%;
+
 }
 .corgi .foot:before {
   content: "";
@@ -1157,20 +1162,19 @@ html, body {
   bottom: 0;
   left: 0;
   width: 125%;
-  height: 18%;
+  height: 20%;
   border-top-left-radius: 50% 100%;
   border-top-right-radius: 50% 100%;
-  animation: paw-press 2s none infinite;
 }
 .corgi .tail {
-  width: 26%;
-  height: 13%;
+  width: 29%;
+  height: 11%;
   background-color: var(--abey-corgi-front-color);
   border-top-left-radius: 50% 100%;
   border-bottom-left-radius: 50% 100%;
   border-top-right-radius: 50% 100%;
   border-bottom-right-radius: 50% 100%;
-  bottom: 40%;
+  bottom: 42%;
   left: 1%;
   transform-origin: 80% center;
   animation: tail-wag 2s none infinite;
