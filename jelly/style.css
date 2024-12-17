@@ -841,7 +841,6 @@ html, body {
   width: 30vmin;
   z-index: 0;
   top:50%;
-
 }
 
 .corgi div {
@@ -1184,6 +1183,8 @@ html, body {
   position: absolute;
     display: flex;
     bottom: 10%;
+  justify-content: center; /* Center content horizontally */
+  gap: 10px; /* Optional: Adds space between the two dogs */
 }
 
 .float-child {
