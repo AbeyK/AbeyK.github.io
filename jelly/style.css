@@ -14,6 +14,17 @@
     --abey-corgi-mouth-color: #441212;
 }
 
+#particles-js canvas {
+    transform: none !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#particles-js {
+    transform: none !important;
+}
+
 html, body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
