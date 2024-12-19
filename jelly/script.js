@@ -96,6 +96,78 @@ particlesJS("particles-js", {
 
   "retina_detect": true });
 
+// Variable to track if a shake has recently been detected
+let shakeTimeout = false;
+
+// Function to detect shake motion
+function handleShakeEvent(event) {
+  const acceleration = event.acceleration;
+  if (!acceleration) return;
+
+  // Calculate total acceleration force
+  const totalAcceleration = Math.sqrt(
+    acceleration.x ** 2 +
+    acceleration.y ** 2 +
+    acceleration.z ** 2
+  );
+
+  // Threshold for detecting a shake
+  const shakeThreshold = 20; // Adjust based on sensitivity
+
+  if (totalAcceleration > shakeThreshold && !shakeTimeout) {
+    shakeSnow();
+    shakeTimeout = true;
+
+    // Prevent repeated triggers for a short time
+    setTimeout(() => {
+      shakeTimeout = false;
+    }, 1000); // 1 second delay between shakes
+  }
+}
+
+// Function to apply the snow shake effect
+function shakeSnow() {
+  const particles = window.pJSDom[0].pJS.particles.array;
+
+  particles.forEach((particle) => {
+    // Apply a burst of random movement
+    particle.vx = (Math.random() - 0.5) * 10; // Random horizontal speed
+    particle.vy = (Math.random() - 0.5) * 10; // Random vertical speed
+  });
+
+  // Reset particles after 1 second to normal behavior
+  setTimeout(() => {
+    particles.forEach((particle) => {
+      particle.vx *= 0.5; // Reduce speed back to normal
+      particle.vy *= 0.5;
+    });
+  }, 4000); // Shake duration
+}
+
+// Request permission for motion access (iOS specific)
+function requestMotionAccess() {
+  if (typeof DeviceMotionEvent.requestPermission === "function") {
+    DeviceMotionEvent.requestPermission()
+      .then((response) => {
+        if (response === "granted") {
+          window.addEventListener("devicemotion", handleShakeEvent, true);
+        } else {
+          alert("Motion access denied.");
+        }
+      })
+      .catch((error) => {
+        console.error("Error requesting motion access:", error);
+      });
+  } else {
+    // Non-iOS browsers
+    window.addEventListener("devicemotion", handleShakeEvent, true);
+  }
+}
+
+// Call the motion access request on page load
+document.addEventListener("DOMContentLoaded", requestMotionAccess);
+
+
 document.querySelector("#particles-js canvas").addEventListener("click", () => {
   const particles = window.pJSDom[0].pJS.particles.array;
 
