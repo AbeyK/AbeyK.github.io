@@ -35,16 +35,16 @@ window.addEventListener('load', function () {
 
     playing = true;
 
-    if (flipped) {
-      setTimeout(function() {
-        document.body.style.backgroundColor = "#324053"; // New background color
-      }, 320); // Delay in milliseconds (1000ms = 1s)
+    // if (flipped) {
+    //   setTimeout(function() {
+    //     document.body.style.backgroundColor = "#324053"; // New background color
+    //   }, 320); // Delay in milliseconds (1000ms = 1s)
 
-    } else {
-      setTimeout(function() {
-        document.body.style.backgroundColor = "#3a3846"; // New background color
-      }, 320); // Delay in milliseconds (1000ms = 1s)
-    }
+    // } else {
+    //   setTimeout(function() {
+    //     document.body.style.backgroundColor = "#3a3846"; // New background color
+    //   }, 320); // Delay in milliseconds (1000ms = 1s)
+    // }
 
 
     anime({
