@@ -1,4 +1,14 @@
-document.addEventListener('DOMContentLoaded', function () {
+window.addEventListener('load', function () {
+  console.log('All assets are loaded');
+
+  // Preload backside images or styles explicitly
+  const backsideImage = new Image();
+  backsideImage.src = 'images/fiddle-smaller.png';
+
+  // Precompute styles for the backside
+  const back = document.querySelector('.back');
+  getComputedStyle(back).transform; // Force style computation
+
   var profileCard = document.querySelector(".card");
   var frontFlipBtn = document.getElementById("frontflip");
   var backFlipBtn = document.getElementById("backflip");
@@ -15,12 +25,12 @@ document.addEventListener('DOMContentLoaded', function () {
     if (flipped) {
       setTimeout(function() {
         document.body.style.backgroundColor = "#324053"; // New background color
-      }, 400); // Delay in milliseconds (1000ms = 1s)
+      }, 320); // Delay in milliseconds (1000ms = 1s)
 
     } else {
       setTimeout(function() {
         document.body.style.backgroundColor = "#3a3846"; // New background color
-      }, 400); // Delay in milliseconds (1000ms = 1s)
+      }, 320); // Delay in milliseconds (1000ms = 1s)
     }
 
 
@@ -30,12 +40,17 @@ document.addEventListener('DOMContentLoaded', function () {
 
       translateX: ['-50%', '-50%'],
       translateY: ['-50%', '-50%'],
-      scale: [{ value: 0.95, easing: 'easeInOutSine', delay: 0 }, { value: 1.05, easing: 'easeInOutSine', delay: 0 }, { value: 1, easing: 'easeInOutSine', delay: 0 }],
-      skewY: [{ value: '+=4', easing: 'easeInOutSine', delay: 10 }, 0],
-      skewX: [{ value: '+=4', easing: 'easeInOutSine', delay: 10 }, 0],
-      rotateY: { value: '-=180', easing: 'easeInOutSine', delay: 10 },
+      scale: [
+        { value: 1.05, easing: 'easeOutBack', duration: 300 },
+        { value: 1, easing: 'easeInOutQuad', duration: 400 }
+      ],
+      skewY: [
+        { value: '+=5', easing: 'easeInOutQuad', duration: 300 },
+        { value: 0, easing: 'easeOutQuad', duration: 300 }
+      ],
+      rotateY: { value: '-=180', easing: 'easeInOutSine', duration: 800 },
       easing: 'easeInOutSine',
-      duration: 900,
+      duration: 800,
       complete: function (anim) {
         playing = false;
         flipped = !flipped;
