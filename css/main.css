@@ -301,7 +301,7 @@ a,
 	color: rgb(255, 255, 255);
 	background: var(--back-background-color);
 	border-radius: 13px;
-	  border: 2px solid #1b2e39;
+	border: 2px solid #847965;
 
 	z-index: -10;
 	overflow: hidden;
@@ -361,7 +361,7 @@ a,
 
 .flip-back {
 	border-radius: 0px 10px 0 12px;
-	color: rgba(255, 255, 255, 0.3);
+	color: #847965;
 	background-color: #1b2e39;
 
 }
@@ -375,7 +375,8 @@ a,
 }
 
 .flip-back:hover {
-	color: rgba(255, 255, 255, 0.5);
+	background-color: #847965;
+	color: var(--back-background-color);
 	/*	border-radius: 0px 15px 0 15px;*/
 	transform: scale(1.1) translateX(-1px) translateY(1px);
 
