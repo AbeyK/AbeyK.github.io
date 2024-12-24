@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
 @import url('https://fonts.googleapis.com/css?family=Handlee');
-@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 :root {
-	--card-front-color: rgba(255, 255, 255, 0.75);
+	--card-front-color: #c8c8ca;
 	--card-front-profile-border-color: #c8c8ca;
 	--back-background-color: #24353e;
 	--accent-color: #4687c7;
@@ -25,8 +25,9 @@ html {
 body {
 	white-space: nowrap;
 	font-family: 'Handlee';
-	font-weight: 300;
+	font-weight: bold;
 	background-color: #25242d;
+	background-image:  url(../images/honeycomb.svg);
 	/*	background-image: radial-gradient(circle, #3a3846 0%, #242c3d);*/
 
 	/* background-image: url(../images/background.jpg); */
@@ -84,10 +85,13 @@ font-weight:bold;
 .info {
 	margin-top: 2px;
 	font-size: 1.16em;
-	margin-bottom: 35px;
 	font-style: italic;
+	margin-bottom: 35px;
 	-webkit-text-size-adjust: 100%;
 	/* text-shadow: rgba(0, 0, 0, 0.2) 0 0 1px;; */
+	font-family: 'Source Sans Pro';
+	font-weight: 400;
+	letter-spacing:-0.3px;
 
 }
 
@@ -115,6 +119,7 @@ font-weight:bold;
 	/*	overflow-x: hidden;
     overflow-y: auto;*/
 	background-color: var(--card-front-color);
+
 	transform-style: preserve-3d;
 	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;
@@ -170,8 +175,9 @@ font-weight:bold;
 			#4c31aa 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	font-weight: 400;
-
+  overflow: visible; /* Ensure content isn't clipped */
+  box-sizing: border-box; /* Include padding in width/height */
+  padding-right: 1px; /* Add space to prevent cutoff */
 }
 
 .fa-instagram {
