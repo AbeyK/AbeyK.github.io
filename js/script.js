@@ -10,7 +10,7 @@ window.addEventListener('load', function () {
     { value: [0.8, 1.05], easing: 'easeOutQuad', duration: 300 }, // Fast grow
     { value: [1.05, 1], easing: 'easeOutQuad', duration: 200 }, // Bounce back
   ],
-    duration: 800, // Animation duration
+    duration: 500, // Animation duration
 
     easing: 'easeOutExpo', // Smooth easing
   });
