@@ -100,6 +100,8 @@ img {
 
 .card {
 	/* transition: .75; */
+	opacity: 0; /* Match the starting opacity */
+  transform: scale(0.8); /* Match the starting scale */
 	width: 300px;
 	/*	padding: 5px;*/
 	padding-bottom: 5px;
