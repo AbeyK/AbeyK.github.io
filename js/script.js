@@ -41,14 +41,14 @@ window.addEventListener('load', function () {
       translateX: ['-50%', '-50%'],
       translateY: ['-50%', '-50%'],
       scale: [
-        { value: 1.05, easing: 'easeOutBack', duration: 300 },
+        { value: 0.96, easing: 'easeOutBack', duration: 400 },
         { value: 1, easing: 'easeInOutQuad', duration: 400 }
       ],
       skewY: [
-        { value: '+=5', easing: 'easeInOutQuad', duration: 300 },
-        { value: 0, easing: 'easeOutQuad', duration: 300 }
+        { value: '+=6', easing: 'easeInOutQuad', duration: 400 },
+        { value: 0, easing: 'easeOutQuad', duration: 400 }
       ],
-      rotateY: { value: '-=180', easing: 'easeInOutSine', duration: 800 },
+      rotateY: { value: '-=180', easing: 'easeInOutSine', duration: 700 },
       easing: 'easeInOutSine',
       duration: 800,
       complete: function (anim) {
