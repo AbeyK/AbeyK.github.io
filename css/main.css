@@ -71,7 +71,7 @@ img {
 }
 */
 .name {
-	font-size: 2em;
+	font-size: 1.9em;
 	font-weight: 400;
 	margin-top: 11%;
 	margin-bottom: 2.5%;
@@ -941,7 +941,7 @@ a,
 	}
 
 	.name {
-		font-size: 8.8vw;
+		font-size: 8vw;
 		/*			margin-bottom: 6px;*/
 	}
 
