@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
 @import url('https://fonts.googleapis.com/css?family=Handlee');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700');
 
 :root {
 	--card-front-color: rgba(255, 255, 255, 0.75);
@@ -23,7 +24,7 @@ html {
 
 body {
 	white-space: nowrap;
-	font-family: 'Source Sans Pro';
+	font-family: 'Handlee';
 	font-weight: 300;
 	background-color: #25242d;
 	/*	background-image: radial-gradient(circle, #3a3846 0%, #242c3d);*/
@@ -75,7 +76,9 @@ img {
 	margin-bottom: 2.5%;
 	-webkit-text-size-adjust: 100%;
 	transform: scale(1, 1.08) !important;
-
+/*text-shadow: 1px 0 #888888;
+letter-spacing:1px;*/
+font-weight:bold;
 }
 
 .info {
