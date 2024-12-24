@@ -4,7 +4,7 @@
 :root {
 	--card-front-color: rgba(255, 255, 255, 0.75);
 	--card-front-profile-border-color: #c8c8ca;
-	--back-background-color: #213e58;
+	--back-background-color: #24353e;
 	--accent-color: #4687c7;
 	--front-text-color: #2b4769;
 	--accent-gray: #164470ad;
@@ -301,7 +301,7 @@ a,
 	color: rgb(255, 255, 255);
 	background: var(--back-background-color);
 	border-radius: 13px;
-	  border: 2px solid #bfc3be;
+	  border: 2px solid #1b2e39;
 
 	z-index: -10;
 	overflow: hidden;
@@ -362,7 +362,7 @@ a,
 .flip-back {
 	border-radius: 0px 10px 0 12px;
 	color: rgba(255, 255, 255, 0.3);
-	background-color: #bdc0c21c;
+	background-color: #1b2e39;
 
 }
 
@@ -850,7 +850,7 @@ a,
 	justify-content: center;
 	align-items: center;
 	opacity: 100%;
-	filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.2));
+/*	filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.2));*/
 }
 
 .uh-image-inner {
@@ -884,9 +884,9 @@ a,
 
 
 .gradient {
-	width: 98%;
-	height: 95%;
-	padding: .5em;
+	width: 96%;
+	height: 93%;
+	padding: .6em;
 	position: absolute;
 	border-radius: 50%;	
 	background: linear-gradient(45deg,
@@ -981,11 +981,11 @@ a,
 	.uh-image-inner {
 		width: 96%;
 		height: 96%;
-		border: 0.8vw solid var(--card-front-profile-border-color);
+/*		border: 0.8vw solid var(--card-front-profile-border-color);*/
 	}
 
 	.gradient {
-		padding: 2vw;
+		padding: 3vw;
 	}
 
 	.box-canvas {
