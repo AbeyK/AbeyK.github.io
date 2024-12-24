@@ -87,6 +87,16 @@ img {
 
 }
 
+@keyframes scaleRotateIn {
+  0% {
+    transform: scale(0) rotate(-10deg);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1) rotate(0);
+    opacity: 1;
+  }
+}
 
 .card {
 	/* transition: .75; */

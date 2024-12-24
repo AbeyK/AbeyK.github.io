@@ -1,6 +1,19 @@
 window.addEventListener('load', function () {
   console.log('All assets are loaded');
+  anime({
+    targets: '.card',
+    translateX: ['-50%', '-50%'],
+    translateY: ['-50%', '-50%'],
+  opacity: [0, 1], // Fade in
 
+  scale: [
+    { value: [0.8, 1.05], easing: 'easeOutQuad', duration: 300 }, // Fast grow
+    { value: [1.05, 1], easing: 'easeOutQuad', duration: 200 }, // Bounce back
+  ],
+    duration: 800, // Animation duration
+
+    easing: 'easeOutExpo', // Smooth easing
+  });
   // Preload backside images or styles explicitly
   const backsideImage = new Image();
   backsideImage.src = 'images/fiddle-smaller.png';
