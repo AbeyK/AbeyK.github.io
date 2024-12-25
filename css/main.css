@@ -956,25 +956,26 @@ a,
 
 	}
 
+
 	.uh-image {
-		width: 68vw;
-		height: 68vw;
+		width: 65vw;
+		height: 65vw;
 	}
 
 	.name {
-		font-size: 7.7vw;
+		font-size: 7.8vw;
 		/*			margin-bottom: 6px;*/
 	}
 
 	.info {
 		/*			margin-top: 2px;*/
-		margin-bottom: 9vw;
+		margin-bottom: 10vw;
 		font-size: 5.05vw;
 	}
 
 	.fa {
 		text-align: center;
-/*		font-size: 9.1vw !important;*/
+		font-size: 9.1vw !important;
 		padding-top: 3.8vw;
 		padding-bottom: 4.5vw;
 	}
