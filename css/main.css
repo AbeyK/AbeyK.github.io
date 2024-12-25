@@ -865,7 +865,7 @@ a,
 .uh-image-inner {
 	width: 96%;
 	height: 96%;
-/*	border: .2em solid var(--card-front-profile-border-color);*/
+	border: .1em solid #c8c8ca3b;
 	object-fit: cover;
 	border-radius: 50%;
 	z-index: 2;
