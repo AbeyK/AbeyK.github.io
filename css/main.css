@@ -951,25 +951,28 @@ a,
 
 @media (max-width:500px) {
 	.card {
-		width: 80%;
+		width: 82%;
 		/* padding-bottom: 30px; */
 
 	}
 
-
+	.profile{
+		margin-top: 19%;
+	}
 	.uh-image {
 		width: 65vw;
 		height: 65vw;
 	}
 
 	.name {
-		font-size: 7.8vw;
-		/*			margin-bottom: 6px;*/
+		font-size: 8vw;
+		transform: scale(1, 1.15) !important;
+		margin-top: 13%;
 	}
 
 	.info {
 		/*			margin-top: 2px;*/
-		margin-bottom: 10vw;
+		margin-bottom: 14%;
 		font-size: 5.05vw;
 	}
 
