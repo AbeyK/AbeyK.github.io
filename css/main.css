@@ -71,6 +71,7 @@ img {
 }
 */
 .name {
+
 	font-size: 1.9em;
 	font-weight: 400;
 	margin-top: 11%;
@@ -80,6 +81,8 @@ img {
 /*text-shadow: 1px 0 #888888;
 letter-spacing:1px;*/
 font-weight:bold;
+	letter-spacing:0.9px;
+
 }
 
 .info {
@@ -92,6 +95,7 @@ font-weight:bold;
 	font-family: 'Source Sans Pro';
 	font-weight: 400;
 	letter-spacing:-0.3px;
+	opacity: 90%;
 
 }
 
@@ -275,6 +279,7 @@ hr {
 .uh-image,
 .uh-image-inner,
 .gradient,
+.gradient2,
 .profile,
 .link,
 .instagram,
@@ -846,7 +851,7 @@ a,
 	margin-top: 15%;
 	/*	transition: 1.5s;
 */
-	/* box-shadow: 0px 0px 45px rgba(0, 0, 0, .3), 0 3px 10px 0 rgba(0, 0, 0, 0.3); */
+	 box-shadow: 0px 0px 45px rgba(0, 0, 0, .3), 0 3px 10px 0 rgba(0, 0, 0, 0.3); 
 	/* background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); */
 }
 
@@ -911,6 +916,23 @@ a,
 
 }
 
+.gradient2 {
+	width: 93%;
+	height: 96%;
+	padding: .6em;
+	position: absolute;
+	border-radius: 50%;	
+
+	background: linear-gradient(45deg, #412f7e 0%, #c55637 100%);
+
+	-webkit-animation: rotating 6s linear infinite;
+	-moz-animation: rotating 6s linear infinite;
+	-ms-animation: rotating 6s linear infinite;
+	-o-animation: rotating 6s linear infinite;
+	animation: rotating 6s linear infinite;
+
+}
+
 .wave {
 	/*  animation-name: wave-animation;  
   animation-duration: 5s;        
@@ -940,7 +962,7 @@ a,
 	}
 
 	.name {
-		font-size: 7.2vw;
+		font-size: 7.5vw;
 		/*			margin-bottom: 6px;*/
 	}
 
@@ -993,7 +1015,7 @@ a,
 /*		border: 0.8vw solid var(--card-front-profile-border-color);*/
 	}
 
-	.gradient {
+	.gradient, .gradient2 {
 		padding: 3vw;
 	}
 
