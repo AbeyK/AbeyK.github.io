@@ -253,7 +253,7 @@ hr {
 
 .hr1 {
     border: 0;
-    height: 2px;
+    height: 3px;
     background-image: linear-gradient(to left, #c55637 0%, #412f7e 20%, #412f7e 80%, #c55637 100%);
 }
 
@@ -315,8 +315,8 @@ a,
 	color: rgb(255, 255, 255);
 	background: var(--back-background-color);
 	border-radius: 13px;
-	border: 2px solid #847965;
-	background-image:  url(../images/honeycomb.svg);
+	border: 3px solid #847965;
+/*	background-image:  url(../images/honeycomb.svg);*/
 	z-index: -10;
 	overflow: hidden;
 }
@@ -374,8 +374,8 @@ a,
 
 .flip-back {
 	border-radius: 0px 10px 0 12px;
-	color: #847965;
-	background-color: #1b2e39;
+  color: #847965;
+  background-color: #84796500;
 
 }
 
