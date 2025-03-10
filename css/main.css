@@ -972,9 +972,9 @@ a,
 	}
 
 	.name {
-		font-size: 8vw;
-		transform: scale(1, 1.18) !important;
-		margin-top: 12%;
+		font-size: 8.3vw;
+		/* transform: scale(1, 1.15) !important; */
+		margin-top: 14%;
 	}
 
 	.info {
