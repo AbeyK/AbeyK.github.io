@@ -869,14 +869,14 @@ a,
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	opacity: 100%;
+	opacity: 95%;
 	/*	filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.2));*/
 }
 
 .uh-image-inner {
 	width: 96%;
 	height: 96%;
-	border: .1em solid #c8c8ca3b;
+	border: .08em solid #c8c8ca3b;
 	object-fit: cover;
 	border-radius: 50%;
 	z-index: 2;
@@ -906,7 +906,7 @@ a,
 .gradient {
 	width: 96%;
 	height: 93%;
-	padding: .6em;
+	padding: .4em;
 	position: absolute;
 	border-radius: 50%;
 	background: linear-gradient(45deg,
@@ -914,28 +914,28 @@ a,
 			#d26648 100%);
 	background: linear-gradient(45deg, #412f7e 0%, #c55637 100%);
 
-	-webkit-animation: rotating 6s linear infinite;
-	-moz-animation: rotating 6s linear infinite;
-	-ms-animation: rotating 6s linear infinite;
-	-o-animation: rotating 6s linear infinite;
-	animation: rotating 6s linear infinite;
+	-webkit-animation: rotating 5s linear infinite;
+	-moz-animation: rotating 5s linear infinite;
+	-ms-animation: rotating 5s linear infinite;
+	-o-animation: rotating 5s linear infinite;
+	animation: rotating 5s linear infinite;
 
 }
 
 .gradient2 {
 	width: 93%;
 	height: 96%;
-	padding: .6em;
+	padding: .4em;
 	position: absolute;
 	border-radius: 50%;
 
 	background: linear-gradient(45deg, #412f7e 0%, #c55637 100%);
 
-	-webkit-animation: rotating 6s linear infinite;
-	-moz-animation: rotating 6s linear infinite;
-	-ms-animation: rotating 6s linear infinite;
-	-o-animation: rotating 6s linear infinite;
-	animation: rotating 6s linear infinite;
+	-webkit-animation: rotating 5s linear infinite;
+	-moz-animation: rotating 5s linear infinite;
+	-ms-animation: rotating 5s linear infinite;
+	-o-animation: rotating 5s linear infinite;
+	animation: rotating 5s linear infinite;
 
 }
 
@@ -1028,7 +1028,7 @@ a,
 
 	.gradient,
 	.gradient2 {
-		padding: 3vw;
+		padding: 2vw;
 	}
 
 	.box-canvas {
